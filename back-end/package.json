@@ -16,7 +16,8 @@
         "typeorm": "typeorm-ts-node-commonjs",
         "seed": "ts-node src/database/seeder.ts",
         "reset": "ts-node src/database/scripts/clear-all-tables.ts",
-        "drop": "ts-node src/database/scripts/drop-all-tables.ts"
+        "drop": "ts-node src/database/scripts/drop-all-tables.ts",
+        "create-admin": "ts-node scripts/create-admin.ts"
     },
     "dependencies": {
         "@ai-sdk/anthropic": "3.0.12",
