@@ -1,88 +1,88 @@
 {
-    "title": "Projects",
-    "description": "Manage development projects and deployments",
+    "title": "Coral Adoptions",
+    "description": "Manage coral adoption records and fulfillment tracking",
     "tabs": {
-        "all": "All Projects",
-        "deleted": "Deleted Projects"
+        "all": "All Adoptions",
+        "deleted": "Archived Adoptions"
     },
     "all": {
-        "title": "All Projects",
-        "description": "Manage development projects and deployments"
+        "title": "All Adoptions",
+        "description": "Manage coral adoption records and fulfillment"
     },
     "deleted": {
-        "title": "Deleted Projects",
-        "description": "View and restore deleted projects"
+        "title": "Archived Adoptions",
+        "description": "View and restore archived adoption records"
     },
     "stats": {
-        "total": "Total Projects",
-        "ready": "Ready Projects",
-        "inProgress": "In Progress",
-        "blocked": "Blocked"
+        "total": "Total Adoptions",
+        "ready": "Fulfilled",
+        "inProgress": "Pending Fulfillment",
+        "blocked": "On Hold"
     },
     "table": {
         "columns": {
             "name": "Name",
-            "status": "Status",
-            "environment": "Environment",
+            "status": "Fulfillment Status",
+            "environment": "Restoration Site",
             "lastUpdated": "Last Updated",
             "actions": "Actions"
         },
         "status": {
-            "ready": "Ready",
-            "inProgress": "In Progress",
-            "blocked": "Blocked"
+            "ready": "Fulfilled",
+            "inProgress": "Pending",
+            "blocked": "On Hold"
         },
         "filters": {
             "status": "Filter by Status",
             "selectStatus": "Select status",
-            "environment": "Filter by Environment",
-            "searchEnvironment": "Filter by environment",
-            "search": "Search projects...",
+            "environment": "Filter by Site",
+            "searchEnvironment": "Filter by restoration site",
+            "search": "Search adoptions...",
             "searchLabel": "Search",
             "name": "Name",
-            "searchName": "Search by project name",
-            "production": "Production",
-            "staging": "Staging",
-            "development": "Development",
+            "searchName": "Search by coral name",
+            "production": "Moorea",
+            "staging": "Bora Bora",
+            "development": "Tahiti",
             "filterButton": "Filter",
             "reset": "Reset"
         },
         "empty": {
-            "title": "No projects found",
-            "description": "No projects match your current filters",
+            "title": "No adoptions found",
+            "description": "No adoptions match your current filters",
             "action": "Clear Filters"
         }
     },
     "form": {
         "title": {
-            "create": "Create New Project",
-            "edit": "Edit Project"
+            "create": "Create New Adoption",
+            "edit": "Edit Adoption"
         },
         "fields": {
             "name": {
-                "label": "Project Name",
-                "placeholder": "Enter project name"
+                "label": "Coral Name",
+                "placeholder": "Enter coral name"
             },
             "description": {
                 "label": "Description",
-                "placeholder": "Enter project description"
+                "placeholder": "Enter adoption details"
             },
             "environment": {
-                "label": "Environment",
-                "placeholder": "Select environment",
+                "label": "Restoration Site",
+                "placeholder": "Select restoration site",
                 "options": {
-                    "production": "Production",
-                    "staging": "Staging",
-                    "development": "Development"
+                    "production": "Moorea",
+                    "staging": "Bora Bora",
+                    "development": "Tahiti"
                 }
             },
             "status": {
-                "label": "Status",
+                "label": "Fulfillment Status",
                 "placeholder": "Select status",
                 "options": {
-                    "ready": "Ready",
-                    "inProgress": "In Progress",
-                    "blocked": "Blocked"
+                    "ready": "Fulfilled",
+                    "inProgress": "Pending",
+                    "blocked": "On Hold"
                 }
             },
             "translations": {
@@ -92,24 +92,24 @@
                 "arabic": "Arabic"
             },
             "image": {
-                "label": "Project Image"
+                "label": "Coral Photo"
             }
         },
         "actions": {
             "cancel": "Cancel",
             "save": "Save",
-            "create": "Create Project",
-            "update": "Update Project"
+            "create": "Create Adoption",
+            "update": "Update Adoption"
         },
         "validation": {
-            "nameRequired": "Project name is required",
-            "descriptionRequired": "Description is required",
-            "environmentRequired": "Environment is required",
-            "statusRequired": "Status is required"
+            "nameRequired": "Coral name is required",
+            "descriptionRequired": "Adoption details are required",
+            "environmentRequired": "Restoration site is required",
+            "statusRequired": "Fulfillment status is required"
         }
     },
     "actions": {
-        "create": "Create Project",
+        "create": "Create Adoption",
         "edit": "Edit",
         "delete": "Delete",
         "restore": "Restore",
@@ -117,42 +117,42 @@
         "cancel": "Cancel"
     },
     "view": {
-        "titlePrefix": "Project Details:",
-        "description": "View and manage project information",
+        "titlePrefix": "Adoption Details:",
+        "description": "View and manage adoption information",
         "sections": {
-            "info": "Project Information",
-            "status": "Project Status",
-            "details": "Technical Details"
+            "info": "Adoption Information",
+            "status": "Fulfillment Status",
+            "details": "Site Details"
         },
         "empty": {
-            "title": "Project not found",
-            "description": "This project could not be located. It may have been removed or you might not have permission to view it."
+            "title": "Adoption not found",
+            "description": "This adoption record could not be located."
         },
         "labels": {
             "notProvided": "Not provided",
-            "projectId": "Project ID",
-            "name": "Project Name",
+            "projectId": "Adoption ID",
+            "name": "Coral Name",
             "description": "Description",
             "status": "Status",
-            "environment": "Environment",
-            "version": "Version",
+            "environment": "Restoration Site",
+            "version": "Certificate ID",
             "createdAt": "Created At",
             "updatedAt": "Last Updated"
         }
     },
     "status": {
-        "ready": "Ready",
-        "inProgress": "In Progress",
-        "blocked": "Blocked"
+        "ready": "Fulfilled",
+        "inProgress": "Pending",
+        "blocked": "On Hold"
     },
     "messages": {
-        "deleteConfirm": "Delete Project",
-        "deleteWarning": "Are you sure you want to delete this project? This action cannot be undone.",
-        "restoreConfirm": "Restore Project",
-        "restoreWarning": "Are you sure you want to restore this project?",
-        "createSuccess": "Project created successfully",
-        "updateSuccess": "Project updated successfully",
-        "deleteSuccess": "Project deleted successfully",
-        "restoreSuccess": "Project restored successfully"
+        "deleteConfirm": "Archive Adoption",
+        "deleteWarning": "Are you sure you want to archive this adoption record?",
+        "restoreConfirm": "Restore Adoption",
+        "restoreWarning": "Are you sure you want to restore this adoption record?",
+        "createSuccess": "Adoption created successfully",
+        "updateSuccess": "Adoption updated successfully",
+        "deleteSuccess": "Adoption archived successfully",
+        "restoreSuccess": "Adoption restored successfully"
     }
 }

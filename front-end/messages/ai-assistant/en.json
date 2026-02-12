@@ -1,7 +1,7 @@
 {
     "title": "AI Assistant",
     "welcome": "Hello! I'm your AI assistant",
-    "welcome_message": "Ask me anything and I'll do my best to help you.",
+    "welcome_message": "AI-powered assistant for donor analytics, adoption tracking, and operations support.",
     "input_placeholder": "Ask me anything...",
     "new_chat": "New Chat",
     "chat_history": "Chat History",

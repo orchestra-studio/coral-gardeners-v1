@@ -1,8 +1,8 @@
 {
-    "pageTitle": "Dashboard Overview",
-    "pageDescription": "Key metrics, insights, and analytics",
+    "pageTitle": "Operations Overview",
+    "pageDescription": "Donor engagement, coral adoptions, and restoration metrics",
     "greeting": {
-        "subtitle": "Ready to make today productive! 🚀",
+        "subtitle": "Let's protect our reefs today!",
         "morning": [
             "Rise and shine",
             "Good morning",
@@ -45,30 +45,30 @@
     },
     "insights": {
         "title": "Insights",
-        "description": "Performance analytics"
+        "description": "Donor & adoption analytics"
     },
     "quickTasks": {
         "title": "Quick Tasks",
-        "description": "Manage your daily tasks"
+        "description": "Track restoration priorities"
     },
     "calendar": {
         "title": "Calendar",
-        "description": "Upcoming events and schedule"
+        "description": "Restoration events and milestones"
     },
     "projects": {
-        "title": "Recent Projects",
-        "description": "Overview of active development projects",
+        "title": "Recent Adoptions",
+        "description": "Latest coral adoption activity",
         "columns": {
             "name": "Name",
             "status": "Status",
             "lastUpdated": "Last Updated",
-            "environment": "Environment",
+            "environment": "Site",
             "actions": "Actions"
         },
         "status": {
-            "inProgress": "In Progress",
-            "ready": "Ready",
-            "blocked": "Blocked"
+            "inProgress": "Pending",
+            "ready": "Fulfilled",
+            "blocked": "On Hold"
         },
         "actions": {
             "viewDetails": "View Details",
@@ -76,9 +76,9 @@
             "delete": "Delete",
             "openMenu": "Open actions menu"
         },
-        "loading": "Loading projects...",
-        "error": "Failed to load projects",
-        "noData": "No projects found",
+        "loading": "Loading adoptions...",
+        "error": "Failed to load adoptions",
+        "noData": "No adoptions found",
         "pagination": {
             "showing": "Showing",
             "to": "to",
