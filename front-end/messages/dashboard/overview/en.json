@@ -41,7 +41,25 @@
             "stable": "Stable",
             "ariaLabel": "Trend: {direction} {value}"
         },
-        "dragHandle": "Drag handle"
+        "dragHandle": "Drag handle",
+        "metrics": {
+            "totalDonors": {
+                "label": "Total Donors",
+                "description": "All registered donors"
+            },
+            "activeAdoptions": {
+                "label": "Active Adoptions",
+                "description": "Currently active coral adoptions"
+            },
+            "totalGiving": {
+                "label": "Total Giving",
+                "description": "Lifetime donation revenue"
+            },
+            "restorationSites": {
+                "label": "Restoration Sites",
+                "description": "Active coral restoration locations"
+            }
+        }
     },
     "insights": {
         "title": "Insights",

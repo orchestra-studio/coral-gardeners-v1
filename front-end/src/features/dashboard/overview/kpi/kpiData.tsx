@@ -1,9 +1,9 @@
 import React from "react";
 import {
   IconUsers,
-  IconTrendingUp,
-  IconClock,
-  IconFolders,
+  IconHeart,
+  IconCurrencyDollar,
+  IconMapPin,
 } from "@tabler/icons-react";
 import { Kpi } from "../common/types";
 import { useLocale } from "@/hooks/locale/useLocale";
@@ -44,25 +44,8 @@ const rawKpiData: MultilingualKpi[] = [
   {
     id: "kpi-1",
     title: {
-      en: "Total Projects",
-      ar: "إجمالي المشاريع",
-    },
-    value: 24,
-    icon: <IconFolders size={16} />,
-    trend: {
-      direction: "up",
-      value: "+3",
-      label: {
-        en: "Up",
-        ar: "صاعد",
-      },
-    },
-  },
-  {
-    id: "kpi-2",
-    title: {
-      en: "Active Users",
-      ar: "المستخدمون النشطون",
+      en: "Total Donors",
+      ar: "إجمالي المتبرعين",
     },
     value: 1847,
     icon: <IconUsers size={16} />,
@@ -76,19 +59,36 @@ const rawKpiData: MultilingualKpi[] = [
     },
   },
   {
-    id: "kpi-3",
+    id: "kpi-2",
     title: {
-      en: "Task Completion",
-      ar: "إتمام المهام",
+      en: "Active Adoptions",
+      ar: "التبني النشط",
     },
-    value: {
-      en: "78%",
-      ar: "78%",
-    },
-    icon: <IconTrendingUp size={16} />,
+    value: 24,
+    icon: <IconHeart size={16} />,
     trend: {
       direction: "up",
-      value: "+5%",
+      value: "+3",
+      label: {
+        en: "Up",
+        ar: "صاعد",
+      },
+    },
+  },
+  {
+    id: "kpi-3",
+    title: {
+      en: "Total Giving",
+      ar: "إجمالي التبرعات",
+    },
+    value: {
+      en: "$45,200",
+      ar: "45,200$",
+    },
+    icon: <IconCurrencyDollar size={16} />,
+    trend: {
+      direction: "up",
+      value: "+8%",
       label: {
         en: "Up",
         ar: "صاعد",
@@ -98,17 +98,14 @@ const rawKpiData: MultilingualKpi[] = [
   {
     id: "kpi-4",
     title: {
-      en: "Avg. Response Time",
-      ar: "متوسط وقت الاستجابة",
+      en: "Restoration Sites",
+      ar: "مواقع الترميم",
     },
-    value: {
-      en: "32 min",
-      ar: "32 دقيقة",
-    },
-    icon: <IconClock size={16} />,
+    value: 3,
+    icon: <IconMapPin size={16} />,
     trend: {
       direction: "stable",
-      value: "0%",
+      value: "0",
       label: {
         en: "Stable",
         ar: "مستقر",
