@@ -47,7 +47,7 @@ import { HttpExceptionFilter } from './common/filters/http-exception.filter';
                         type: 'postgres' as const,
                         url: configService.get<string>('DATABASE_URL'),
                         ssl: isProduction ? { rejectUnauthorized: false } : false,
-                        synchronize: false, // Use migrations in production
+                        synchronize: true, // TODO: set to false after initial deploy
                         logging: !isProduction,
                         extra: {
                             max: 10,
