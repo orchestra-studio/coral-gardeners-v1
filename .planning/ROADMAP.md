@@ -46,11 +46,13 @@ Plans:
   4. Admin can manage coral adoption records using adapted project management interface
   5. Admin can track adoption fulfillment status and view donor activity timelines
   6. Dashboard displays NGO metrics (donors, adoptions, revenue, sites) and admin can export reports
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 02-01: TBD
-- [ ] 02-02: TBD
+- [ ] 02-01-PLAN.md -- Branding & theme identity (logo, colors, navigation labels, brand config)
+- [ ] 02-02-PLAN.md -- I18n terminology rebranding (users->donors, projects->adoptions, overview->NGO)
+- [ ] 02-03-PLAN.md -- Type aliases & KPI adaptation (Donor/Adoption types, NGO dashboard metrics)
+- [ ] 02-04-PLAN.md -- CSV import/export & PDF reports (react-papaparse, react-csv, jsPDF)
 
 ### Phase 3: Data Visualization & Seeding
 **Goal**: Dashboard displays interactive restoration site map with real CG locations and responsive charts
@@ -90,6 +92,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Deployment | 0/2 | Not started | - |
-| 2. Branding & Data Adaptation | 0/2 | Not started | - |
+| 2. Branding & Data Adaptation | 0/4 | Not started | - |
 | 3. Visualization & Seeding | 0/2 | Not started | - |
 | 4. AI & Verification | 0/2 | Not started | - |
