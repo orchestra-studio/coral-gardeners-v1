@@ -24,8 +24,8 @@ export default function AuthLayout({
   subtitle = "Please sign in to continue",
   imageUrl = null,
 }: AuthLayoutProps) {
-  // Use provided imageUrl or fall back to default
-  const imageSrc = imageUrl || "/assets/images/login/login.png";
+  // Use provided imageUrl or fall back to CG logo
+  const imageSrc = imageUrl || "/assets/images/cg-logo-white.avif";
 
   return (
     <div className="w-full min-h-[calc(100vh-180px)] flex items-center justify-center py-8 px-4">

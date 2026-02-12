@@ -62,7 +62,7 @@ export default function VisitorMarkers({
                 }
               />
               <title>
-                {visitor.type === "active" ? "Live viewer" : "Idle viewer"}
+                {visitor.name} — {visitor.country}
               </title>
             </g>
           </Marker>

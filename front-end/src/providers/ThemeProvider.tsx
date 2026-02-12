@@ -26,11 +26,8 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
       return stored;
     }
 
-    const prefersDark = window.matchMedia(
-      "(prefers-color-scheme: dark)"
-    ).matches;
-
-    return prefersDark ? "dark" : "light";
+    // Default to dark mode for Coral Gardeners brand
+    return "dark";
   }, []);
 
   const [theme, setTheme] = useState<Theme>(() => getInitialTheme());
