@@ -93,6 +93,9 @@ export default function DashboardPage() {
                 image: tCommon("Export.image"),
                 imageDescription: tCommon("Export.imageDescription"),
                 exportingImage: tCommon("Export.exportingImage"),
+                pdf: tCommon("Export.pdf"),
+                pdfDescription: tCommon("Export.pdfDescription"),
+                exportingPdf: tCommon("Export.exportingPdf"),
               }}
             />
           </>

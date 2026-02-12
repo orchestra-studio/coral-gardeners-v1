@@ -26,7 +26,10 @@
         "button": "Export",
         "image": "Export as Image",
         "imageDescription": "Download PNG",
-        "exportingImage": "Exporting Image..."
+        "exportingImage": "Exporting Image...",
+        "pdf": "Export as PDF",
+        "pdfDescription": "Download PDF report",
+        "exportingPdf": "Exporting PDF..."
     },
     "Pagination": {
         "showing": "Showing",
