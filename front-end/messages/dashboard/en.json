@@ -1,17 +1,17 @@
 {
     "overview": {
-        "title": "Overview",
-        "description": "Monitor key metrics and manage your platform",
+        "title": "Operations Overview",
+        "description": "Monitor donor engagement, coral adoptions, and restoration metrics",
         "emailVerified": "Email verified successfully! Welcome to your dashboard!"
     },
     "breadcrumb": {
         "dashboard": "Dashboard",
-        "projects": "Projects",
-        "users": "Users",
+        "projects": "Adoptions",
+        "users": "Donors",
         "settings": "Settings"
     },
     "sidebar": {
-        "brandName": "Aniq-ui",
+        "brandName": "Coral Gardeners Operations Hub",
         "logout": "Logout"
     },
     "header": {

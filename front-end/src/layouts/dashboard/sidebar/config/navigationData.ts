@@ -5,7 +5,7 @@ import {
     IconHome,
     IconUsers,
     IconRobot,
-    IconFolderCode,
+    IconHeart,
     IconUserShield,
     IconPalette,
     IconSettings,
@@ -80,8 +80,8 @@ export const NAV_CONFIG_RAW = [
             ar: "المساعد الذكي"
         },
         description: {
-            en: "Chat with AI assistant powered by multiple LLM providers",
-            ar: "تحدث مع المساعد الذكي المدعوم بمزودي نماذج لغوية متعددة"
+            en: "AI-powered donor and operations analytics",
+            ar: "تحليلات المتبرعين والعمليات بالذكاء الاصطناعي"
         },
         route: "ai-assistant",
         category: {
@@ -90,17 +90,17 @@ export const NAV_CONFIG_RAW = [
         }
     },
 
-    // Users Section
+    // Donors Section
     {
         type: "parent",
         icon: React.createElement(IconUsers, { size: 20 }),
         title: {
-            en: "Users",
-            ar: "المستخدمين"
+            en: "Donors",
+            ar: "المتبرعين"
         },
         description: {
-            en: "Manage platform users and accounts",
-            ar: "إدارة مستخدمي المنصة والحسابات"
+            en: "Manage donor records and engagement",
+            ar: "إدارة سجلات المتبرعين والمشاركة"
         },
         route: "users",
         category: {
@@ -116,8 +116,8 @@ export const NAV_CONFIG_RAW = [
                     ar: "الكل"
                 },
                 description: {
-                    en: "All active users in the system",
-                    ar: "جميع المستخدمين النشطين في النظام"
+                    en: "All active donors",
+                    ar: "جميع المتبرعين النشطين"
                 },
                 route: "users/all",
                 category: {
@@ -133,8 +133,8 @@ export const NAV_CONFIG_RAW = [
                     ar: "محذوفة"
                 },
                 description: {
-                    en: "Deleted or deactivated users",
-                    ar: "المستخدمين المحذوفين أو المعطلين"
+                    en: "Inactive donors",
+                    ar: "المتبرعين غير النشطين"
                 },
                 route: "users/deleted",
                 category: {
@@ -145,17 +145,17 @@ export const NAV_CONFIG_RAW = [
         ]
     },
 
-    // Projects Section
+    // Adoptions Section
     {
         type: "parent",
-        icon: React.createElement(IconFolderCode, { size: 20 }),
+        icon: React.createElement(IconHeart, { size: 20 }),
         title: {
-            en: "Projects",
-            ar: "المشاريع"
+            en: "Adoptions",
+            ar: "التبنيات"
         },
         description: {
-            en: "Manage development projects and deployments",
-            ar: "إدارة مشاريع التطوير والنشر"
+            en: "Manage coral adoption records and fulfillment",
+            ar: "إدارة سجلات تبني المرجان والوفاء"
         },
         route: "projects",
         category: {
@@ -165,14 +165,14 @@ export const NAV_CONFIG_RAW = [
         children: [
             {
                 type: "item",
-                icon: React.createElement(IconFolderCode, { size: 18 }),
+                icon: React.createElement(IconHeart, { size: 18 }),
                 title: {
                     en: "All",
                     ar: "الكل"
                 },
                 description: {
-                    en: "All development projects in the system",
-                    ar: "جميع مشاريع التطوير في النظام"
+                    en: "All coral adoption records",
+                    ar: "جميع سجلات تبني المرجان"
                 },
                 route: "projects/all",
                 category: {
@@ -188,8 +188,8 @@ export const NAV_CONFIG_RAW = [
                     ar: "محذوفة"
                 },
                 description: {
-                    en: "Deleted or archived projects",
-                    ar: "المشاريع المحذوفة أو المؤرشفة"
+                    en: "Archived adoptions",
+                    ar: "التبنيات المؤرشفة"
                 },
                 route: "projects/deleted",
                 category: {
