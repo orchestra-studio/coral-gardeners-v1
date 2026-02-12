@@ -1,0 +1,54 @@
+{
+    "header": {
+        "title": "ملفك الشخصي",
+        "description": "إدارة معلوماتك الشخصية",
+        "profileImage": "الصورة الشخصية",
+        "editProfile": "تعديل الملف الشخصي",
+        "saveChanges": "حفظ التغييرات",
+        "cancel": "إلغاء"
+    },
+    "form": {
+        "firstName": {
+            "label": "الاسم الأول",
+            "placeholder": "أدخل اسمك الأول"
+        },
+        "lastName": {
+            "label": "اسم العائلة",
+            "placeholder": "أدخل اسم عائلتك"
+        },
+        "email": {
+            "label": "عنوان البريد الإلكتروني",
+            "placeholder": "أدخل عنوان بريدك الإلكتروني"
+        },
+        "phone": {
+            "label": "رقم الهاتف",
+            "placeholder": "أدخل رقم هاتفك"
+        },
+        "country": {
+            "label": "البلد",
+            "placeholder": "اختر بلدك",
+            "none": "لم يتم اختيار بلد"
+        },
+        "password": {
+            "label": "كلمة المرور الجديدة (اختياري)",
+            "placeholder": "اتركه فارغًا للاحتفاظ بكلمة المرور الحالية"
+        },
+        "passwordConfirmation": {
+            "label": "تأكيد كلمة المرور الجديدة",
+            "placeholder": "أكد كلمة المرور الجديدة"
+        }
+    },
+    "validation": {
+        "required": "{field} مطلوب",
+        "minLength": "يجب أن يحتوي {field} على {min} أحرف على الأقل",
+        "passwordComplexity": "يجب أن تحتوي كلمة المرور على حرف كبير وحرف صغير ورقم على الأقل",
+        "passwordMatch": "كلمتا المرور غير متطابقتين",
+        "firstNameRequired": "الاسم الأول مطلوب",
+        "lastNameRequired": "اسم العائلة مطلوب",
+        "emailRequired": "البريد الإلكتروني مطلوب",
+        "emailInvalid": "يرجى إدخال عنوان بريد إلكتروني صحيح",
+        "phoneInvalid": "يرجى إدخال رقم هاتف صحيح",
+        "passwordTooShort": "يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل",
+        "passwordsDoNotMatch": "كلمتا المرور غير متطابقتين"
+    }
+}

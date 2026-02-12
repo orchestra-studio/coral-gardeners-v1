@@ -1,0 +1,637 @@
+{
+    "title": "مكتبة مكونات واجهة المستخدم",
+    "description": "تصفح واستكشف مكتبة مكونات واجهة المستخدم مع أمثلة تفاعلية",
+    "breadcrumb": {
+        "uiComponent": "مكون واجهة المستخدم"
+    },
+    "stats": {
+        "components": "مكونات"
+    },
+    "sections": {
+        "buttons": {
+            "title": "الأزرار",
+            "subtitle": "مكونات الأزرار بأنماط وتفاعلات متنوعة"
+        },
+        "inputs": {
+            "title": "حقول الإدخال",
+            "subtitle": "حقول النصوص والمحددات وعناصر التحكم في النماذج"
+        },
+        "feedback": {
+            "title": "الملاحظات والتنبيهات",
+            "subtitle": "التنبيهات والإشعارات ومؤشرات الحالة"
+        },
+        "navigation": {
+            "title": "التنقل",
+            "subtitle": "علامات التبويب والروابط ومسارات التنقل ومكونات التنقل"
+        },
+        "overlays": {
+            "title": "النوافذ المنبثقة والحوارات",
+            "subtitle": "النوافذ المنبثقة والأوراق والحوارات"
+        },
+        "dataDisplay": {
+            "title": "عرض البيانات",
+            "subtitle": "الجداول والرسوم البيانية والبطاقات وتصور البيانات"
+        },
+        "layout": {
+            "title": "التخطيط والتأثيرات",
+            "subtitle": "مساعدات التخطيط والخلفيات والتأثيرات البصرية"
+        }
+    },
+    "components": {
+        "button": {
+            "title": "مكون الزر",
+            "description": "مكون زر متعدد الاستخدامات مع متغيرات وأحجام وحالات متعددة",
+            "sections": {
+                "variants": "المتغيرات",
+                "sizes": "الأحجام",
+                "withIcons": "مع الأيقونات",
+                "states": "الحالات"
+            },
+            "labels": {
+                "default": "افتراضي",
+                "destructive": "هدام",
+                "outline": "محدد",
+                "secondary": "ثانوي",
+                "ghost": "شفاف",
+                "link": "رابط",
+                "small": "صغير",
+                "large": "كبير",
+                "extraLarge": "كبير جدًا",
+                "createNew": "إنشاء جديد",
+                "delete": "حذف",
+                "edit": "تعديل",
+                "download": "تنزيل",
+                "disabled": "معطل",
+                "loading": "جاري التحميل",
+                "disabledOutline": "محدد معطل"
+            }
+        },
+        "iconButton": {
+            "title": "زر الأيقونة",
+            "description": "أزرار مدمجة بأيقونات فقط للإجراءات"
+        },
+        "input": {
+            "title": "مكونات الإدخال",
+            "description": "مكونات نماذج الإدخال للنصوص والملفات والوسوم",
+            "sections": {
+                "basicInput": "إدخال أساسي",
+                "textArea": "منطقة النص",
+                "tagsInput": "إدخال الوسوم",
+                "fileInput": "إدخال الملفات",
+                "dateInput": "منتقي التاريخ"
+            },
+            "labels": {
+                "textInput": "إدخال نصي",
+                "multiline": "نص متعدد الأسطر",
+                "tags": "الوسوم",
+                "file": "رفع ملف",
+                "date": "اختر التاريخ"
+            },
+            "placeholders": {
+                "enterText": "أدخل بعض النص...",
+                "enterMultiline": "أدخل عدة أسطر...",
+                "enterTags": "اكتب واضغط Enter",
+                "selectDate": "اختر تاريخًا...",
+                "uploadFile": "انقر على تصفح لرفع الملف"
+            },
+            "messages": {
+                "fileSelected": "تم اختيار الملف"
+            },
+            "buttons": {
+                "browse": "تصفح"
+            }
+        },
+        "select": {
+            "title": "القائمة المنسدلة",
+            "description": "اختيار منسدل مع خيارات البحث والمسح",
+            "sections": {
+                "single": "اختيار واحد",
+                "searchable": "اختيار قابل للبحث",
+                "clearable": "اختيار قابل للمسح"
+            },
+            "labels": {
+                "framework": "اختر إطار العمل",
+                "searchableFramework": "ابحث عن إطار العمل",
+                "clearableFramework": "إطار العمل (قابل للمسح)"
+            },
+            "placeholders": {
+                "choose": "اختر خيارًا...",
+                "search": "ابحث عن أطر العمل..."
+            }
+        },
+        "checkbox": {
+            "title": "خانة الاختيار",
+            "description": "خانة اختيار تفاعلية بحالات متعددة",
+            "sections": {
+                "basicUsage": "الاستخدام الأساسي",
+                "indeterminateState": "حالة غير محددة",
+                "multiSelect": "مثال اختيار متعدد",
+                "sizeVariants": "متغيرات الحجم",
+                "styleVariants": "متغيرات النمط"
+            },
+            "labels": {
+                "unchecked": "غير محدد",
+                "checked": "محدد",
+                "disabled": "معطل",
+                "disabledChecked": "معطل محدد",
+                "partiallySelected": "محدد جزئيًا (غير محدد)",
+                "selectAll": "تحديد الكل",
+                "option": "خيار",
+                "small": "صغير",
+                "medium": "متوسط",
+                "large": "كبير",
+                "default": "افتراضي",
+                "outline": "محدد",
+                "ghost": "شفاف"
+            }
+        },
+        "alert": {
+            "title": "مكونات التنبيه",
+            "description": "عرض الرسائل والإشعارات المهمة",
+            "sections": {
+                "inline": "تنبيهات مضمنة",
+                "withTitle": "مع العناوين"
+            },
+            "labels": {
+                "success": "نجاح",
+                "error": "خطأ",
+                "warning": "تحذير",
+                "info": "معلومات"
+            },
+            "messages": {
+                "success": "تمت العملية بنجاح!",
+                "error": "حدث خطأ أثناء العملية.",
+                "warning": "يرجى المراجعة قبل المتابعة.",
+                "info": "إليك بعض المعلومات المفيدة.",
+                "inlineSuccess": "تم حفظ التغييرات بنجاح.",
+                "inlineError": "تعذر معالجة طلبك. يرجى المحاولة مرة أخرى."
+            }
+        },
+        "badge": {
+            "title": "الشارة والحالة",
+            "description": "مؤشرات مرئية للحالة والتسميات",
+            "sections": {
+                "basic": "الشارات الأساسية",
+                "sizes": "أحجام الشارات",
+                "shine": "شارات لامعة",
+                "status": "مؤشرات الحالة"
+            },
+            "labels": {
+                "default": "افتراضي",
+                "outline": "مخطط",
+                "secondary": "ثانوي",
+                "success": "نجاح",
+                "warning": "تحذير",
+                "error": "خطأ",
+                "small": "صغير",
+                "medium": "متوسط",
+                "large": "كبير",
+                "new": "جديد",
+                "featured": "مميز",
+                "premium": "مميز",
+                "active": "نشط",
+                "inactive": "غير نشط",
+                "pending": "قيد الانتظار",
+                "inProgress": "قيد التقدم"
+            }
+        },
+        "tabs": {
+            "title": "علامات التبويب",
+            "description": "تنظيم المحتوى في علامات تبويب قابلة للتبديل",
+            "labels": {
+                "tab1": "نظرة عامة",
+                "tab2": "التفاصيل",
+                "tab3": "الإعدادات"
+            },
+            "messages": {
+                "activeTab": "علامة التبويب النشطة"
+            }
+        },
+        "avatar": {
+            "title": "الصورة الرمزية",
+            "description": "عرض صور الملف الشخصي للمستخدم مع بدائل",
+            "sections": {
+                "fallback": "الصور الرمزية البديلة",
+                "withImage": "مع الصور"
+            }
+        },
+        "skeleton": {
+            "title": "محمل الهيكل",
+            "description": "عناصر نائبة للتحميل للمحتوى",
+            "sections": {
+                "text": "هياكل نصية",
+                "card": "هيكل البطاقة"
+            }
+        },
+        "pagination": {
+            "title": "ترقيم الصفحات",
+            "description": "التنقل عبر صفحات المحتوى",
+            "messages": {
+                "currentPage": "الصفحة الحالية"
+            }
+        },
+        "modal": {
+            "title": "النافذة المنبثقة",
+            "description": "مربعات حوار تراكبية للمحتوى المركز",
+            "labels": {
+                "openModal": "فتح النافذة المنبثقة",
+                "modalTitle": "عنوان النافذة المنبثقة"
+            },
+            "messages": {
+                "modalContent": "هذا هو محتوى النافذة المنبثقة. يمكنك وضع أي محتوى هنا."
+            }
+        },
+        "datePicker": {
+            "title": "منتقي نطاق التاريخ",
+            "description": "اختيار التواريخ ونطاقات التواريخ",
+            "placeholders": {
+                "selectRange": "اختر نطاق التاريخ..."
+            },
+            "messages": {
+                "rangeSelected": "النطاق المحدد"
+            }
+        },
+        "tooltip": {
+            "title": "تلميح الأداة",
+            "description": "عرض معلومات سياقية عند التمرير",
+            "sections": {
+                "positions": "المواضع"
+            },
+            "labels": {
+                "top": "أعلى",
+                "bottom": "أسفل",
+                "left": "يسار",
+                "right": "يمين"
+            },
+            "messages": {
+                "tooltipContent": "معلومات مفيدة في التلميح"
+            }
+        },
+        "dropdown": {
+            "title": "القائمة المنسدلة",
+            "description": "قوائم الإجراءات والتنقل المنسدلة",
+            "sections": {
+                "basic": "قائمة منسدلة أساسية"
+            },
+            "labels": {
+                "openMenu": "فتح القائمة",
+                "myAccount": "حسابي",
+                "profile": "الملف الشخصي",
+                "settings": "الإعدادات",
+                "logout": "تسجيل الخروج"
+            }
+        },
+        "calendar": {
+            "title": "التقويم",
+            "description": "اختيار التاريخ مع واجهة التقويم",
+            "messages": {
+                "selectedDate": "التاريخ المحدد"
+            }
+        },
+        "sheet": {
+            "title": "اللوحة المنزلقة",
+            "description": "لوحة منزلقة للمحتوى المركز",
+            "sections": {
+                "sides": "اتجاهات الانزلاق"
+            },
+            "labels": {
+                "openStart": "فتح من البداية",
+                "openEnd": "فتح من النهاية",
+                "cancel": "إلغاء",
+                "save": "حفظ"
+            },
+            "messages": {
+                "startTitle": "لوحة من البداية",
+                "endTitle": "لوحة من النهاية",
+                "content": "هذا هو محتوى اللوحة. يمكنك وضع أي محتوى هنا بما في ذلك النماذج والتفاصيل أو الإجراءات."
+            }
+        },
+        "popover": {
+            "title": "النافذة المنبثقة",
+            "description": "محتوى عائم يُطلق بتفاعل المستخدم",
+            "sections": {
+                "basic": "نافذة منبثقة أساسية"
+            },
+            "labels": {
+                "openPopover": "فتح النافذة المنبثقة"
+            },
+            "messages": {
+                "title": "عنوان النافذة المنبثقة",
+                "content": "هذا هو محتوى النافذة المنبثقة مع معلومات إضافية."
+            }
+        },
+        "collapsible": {
+            "title": "قابل للطي",
+            "description": "أقسام محتوى قابلة للتوسيع",
+            "labels": {
+                "section1": "القسم 1 (مفتوح افتراضيًا)",
+                "section2": "القسم 2",
+                "section3": "القسم 3 (معطل)"
+            },
+            "messages": {
+                "content": "هذا هو المحتوى القابل للطي الذي يمكن توسيعه أو طيه."
+            }
+        },
+        "searchInput": {
+            "title": "حقل البحث",
+            "description": "حقل بحث مع اختصار لوحة المفاتيح",
+            "sections": {
+                "basic": "شريط البحث"
+            },
+            "placeholders": {
+                "search": "بحث..."
+            },
+            "messages": {
+                "opened": "ستفتح نافذة البحث هنا"
+            }
+        },
+        "phoneInput": {
+            "title": "حقل رقم الهاتف",
+            "description": "حقل إدخال رقم الهاتف الدولي مع اختيار البلد",
+            "sections": {
+                "basic": "رقم الهاتف"
+            },
+            "labels": {
+                "phone": "رقم الهاتف"
+            },
+            "placeholders": {
+                "enterPhone": "أدخل رقم الهاتف"
+            },
+            "messages": {
+                "value": "القيمة"
+            }
+        },
+        "progressCard": {
+            "title": "بطاقة التقدم",
+            "description": "مؤشرات تقدم مرئية مع الإحصائيات",
+            "labels": {
+                "sales": "تقدم المبيعات",
+                "users": "مستخدمون جدد",
+                "goals": "إنجاز الأهداف"
+            },
+            "messages": {
+                "salesDesc": "75٪ من الهدف الشهري"
+            }
+        },
+        "notice": {
+            "title": "ملاحظة",
+            "description": "ملاحظات معلوماتية مع أيقونات",
+            "labels": {
+                "info": "معلومات",
+                "success": "نجاح",
+                "warning": "تحذير"
+            },
+            "messages": {
+                "infoContent": "هذه ملاحظة معلوماتية لتوفير سياق مفيد.",
+                "successContent": "تم إكمال إجراءك بنجاح!",
+                "warningContent": "يرجى الانتباه لهذه المعلومات المهمة قبل المتابعة."
+            }
+        },
+        "magicCard": {
+            "title": "البطاقة السحرية",
+            "description": "بطاقات تفاعلية مع تأثير التوهج عند التمرير",
+            "sections": {
+                "colors": "ألوان التوهج",
+                "modes": "أوضاع الألوان"
+            },
+            "labels": {
+                "blue": "أزرق",
+                "purple": "بنفسجي",
+                "green": "أخضر"
+            },
+            "modes": {
+                "color": "توهج ملون",
+                "monochrome": "توهج أحادي"
+            }
+        },
+        "arrayInput": {
+            "title": "إدخال مصفوفة",
+            "description": "مكون إدخال لإدارة مصفوفات القيم",
+            "labels": {
+                "tags": "الوسوم",
+                "emails": "عناوين البريد الإلكتروني"
+            },
+            "placeholders": {
+                "addTag": "أضف وسمًا...",
+                "addEmail": "أضف بريدًا إلكترونيًا..."
+            }
+        },
+        "status": {
+            "title": "شارة الحالة",
+            "description": "مؤشرات الحالة مع مستويات خطورة متنوعة",
+            "sections": {
+                "severity": "مستويات الخطورة",
+                "states": "حالات الحالة",
+                "sizes": "الأحجام"
+            },
+            "labels": {
+                "low": "منخفض",
+                "medium": "متوسط",
+                "high": "عالي",
+                "critical": "حرج",
+                "success": "نجاح",
+                "warning": "تحذير",
+                "error": "خطأ",
+                "info": "معلومات"
+            }
+        },
+        "inlineEdit": {
+            "title": "تحرير مضمّن",
+            "description": "تحرير النص مباشرة مع إجراءات الحفظ والإلغاء",
+            "labels": {
+                "userName": "اسم المستخدم",
+                "projectName": "اسم المشروع"
+            },
+            "placeholders": {
+                "enterName": "أدخل الاسم...",
+                "enterProject": "أدخل اسم المشروع..."
+            }
+        },
+        "link": {
+            "title": "مكون الرابط",
+            "description": "مكون رابط مرن مع متغيرات متعددة",
+            "sections": {
+                "variants": "متغيرات الروابط",
+                "withIcons": "مع الأيقونات"
+            },
+            "labels": {
+                "default": "رابط افتراضي",
+                "primary": "رابط أساسي",
+                "underline": "رابط مسطّر",
+                "muted": "رابط خافت",
+                "withIcon": "رابط مع أيقونة",
+                "external": "رابط خارجي",
+                "email": "رابط بريد إلكتروني"
+            }
+        },
+        "userName": {
+            "title": "اسم المستخدم",
+            "description": "عرض معلومات المستخدم مع الصورة الرمزية والتفاصيل"
+        },
+        "collapsibleCode": {
+            "title": "كود قابل للطي",
+            "description": "كتل كود مع تمييز بناء الجملة وإمكانية التوسيع/الطي",
+            "labels": {
+                "reactExample": "مثال مكون React",
+                "typeScriptExample": "مثال واجهة TypeScript",
+                "codeExample": "مثال الكود",
+                "copy": "نسخ",
+                "copied": "تم النسخ"
+            },
+            "aria": {
+                "copy": "نسخ الكود إلى الحافظة",
+                "copied": "تم النسخ إلى الحافظة"
+            }
+        },
+        "charts": {
+            "title": "مكونات الرسوم البيانية",
+            "description": "رسوم بيانية لتصور البيانات مدعومة بـ Recharts",
+            "sections": {
+                "areaChart": "رسم بياني مساحي",
+                "barChart": "رسم بياني شريطي",
+                "lineChart": "رسم بياني خطي",
+                "pieChart": "رسم بياني دائري",
+                "radarChart": "رسم بياني راداري",
+                "ringsChart": "رسم بياني حلقي"
+            }
+        },
+        "smoothTabs": {
+            "title": "علامات التبويب السلسة",
+            "description": "علامات تبويب متحركة مع انتقالات سلسة ومؤشر منزلق",
+            "labels": {
+                "profile": "الملف الشخصي",
+                "settings": "الإعدادات",
+                "notifications": "الإشعارات"
+            },
+            "messages": {
+                "profileContent": "إدارة معلومات الملف الشخصي والتفضيلات",
+                "settingsContent": "تكوين إعدادات الحساب والخيارات",
+                "notificationsContent": "عرض وإدارة الإشعارات"
+            }
+        },
+        "richTextEditor": {
+            "title": "محرر النص الغني",
+            "description": "محرر WYSIWYG متعدد اللغات مع أدوات التنسيق",
+            "labels": {
+                "editor": "المحتوى"
+            }
+        },
+        "multiLanguageInput": {
+            "title": "مدخلات متعددة اللغات",
+            "description": "مكونات إدخال بدعم اللغتين الإنجليزية والعربية",
+            "sections": {
+                "input": "إدخال متعدد اللغات",
+                "textarea": "منطقة نص متعددة اللغات",
+                "tags": "وسوم متعددة اللغات",
+                "list": "قائمة متعددة اللغات"
+            },
+            "labels": {
+                "title": "العنوان",
+                "description": "الوصف",
+                "tags": "الوسوم",
+                "items": "عناصر القائمة"
+            }
+        },
+        "breadcrumbNavigation": {
+            "title": "التنقل التسلسلي",
+            "description": "مسارات التنقل الهرمية مع فاصل",
+            "labels": {
+                "dashboard": "لوحة التحكم",
+                "users": "المستخدمون",
+                "profile": "الملف الشخصي"
+            }
+        },
+        "emptyState": {
+            "title": "حالة فارغة",
+            "description": "مكون عنصر نائب لحالات المحتوى الفارغ",
+            "labels": {
+                "noResults": "لم يتم العثور على نتائج",
+                "clearFilters": "مسح الفلاتر"
+            },
+            "messages": {
+                "noResultsDescription": "حاول تعديل معايير البحث أو التصفية"
+            }
+        },
+        "statCard": {
+            "title": "بطاقة الإحصائيات",
+            "description": "بطاقة إحصائيات مع مؤشرات الاتجاه والأيقونات",
+            "labels": {
+                "totalUsers": "إجمالي المستخدمين",
+                "revenue": "الإيرادات",
+                "vsLastMonth": "مقارنة بالشهر الماضي"
+            },
+            "messages": {
+                "activeUsers": "المستخدمون النشطون هذا الشهر",
+                "monthlyRevenue": "الإيرادات الشهرية"
+            }
+        },
+        "fileUpload": {
+            "title": "رفع الملفات",
+            "description": "رفع الملفات بالسحب والإفلات مع معاينة",
+            "labels": {
+                "uploadFiles": "رفع الملفات"
+            },
+            "messages": {
+                "dragDrop": "اسحب وأفلت الملفات أو انقر للتصفح"
+            }
+        },
+        "confirmableSheet": {
+            "title": "لوحة قابلة للتأكيد",
+            "description": "لوحة منزلقة مع مربع تأكيد التغييرات غير المحفوظة",
+            "labels": {
+                "openSheet": "فتح اللوحة",
+                "editForm": "تحرير النموذج",
+                "name": "الاسم",
+                "discardButton": "تجاهل",
+                "cancelButton": "إلغاء"
+            },
+            "placeholders": {
+                "enterName": "أدخل اسمك..."
+            },
+            "messages": {
+                "discardTitle": "تجاهل التغييرات غير المحفوظة؟",
+                "discardText": "لديك تغييرات غير محفوظة. هل أنت متأكد من الإغلاق دون الحفظ؟",
+                "tryClosing": "حاول كتابة شيء ما ثم إغلاق اللوحة"
+            }
+        },
+        "table": {
+            "title": "جدول البيانات",
+            "description": "جدول بيانات مرن مع ترقيم الصفحات وخلايا قابلة للتخصيص",
+            "columns": {
+                "name": "الاسم",
+                "email": "البريد الإلكتروني",
+                "role": "الدور",
+                "status": "الحالة"
+            }
+        },
+        "worldMap": {
+            "title": "خريطة العالم",
+            "description": "خريطة تفاعلية للعالم مع تصور البيانات الجغرافية",
+            "labels": {
+                "visitors": "الزوار",
+                "location": "الموقع"
+            }
+        },
+        "gridBackground": {
+            "title": "خلفية شبكية",
+            "description": "خلفية بنمط شبكي ناعم لإضافة عمق بصري",
+            "labels": {
+                "overlay": "محتوى فوق الشبكة"
+            },
+            "messages": {
+                "info": "تخطيط شبكي ناعم للتصاميم الحديثة"
+            }
+        },
+        "searchModal": {
+            "title": "نافذة البحث",
+            "description": "واجهة بحث قابلة للتنقل باستخدام لوحة المفاتيح مع وصول سريع",
+            "labels": {
+                "openSearch": "فتح البحث",
+                "search": "بحث"
+            },
+            "placeholders": {
+                "searchPlaceholder": "ابحث عن المكونات أو الصفحات أو التوثيق..."
+            }
+        }
+    }
+}

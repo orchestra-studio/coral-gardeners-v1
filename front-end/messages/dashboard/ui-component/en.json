@@ -1,0 +1,637 @@
+{
+    "title": "UI Component Library",
+    "description": "Browse and explore the UI component library with interactive examples",
+    "breadcrumb": {
+        "uiComponent": "UI Component"
+    },
+    "stats": {
+        "components": "Components"
+    },
+    "sections": {
+        "buttons": {
+            "title": "Buttons",
+            "subtitle": "Button components with various styles and interactions"
+        },
+        "inputs": {
+            "title": "Form Inputs",
+            "subtitle": "Text inputs, selectors, and form controls"
+        },
+        "feedback": {
+            "title": "Feedback & Alerts",
+            "subtitle": "Alerts, notifications, and status indicators"
+        },
+        "navigation": {
+            "title": "Navigation",
+            "subtitle": "Tabs, links, breadcrumbs, and navigation components"
+        },
+        "overlays": {
+            "title": "Overlays & Dialogs",
+            "subtitle": "Modals, sheets, popovers, and overlay components"
+        },
+        "dataDisplay": {
+            "title": "Data Display",
+            "subtitle": "Tables, charts, cards, and data visualization"
+        },
+        "layout": {
+            "title": "Layout & Effects",
+            "subtitle": "Layout helpers, backgrounds, and visual effects"
+        }
+    },
+    "components": {
+        "button": {
+            "title": "Button Component",
+            "description": "Versatile button component with multiple variants, sizes, and states",
+            "sections": {
+                "variants": "Variants",
+                "sizes": "Sizes",
+                "withIcons": "With Icons",
+                "states": "States"
+            },
+            "labels": {
+                "default": "Default",
+                "destructive": "Destructive",
+                "outline": "Outline",
+                "secondary": "Secondary",
+                "ghost": "Ghost",
+                "link": "Link",
+                "small": "Small",
+                "large": "Large",
+                "extraLarge": "Extra Large",
+                "createNew": "Create New",
+                "delete": "Delete",
+                "edit": "Edit",
+                "download": "Download",
+                "disabled": "Disabled",
+                "loading": "Loading",
+                "disabledOutline": "Disabled Outline"
+            }
+        },
+        "iconButton": {
+            "title": "Icon Button",
+            "description": "Compact icon-only buttons for actions"
+        },
+        "input": {
+            "title": "Input Components",
+            "description": "Form input components for text, files, and tags",
+            "sections": {
+                "basicInput": "Basic Input",
+                "textArea": "Text Area",
+                "tagsInput": "Tags Input",
+                "fileInput": "File Input",
+                "dateInput": "Date Picker"
+            },
+            "labels": {
+                "textInput": "Text Input",
+                "multiline": "Multiline Text",
+                "tags": "Tags",
+                "file": "Upload File",
+                "date": "Select Date"
+            },
+            "placeholders": {
+                "enterText": "Enter some text...",
+                "enterMultiline": "Enter multiple lines...",
+                "enterTags": "Type and press Enter",
+                "selectDate": "Pick a date...",
+                "uploadFile": "Click browse to upload file"
+            },
+            "messages": {
+                "fileSelected": "File selected"
+            },
+            "buttons": {
+                "browse": "Browse"
+            }
+        },
+        "select": {
+            "title": "Select",
+            "description": "Dropdown selection with search and clear options",
+            "sections": {
+                "single": "Single Select",
+                "searchable": "Searchable Select",
+                "clearable": "Clearable Select"
+            },
+            "labels": {
+                "framework": "Choose Framework",
+                "searchableFramework": "Search Framework",
+                "clearableFramework": "Framework (Clearable)"
+            },
+            "placeholders": {
+                "choose": "Choose an option...",
+                "search": "Search frameworks..."
+            }
+        },
+        "checkbox": {
+            "title": "Checkbox",
+            "description": "Interactive checkbox with multiple states",
+            "sections": {
+                "basicUsage": "Basic Usage",
+                "indeterminateState": "Indeterminate State",
+                "multiSelect": "Multi-Select Example",
+                "sizeVariants": "Size Variants",
+                "styleVariants": "Style Variants"
+            },
+            "labels": {
+                "unchecked": "Unchecked",
+                "checked": "Checked",
+                "disabled": "Disabled",
+                "disabledChecked": "Disabled Checked",
+                "partiallySelected": "Partially selected (indeterminate)",
+                "selectAll": "Select All",
+                "option": "Option",
+                "small": "Small",
+                "medium": "Medium",
+                "large": "Large",
+                "default": "Default",
+                "outline": "Outline",
+                "ghost": "Ghost"
+            }
+        },
+        "alert": {
+            "title": "Alert Components",
+            "description": "Display important messages and notifications",
+            "sections": {
+                "inline": "Inline Alerts",
+                "withTitle": "With Titles"
+            },
+            "labels": {
+                "success": "Success",
+                "error": "Error",
+                "warning": "Warning",
+                "info": "Information"
+            },
+            "messages": {
+                "success": "Operation completed successfully!",
+                "error": "An error occurred during the operation.",
+                "warning": "Please review before proceeding.",
+                "info": "Here's some helpful information.",
+                "inlineSuccess": "Your changes have been saved successfully.",
+                "inlineError": "Unable to process your request. Please try again."
+            }
+        },
+        "badge": {
+            "title": "Badge & Status",
+            "description": "Visual indicators for status and labels",
+            "sections": {
+                "basic": "Basic Badges",
+                "sizes": "Badge Sizes",
+                "shine": "Shine Badges",
+                "status": "Status Indicators"
+            },
+            "labels": {
+                "default": "Default",
+                "outline": "Outline",
+                "secondary": "Secondary",
+                "success": "Success",
+                "warning": "Warning",
+                "error": "Error",
+                "small": "Small",
+                "medium": "Medium",
+                "large": "Large",
+                "new": "New",
+                "featured": "Featured",
+                "premium": "Premium",
+                "active": "Active",
+                "inactive": "Inactive",
+                "pending": "Pending",
+                "inProgress": "In Progress"
+            }
+        },
+        "tabs": {
+            "title": "Tabs",
+            "description": "Organize content into switchable tabs",
+            "labels": {
+                "tab1": "Overview",
+                "tab2": "Details",
+                "tab3": "Settings"
+            },
+            "messages": {
+                "activeTab": "Active tab"
+            }
+        },
+        "avatar": {
+            "title": "Avatar",
+            "description": "Display user profile images with fallbacks",
+            "sections": {
+                "fallback": "Fallback Avatars",
+                "withImage": "With Images"
+            }
+        },
+        "skeleton": {
+            "title": "Skeleton Loader",
+            "description": "Loading placeholders for content",
+            "sections": {
+                "text": "Text Skeletons",
+                "card": "Card Skeleton"
+            }
+        },
+        "pagination": {
+            "title": "Pagination",
+            "description": "Navigate through pages of content",
+            "messages": {
+                "currentPage": "Current Page"
+            }
+        },
+        "modal": {
+            "title": "Modal",
+            "description": "Overlay dialogs for focused content",
+            "labels": {
+                "openModal": "Open Modal",
+                "modalTitle": "Modal Title"
+            },
+            "messages": {
+                "modalContent": "This is the modal content. You can place any content here."
+            }
+        },
+        "datePicker": {
+            "title": "Date Range Picker",
+            "description": "Select dates and date ranges",
+            "placeholders": {
+                "selectRange": "Select date range..."
+            },
+            "messages": {
+                "rangeSelected": "Selected range"
+            }
+        },
+        "tooltip": {
+            "title": "Tooltip",
+            "description": "Contextual information on hover",
+            "sections": {
+                "positions": "Positions"
+            },
+            "labels": {
+                "top": "Top",
+                "bottom": "Bottom",
+                "left": "Left",
+                "right": "Right"
+            },
+            "messages": {
+                "tooltipContent": "Helpful tooltip information"
+            }
+        },
+        "dropdown": {
+            "title": "Dropdown Menu",
+            "description": "Action menus and navigation dropdowns",
+            "sections": {
+                "basic": "Basic Dropdown"
+            },
+            "labels": {
+                "openMenu": "Open Menu",
+                "myAccount": "My Account",
+                "profile": "Profile",
+                "settings": "Settings",
+                "logout": "Logout"
+            }
+        },
+        "calendar": {
+            "title": "Calendar",
+            "description": "Date selection with calendar interface",
+            "messages": {
+                "selectedDate": "Selected date"
+            }
+        },
+        "sheet": {
+            "title": "Sheet",
+            "description": "Slide-out panel for focused content",
+            "sections": {
+                "sides": "Slide Directions"
+            },
+            "labels": {
+                "openStart": "Open from Start",
+                "openEnd": "Open from End",
+                "cancel": "Cancel",
+                "save": "Save"
+            },
+            "messages": {
+                "startTitle": "Sheet from Start",
+                "endTitle": "Sheet from End",
+                "content": "This is the sheet content. You can place any content here including forms, details, or actions."
+            }
+        },
+        "popover": {
+            "title": "Popover",
+            "description": "Floating content triggered by user interaction",
+            "sections": {
+                "basic": "Basic Popover"
+            },
+            "labels": {
+                "openPopover": "Open Popover"
+            },
+            "messages": {
+                "title": "Popover Title",
+                "content": "This is the popover content with additional information."
+            }
+        },
+        "collapsible": {
+            "title": "Collapsible",
+            "description": "Expandable content sections",
+            "labels": {
+                "section1": "Section 1 (Open by default)",
+                "section2": "Section 2",
+                "section3": "Section 3 (Disabled)"
+            },
+            "messages": {
+                "content": "This is the collapsible content that can be expanded or collapsed."
+            }
+        },
+        "searchInput": {
+            "title": "Search Input",
+            "description": "Search input with keyboard shortcut",
+            "sections": {
+                "basic": "Search Bar"
+            },
+            "placeholders": {
+                "search": "Search..."
+            },
+            "messages": {
+                "opened": "Search modal would open here"
+            }
+        },
+        "phoneInput": {
+            "title": "Phone Input",
+            "description": "International phone number input with country selection",
+            "sections": {
+                "basic": "Phone Number"
+            },
+            "labels": {
+                "phone": "Phone Number"
+            },
+            "placeholders": {
+                "enterPhone": "Enter phone number"
+            },
+            "messages": {
+                "value": "Value"
+            }
+        },
+        "progressCard": {
+            "title": "Progress Card",
+            "description": "Visual progress indicators with statistics",
+            "labels": {
+                "sales": "Sales Progress",
+                "users": "New Users",
+                "goals": "Goals Completion"
+            },
+            "messages": {
+                "salesDesc": "75% of monthly target"
+            }
+        },
+        "notice": {
+            "title": "Notice",
+            "description": "Informational notices with icons",
+            "labels": {
+                "info": "Information",
+                "success": "Success",
+                "warning": "Warning"
+            },
+            "messages": {
+                "infoContent": "This is an informational notice to provide helpful context.",
+                "successContent": "Your action has been completed successfully!",
+                "warningContent": "Please be aware of this important information before proceeding."
+            }
+        },
+        "magicCard": {
+            "title": "Magic Card",
+            "description": "Interactive cards with glow effect on hover",
+            "sections": {
+                "colors": "Glow Colors",
+                "modes": "Color Modes"
+            },
+            "labels": {
+                "blue": "Blue",
+                "purple": "Purple",
+                "green": "Green"
+            },
+            "modes": {
+                "color": "Chromatic Glow",
+                "monochrome": "Monochrome Glow"
+            }
+        },
+        "arrayInput": {
+            "title": "Array Input",
+            "description": "Input component for managing arrays of values",
+            "labels": {
+                "tags": "Tags",
+                "emails": "Email Addresses"
+            },
+            "placeholders": {
+                "addTag": "Add tag...",
+                "addEmail": "Add email..."
+            }
+        },
+        "status": {
+            "title": "Status Badge",
+            "description": "Status indicators with various severity levels",
+            "sections": {
+                "severity": "Severity Levels",
+                "states": "Status States",
+                "sizes": "Sizes"
+            },
+            "labels": {
+                "low": "Low",
+                "medium": "Medium",
+                "high": "High",
+                "critical": "Critical",
+                "success": "Success",
+                "warning": "Warning",
+                "error": "Error",
+                "info": "Info"
+            }
+        },
+        "inlineEdit": {
+            "title": "Inline Edit",
+            "description": "Edit text inline with save and cancel actions",
+            "labels": {
+                "userName": "User Name",
+                "projectName": "Project Name"
+            },
+            "placeholders": {
+                "enterName": "Enter name...",
+                "enterProject": "Enter project name..."
+            }
+        },
+        "link": {
+            "title": "Link Component",
+            "description": "Flexible link component with multiple variants",
+            "sections": {
+                "variants": "Link Variants",
+                "withIcons": "With Icons"
+            },
+            "labels": {
+                "default": "Default Link",
+                "primary": "Primary Link",
+                "underline": "Underlined Link",
+                "muted": "Muted Link",
+                "withIcon": "Link with Icon",
+                "external": "External Link",
+                "email": "Email Link"
+            }
+        },
+        "userName": {
+            "title": "User Name",
+            "description": "Display user information with avatar and details"
+        },
+        "collapsibleCode": {
+            "title": "Collapsible Code",
+            "description": "Syntax-highlighted code blocks with expand/collapse",
+            "labels": {
+                "reactExample": "React Component Example",
+                "typeScriptExample": "TypeScript Interface Example",
+                "codeExample": "Code Example",
+                "copy": "Copy",
+                "copied": "Copied"
+            },
+            "aria": {
+                "copy": "Copy code to clipboard",
+                "copied": "Copied to clipboard"
+            }
+        },
+        "charts": {
+            "title": "Chart Components",
+            "description": "Data visualization charts powered by Recharts",
+            "sections": {
+                "areaChart": "Area Chart",
+                "barChart": "Bar Chart",
+                "lineChart": "Line Chart",
+                "pieChart": "Pie Chart",
+                "radarChart": "Radar Chart",
+                "ringsChart": "Rings Chart"
+            }
+        },
+        "smoothTabs": {
+            "title": "Smooth Tabs",
+            "description": "Animated tabs with smooth transitions and sliding indicator",
+            "labels": {
+                "profile": "Profile",
+                "settings": "Settings",
+                "notifications": "Notifications"
+            },
+            "messages": {
+                "profileContent": "Manage your profile information and preferences",
+                "settingsContent": "Configure your account settings and options",
+                "notificationsContent": "View and manage your notifications"
+            }
+        },
+        "richTextEditor": {
+            "title": "Rich Text Editor",
+            "description": "Multi-language WYSIWYG editor with formatting tools",
+            "labels": {
+                "editor": "Content"
+            }
+        },
+        "multiLanguageInput": {
+            "title": "Multi-Language Inputs",
+            "description": "Input components with English and Arabic language support",
+            "sections": {
+                "input": "Multi-Language Input",
+                "textarea": "Multi-Language TextArea",
+                "tags": "Multi-Language Tags",
+                "list": "Multi-Language List"
+            },
+            "labels": {
+                "title": "Title",
+                "description": "Description",
+                "tags": "Tags",
+                "items": "List Items"
+            }
+        },
+        "breadcrumbNavigation": {
+            "title": "Breadcrumb Navigation",
+            "description": "Hierarchical navigation breadcrumbs with separator",
+            "labels": {
+                "dashboard": "Dashboard",
+                "users": "Users",
+                "profile": "Profile"
+            }
+        },
+        "emptyState": {
+            "title": "Empty State",
+            "description": "Placeholder component for empty content states",
+            "labels": {
+                "noResults": "No results found",
+                "clearFilters": "Clear filters"
+            },
+            "messages": {
+                "noResultsDescription": "Try adjusting your search or filter criteria"
+            }
+        },
+        "statCard": {
+            "title": "Stat Card",
+            "description": "Statistics card with trend indicators and icons",
+            "labels": {
+                "totalUsers": "Total Users",
+                "revenue": "Revenue",
+                "vsLastMonth": "vs last month"
+            },
+            "messages": {
+                "activeUsers": "Active users this month",
+                "monthlyRevenue": "Monthly revenue"
+            }
+        },
+        "fileUpload": {
+            "title": "File Upload",
+            "description": "Drag and drop file upload with preview",
+            "labels": {
+                "uploadFiles": "Upload Files"
+            },
+            "messages": {
+                "dragDrop": "Drag & drop files or click to browse"
+            }
+        },
+        "confirmableSheet": {
+            "title": "Confirmable Sheet",
+            "description": "Sheet with unsaved changes confirmation dialog",
+            "labels": {
+                "openSheet": "Open Sheet",
+                "editForm": "Edit Form",
+                "name": "Name",
+                "discardButton": "Discard",
+                "cancelButton": "Cancel"
+            },
+            "placeholders": {
+                "enterName": "Enter your name..."
+            },
+            "messages": {
+                "discardTitle": "Discard unsaved changes?",
+                "discardText": "You have unsaved changes. Are you sure you want to close without saving?",
+                "tryClosing": "Try typing something and then closing the sheet"
+            }
+        },
+        "table": {
+            "title": "Table Component",
+            "description": "Flexible data table with pagination and custom cells",
+            "columns": {
+                "name": "Name",
+                "email": "Email",
+                "role": "Role",
+                "status": "Status"
+            }
+        },
+        "worldMap": {
+            "title": "World Map",
+            "description": "Interactive world map with geographical data visualization",
+            "labels": {
+                "visitors": "Visitors",
+                "location": "Location"
+            }
+        },
+        "gridBackground": {
+            "title": "Grid Background",
+            "description": "Subtle grid pattern background for visual depth",
+            "labels": {
+                "overlay": "Content Over Grid"
+            },
+            "messages": {
+                "info": "Subtle grid layout for modern designs"
+            }
+        },
+        "searchModal": {
+            "title": "Search Modal",
+            "description": "Keyboard-navigable search interface with quick access",
+            "labels": {
+                "openSearch": "Open Search",
+                "search": "Search"
+            },
+            "placeholders": {
+                "searchPlaceholder": "Search for components, pages, or documentation..."
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "created": "Role created successfully",
+    "updated": "Role updated successfully",
+    "permissions_updated": "Permissions updated successfully",
+    "deleted": "Role deleted successfully",
+    "not_found": "Role not found",
+    "name_exists": "Role with this name already exists",
+    "in_use": "Cannot delete role that is assigned to users"
+}

@@ -1,0 +1,185 @@
+{
+    "title": "Admin Management",
+    "description": "Manage admin users and their access",
+    "stats": {
+        "totalAdmins": "Total Admins",
+        "totalAdminsDesc": "Total number of administrators",
+        "adminsWithRoles": "Admins with Roles",
+        "adminsWithRolesDesc": "Admins assigned to roles",
+        "recentlyAdded": "Recently Added",
+        "recentlyAddedDesc": "Added in the last 7 days",
+        "recentlyUpdated": "Recently Updated",
+        "recentlyUpdatedDesc": "Updated in the last 7 days"
+    },
+    "actions": {
+        "create": "Add Admin",
+        "edit": "Edit",
+        "delete": "Delete",
+        "view": "View",
+        "assignRoles": "Assign Roles",
+        "changePassword": "Change Password",
+        "cancel": "Cancel"
+    },
+    "table": {
+        "columns": {
+            "name": "Name",
+            "email": "Email",
+            "phone": "Phone",
+            "createdAt": "Created Date",
+            "updatedAt": "Updated Date",
+            "actions": "Actions"
+        },
+        "actions": {
+            "roles": "Manage Roles",
+            "delete": "Delete"
+        },
+        "deleteConfirm": {
+            "title": "Delete Admin",
+            "message": "Are you sure you want to delete this admin? This action cannot be undone.",
+            "cancel": "Cancel"
+        },
+        "filters": {
+            "searchLabel": "Search",
+            "search": "Search admins...",
+            "email": "Email",
+            "searchEmail": "Filter by email",
+            "phone": "Phone",
+            "searchPhone": "Filter by phone",
+            "name": "Name",
+            "searchName": "Search by first/last name"
+        },
+        "empty": {
+            "title": "No admins found",
+            "description": "No admins match your current filters",
+            "action": "Clear Filters"
+        }
+    },
+    "form": {
+        "title": {
+            "create": "Create New Admin",
+            "edit": "Edit Admin"
+        },
+        "fields": {
+            "profileImage": {
+                "label": "Profile Picture"
+            },
+            "firstName": {
+                "label": "First Name",
+                "placeholder": "Enter first name"
+            },
+            "lastName": {
+                "label": "Last Name",
+                "placeholder": "Enter last name"
+            },
+            "email": {
+                "label": "Email Address",
+                "placeholder": "Enter email address"
+            },
+            "password": {
+                "label": "Password",
+                "placeholder": "Enter password (min. 6 characters)",
+                "hint": "Leave blank to keep current password"
+            },
+            "passwordConfirmation": {
+                "label": "Confirm Password",
+                "placeholder": "Re-enter password"
+            },
+            "phone": {
+                "label": "Phone Number",
+                "placeholder": "Enter phone number"
+            },
+            "country": {
+                "label": "Country",
+                "placeholder": "Select country"
+            },
+            "roles": {
+                "label": "Roles",
+                "placeholder": "Select roles"
+            }
+        },
+        "validation": {
+            "firstNameRequired": "First name is required",
+            "lastNameRequired": "Last name is required",
+            "emailRequired": "Email is required",
+            "emailInvalid": "Please enter a valid email address",
+            "passwordRequired": "Password is required",
+            "passwordMinLength": "Password must be at least 6 characters",
+            "passwordConfirmationRequired": "Please confirm your password",
+            "passwordMismatch": "Passwords do not match"
+        },
+        "actions": {
+            "cancel": "Cancel",
+            "save": "Save",
+            "create": "Create Admin",
+            "update": "Update Admin",
+            "creating": "Creating...",
+            "updating": "Updating..."
+        }
+    },
+    "rolesForm": {
+        "title": "Manage Admin Roles",
+        "availableRoles": "Available Roles",
+        "noRolesMessage": "No roles found for this admin.",
+        "noRolesSubMessage": "Create roles and assign them to the admin to manage permissions.",
+        "actions": {
+            "cancel": "Cancel",
+            "update": "Update Roles",
+            "updating": "Updating..."
+        }
+    },
+    "view": {
+        "titlePrefix": "Admin Details",
+        "description": "View admin personal details and assigned roles",
+        "loading": "Loading admin details...",
+        "empty": {
+            "title": "Admin Not Found",
+            "description": "The requested admin could not be found"
+        },
+        "tabs": {
+            "basicInfo": "Basic Information",
+            "logs": "Activity Logs"
+        },
+        "sections": {
+            "contact": "Contact Information",
+            "account": "Account Details"
+        },
+        "labels": {
+            "email": "Email Address",
+            "phone": "Phone Number",
+            "username": "Username",
+            "fullName": "Full Name",
+            "roles": "Assigned Roles",
+            "createdAt": "Account Created",
+            "notProvided": "Not provided",
+            "noRoles": "No roles assigned"
+        },
+        "actions": {
+            "edit": "Edit",
+            "delete": "Delete",
+            "restore": "Restore"
+        },
+        "edit": {
+            "title": "Edit Admin Details"
+        },
+        "logs": {
+            "placeholder": "Activity logs will be displayed here"
+        }
+    },
+    "status": {
+        "active": "Active",
+        "deleted": "Deleted"
+    },
+    "messages": {
+        "deleteConfirm": "Delete Admin",
+        "deleteWarning": "Are you sure you want to delete this admin? This action cannot be undone.",
+        "createSuccess": "Admin created successfully",
+        "updateSuccess": "Admin updated successfully",
+        "deleteSuccess": "Admin deleted successfully",
+        "deleteFailed": "Failed to delete admin",
+        "restoreSuccess": "Admin restored successfully",
+        "restoreFailed": "Failed to restore admin",
+        "rolesUpdated": "Admin roles updated successfully",
+        "rolesFailed": "Failed to update admin roles",
+        "fetchFailed": "Failed to fetch roles"
+    }
+}

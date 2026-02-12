@@ -1,0 +1,211 @@
+{
+    "title": "المستخدمين",
+    "description": "إدارة مستخدمي المنصة والحسابات",
+    "tabs": {
+        "all": "جميع المستخدمين",
+        "deleted": "المستخدمين المحذوفين"
+    },
+    "all": {
+        "title": "جميع المستخدمين",
+        "description": "إدارة مستخدمي المنصة والحسابات"
+    },
+    "deleted": {
+        "title": "المستخدمين المحذوفين",
+        "description": "إدارة المستخدمين المحذوفين واستعادة الحسابات"
+    },
+    "stats": {
+        "total": "إجمالي المستخدمين",
+        "deleted": "المستخدمين المحذوفين",
+        "unverified": "المستخدمين غير المتحققين",
+        "verified": "المستخدمين المتحققين"
+    },
+    "table": {
+        "columns": {
+            "name": "الاسم",
+            "email": "البريد الإلكتروني",
+            "phone": "الهاتف",
+            "country": "البلد",
+            "status": "الحالة",
+            "verified": "متحقق",
+            "createdAt": "تاريخ الإنشاء",
+            "joinedDate": "تاريخ الانضمام",
+            "actions": "الإجراءات"
+        },
+        "verified": "متحقق",
+        "unverified": "غير متحقق",
+        "filters": {
+            "status": "تصفية حسب الحالة",
+            "country": "تصفية حسب البلد",
+            "verified": "تصفية حسب التحقق",
+            "search": "البحث عن المستخدمين...",
+            "searchLabel": "بحث",
+            "dateRange": "نطاق التاريخ",
+            "username": "اسم المستخدم",
+            "email": "البريد الإلكتروني",
+            "phone": "الهاتف",
+            "firstName": "الاسم الأول",
+            "lastName": "اسم العائلة",
+            "fromDate": "من تاريخ",
+            "toDate": "إلى تاريخ",
+            "searchUsername": "تصفية حسب اسم المستخدم",
+            "searchEmail": "تصفية حسب البريد الإلكتروني",
+            "searchPhone": "تصفية حسب الهاتف",
+            "searchFirstName": "تصفية حسب الاسم الأول",
+            "searchLastName": "تصفية حسب اسم العائلة",
+            "fromDatePlaceholder": "YYYY-MM-DD",
+            "toDatePlaceholder": "YYYY-MM-DD"
+        },
+        "empty": {
+            "title": "لم يتم العثور على مستخدمين",
+            "description": "لا يوجد مستخدمون يطابقون المرشحات الحالية",
+            "action": "مسح المرشحات"
+        }
+    },
+    "form": {
+        "title": {
+            "create": "إنشاء مستخدم جديد",
+            "edit": "تحرير المستخدم"
+        },
+        "fields": {
+            "username": {
+                "label": "اسم المستخدم",
+                "placeholder": "أدخل اسم المستخدم"
+            },
+            "firstName": {
+                "label": "الاسم الأول",
+                "placeholder": "أدخل الاسم الأول"
+            },
+            "lastName": {
+                "label": "اسم العائلة",
+                "placeholder": "أدخل اسم العائلة"
+            },
+            "email": {
+                "label": "عنوان البريد الإلكتروني",
+                "placeholder": "أدخل عنوان البريد الإلكتروني"
+            },
+            "password": {
+                "label": "كلمة المرور",
+                "placeholder": "أدخل كلمة المرور (6 أحرف على الأقل)"
+            },
+            "phone": {
+                "label": "رقم الهاتف",
+                "placeholder": "أدخل رقم الهاتف"
+            },
+            "country": {
+                "label": "البلد",
+                "placeholder": "اختر البلد"
+            },
+            "profilePicture": {
+                "label": "الصورة الشخصية"
+            },
+            "isActive": {
+                "label": "حالة النشاط",
+                "description": "يمكن للمستخدم الوصول إلى المنصة"
+            }
+        },
+        "actions": {
+            "cancel": "إلغاء",
+            "save": "حفظ",
+            "create": "إنشاء مستخدم",
+            "update": "تحديث المستخدم",
+            "creating": "جاري الإنشاء...",
+            "updating": "جاري التحديث..."
+        },
+        "validation": {
+            "usernameRequired": "اسم المستخدم مطلوب",
+            "firstNameRequired": "الاسم الأول مطلوب",
+            "lastNameRequired": "اسم العائلة مطلوب",
+            "emailRequired": "البريد الإلكتروني مطلوب",
+            "emailInvalid": "يرجى إدخال عنوان بريد إلكتروني صالح",
+            "passwordRequired": "كلمة المرور مطلوبة",
+            "passwordMinLength": "يجب أن تكون كلمة المرور 6 أحرف على الأقل"
+        }
+    },
+    "actions": {
+        "create": "إنشاء مستخدم",
+        "edit": "تحرير",
+        "delete": "حذف",
+        "view": "عرض",
+        "restore": "استعادة",
+        "activate": "تفعيل",
+        "deactivate": "إلغاء التفعيل",
+        "toggleStatus": "تبديل الحالة",
+        "resendVerification": "إعادة إرسال التحقق",
+        "markVerified": "وضع علامة كمتحقق",
+        "markUnverified": "وضع علامة كغير متحقق",
+        "changePassword": "تغيير كلمة المرور",
+        "cancel": "إلغاء"
+    },
+    "changePassword": {
+        "title": "تغيير كلمة المرور",
+        "newPassword": {
+            "label": "كلمة المرور الجديدة",
+            "placeholder": "أدخل كلمة المرور الجديدة"
+        },
+        "confirmPassword": {
+            "label": "تأكيد كلمة المرور الجديدة",
+            "placeholder": "تأكيد كلمة المرور الجديدة"
+        },
+        "actions": {
+            "submit": "تغيير كلمة المرور",
+            "submitting": "جاري تغيير كلمة المرور...",
+            "cancel": "إلغاء"
+        },
+        "validation": {
+            "newPasswordRequired": "كلمة المرور الجديدة مطلوبة",
+            "confirmPasswordRequired": "يرجى تأكيد كلمة المرور",
+            "passwordTooShort": "يجب أن تكون كلمة المرور 8 أحرف على الأقل",
+            "passwordComplexity": "يجب أن تحتوي كلمة المرور على أحرف كبيرة وصغيرة وأرقام",
+            "passwordsDoNotMatch": "كلمات المرور غير متطابقة"
+        }
+    },
+    "view": {
+        "titlePrefix": "تفاصيل المستخدم:",
+        "description": "عرض وإدارة معلومات المستخدم",
+        "sections": {
+            "personalInfo": "المعلومات الشخصية",
+            "accountStatus": "حالة الحساب",
+            "contact": "معلومات الاتصال",
+            "account": "تفاصيل الحساب"
+        },
+        "empty": {
+            "title": "المستخدم غير موجود",
+            "description": "لم يتم العثور على هذا المستخدم. ربما تم حذفه أو أنك لا تملك صلاحية لعرضه."
+        },
+        "labels": {
+            "notProvided": "غير متوفر",
+            "userId": "معرّف المستخدم",
+            "username": "اسم المستخدم",
+            "verificationStatus": "حالة التحقق",
+            "emailVerification": "توثيق البريد الإلكتروني",
+            "verifiedAt": "تم التحقق في",
+            "verifiedOn": "تم التحقق في {date}",
+            "verificationPending": "في انتظار التحقق",
+            "createdAt": "تاريخ إنشاء الحساب",
+            "updatedAt": "آخر تحديث",
+            "deletedAt": "تاريخ الحذف",
+            "deletedStatus": "محذوف",
+            "countryCode": "رمز الدولة: {code}"
+        }
+    },
+    "status": {
+        "active": "نشط",
+        "inactive": "غير نشط",
+        "verified": "متحقق",
+        "unverified": "غير متحقق",
+        "pending": "في الانتظار"
+    },
+    "messages": {
+        "deleteConfirm": "حذف المستخدم",
+        "deleteWarning": "هل أنت متأكد من أنك تريد حذف هذا المستخدم؟ لا يمكن التراجع عن هذا الإجراء.",
+        "restoreConfirm": "استعادة المستخدم",
+        "restoreWarning": "هل أنت متأكد من أنك تريد استعادة هذا المستخدم؟",
+        "statusUpdateConfirm": "تحديث الحالة",
+        "statusUpdateWarning": "هل أنت متأكد من أنك تريد تغيير حالة هذا المستخدم؟",
+        "createSuccess": "تم إنشاء المستخدم بنجاح",
+        "updateSuccess": "تم تحديث المستخدم بنجاح",
+        "deleteSuccess": "تم حذف المستخدم بنجاح",
+        "restoreSuccess": "تم استعادة المستخدم بنجاح",
+        "statusUpdateSuccess": "تم تحديث حالة المستخدم بنجاح"
+    }
+}

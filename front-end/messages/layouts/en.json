@@ -1,0 +1,14 @@
+{
+    "navbar": {
+        "logo": "Aniq-ui",
+        "links": {
+            "features": "Features",
+            "contact": "Contact",
+            "pricing": "Pricing"
+        },
+        "actions": {
+            "login": "Login",
+            "cta": "Book a call"
+        }
+    }
+}

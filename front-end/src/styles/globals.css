@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+@custom-variant dark (&:where(.dark, .dark *));
+@import './theme-variables.css';
+@import './base.css';
+@import './utilities.css';
+@import './nprogress.css';
+@import './toastify.css';
+@import './alerts.css';
+@import 'quill/dist/quill.snow.css';
+@import './ai-elements.css';
+/* Keep globals lean: imports + base resets. All tokens live in theme-variables.css */

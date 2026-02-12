@@ -1,0 +1,67 @@
+{
+    "layout": {
+        "welcomeTitle": "مرحباً بعودتك",
+        "welcomeSubtitle": "يرجى تسجيل الدخول للمتابعة"
+    },
+    "login": {
+        "title": "تسجيل الدخول",
+        "emailLabel": "عنوان البريد الإلكتروني",
+        "emailPlaceholder": "admin@example.com",
+        "passwordLabel": "كلمة المرور",
+        "passwordPlaceholder": "أدخل كلمة المرور",
+        "submitButton": "تسجيل الدخول",
+        "loadingText": "جاري تسجيل الدخول...",
+        "forgotPassword": "نسيت كلمة المرور؟",
+        "rememberMe": "تذكرني",
+        "continueWith": "أو تابع مع",
+        "google": "جوجل",
+        "apple": "آبل",
+        "demoInfo": "تم ملء بيانات التجريبية مسبقاً. جاهز للاستكشاف!",
+        "noAccount": "ليس لديك حساب؟",
+        "createAccount": "أنشئ حساباً الآن",
+        "backToHome": "العودة للرئيسية",
+        "demoButton": "دخول سريع (حساب تجريبي)",
+        "demoSuccess": "تم الدخول بالحساب التجريبي!",
+        "googleNotConfigured": "تسجيل الدخول عبر جوجل غير مفعّل بعد.",
+        "appleNotConfigured": "تسجيل الدخول عبر آبل غير مفعّل بعد."
+    },
+    "authCodeError": {
+        "title": "خطأ في المصادقة",
+        "subtitle": "حدث خطأ ما",
+        "description": "كان هناك مشكلة في رمز المصادقة الخاص بك. يرجى المحاولة مرة أخرى.",
+        "backToLogin": "العودة لتسجيل الدخول",
+        "tryAgain": "حاول مرة أخرى"
+    },
+    "success": {
+        "loginSuccess": "تم تسجيل الدخول بنجاح!",
+        "registrationSuccess": "تم إنشاء الحساب! يرجى فحص بريدك الإلكتروني للتحقق من حسابك.",
+        "registrationAutoLogin": "تم إنشاء الحساب وتسجيل الدخول بنجاح!",
+        "passwordResetSent": "تم إرسال رابط إعادة تعيين كلمة المرور إلى بريدك الإلكتروني!",
+        "passwordResetSuccess": "تم إعادة تعيين كلمة المرور بنجاح!"
+    },
+    "errors": {
+        "invalidCredentials": "بريد إلكتروني أو كلمة مرور غير صحيحة",
+        "emailNotConfirmed": "يرجى فحص بريدك الإلكتروني والنقر على رابط التأكيد",
+        "tooManyRequests": "محاولات كثيرة جداً. يرجى المحاولة مرة أخرى لاحقاً",
+        "userNotFound": "لم يتم العثور على حساب بهذا العنوان الإلكتروني",
+        "weakPassword": "كلمة المرور ضعيفة جداً. يرجى اختيار كلمة مرور أقوى",
+        "emailTaken": "يوجد حساب بهذا البريد الإلكتروني بالفعل",
+        "networkError": "خطأ في الشبكة. يرجى فحص اتصالك والمحاولة مرة أخرى",
+        "unexpectedError": "حدث خطأ غير متوقع. يرجى المحاولة مرة أخرى"
+    },
+    "passwordStrength": {
+        "strengthText": "قوة كلمة المرور:",
+        "weak": "ضعيفة",
+        "medium": "متوسطة",
+        "strong": "قوية",
+        "requirements": {
+            "length": "8+ أحرف",
+            "uppercase": "حرف كبير",
+            "lowercase": "حرف صغير",
+            "number": "رقم",
+            "special": "رمز خاص",
+            "notCommon": "كلمة مرور غير شائعة",
+            "noPersonalInfo": "لا معلومات شخصية"
+        }
+    }
+}

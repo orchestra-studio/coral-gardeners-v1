@@ -1,0 +1,211 @@
+{
+    "title": "Users",
+    "description": "Manage platform users and accounts",
+    "tabs": {
+        "all": "All Users",
+        "deleted": "Deleted Users"
+    },
+    "all": {
+        "title": "All Users",
+        "description": "Manage platform users and accounts"
+    },
+    "deleted": {
+        "title": "Deleted Users",
+        "description": "Manage deleted users and restore accounts"
+    },
+    "stats": {
+        "total": "Total Users",
+        "deleted": "Deleted Users",
+        "unverified": "Unverified Users",
+        "verified": "Verified Users"
+    },
+    "table": {
+        "columns": {
+            "name": "Name",
+            "email": "Email",
+            "phone": "Phone",
+            "country": "Country",
+            "status": "Status",
+            "verified": "Verified",
+            "createdAt": "Created At",
+            "joinedDate": "Joined Date",
+            "actions": "Actions"
+        },
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "filters": {
+            "status": "Filter by Status",
+            "country": "Filter by Country",
+            "verified": "Filter by Verification",
+            "search": "Search users...",
+            "searchLabel": "Search",
+            "dateRange": "Date Range",
+            "username": "Username",
+            "email": "Email",
+            "phone": "Phone",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "fromDate": "From Date",
+            "toDate": "To Date",
+            "searchUsername": "Filter by username",
+            "searchEmail": "Filter by email",
+            "searchPhone": "Filter by phone",
+            "searchFirstName": "Filter by first name",
+            "searchLastName": "Filter by last name",
+            "fromDatePlaceholder": "YYYY-MM-DD",
+            "toDatePlaceholder": "YYYY-MM-DD"
+        },
+        "empty": {
+            "title": "No users found",
+            "description": "No users match your current filters",
+            "action": "Clear Filters"
+        }
+    },
+    "form": {
+        "title": {
+            "create": "Create New User",
+            "edit": "Edit User"
+        },
+        "fields": {
+            "username": {
+                "label": "Username",
+                "placeholder": "Enter username"
+            },
+            "firstName": {
+                "label": "First Name",
+                "placeholder": "Enter first name"
+            },
+            "lastName": {
+                "label": "Last Name",
+                "placeholder": "Enter last name"
+            },
+            "email": {
+                "label": "Email Address",
+                "placeholder": "Enter email address"
+            },
+            "password": {
+                "label": "Password",
+                "placeholder": "Enter password (min. 6 characters)"
+            },
+            "phone": {
+                "label": "Phone Number",
+                "placeholder": "Enter phone number"
+            },
+            "country": {
+                "label": "Country",
+                "placeholder": "Select country"
+            },
+            "profilePicture": {
+                "label": "Profile Picture"
+            },
+            "isActive": {
+                "label": "Active Status",
+                "description": "User can access the platform"
+            }
+        },
+        "actions": {
+            "cancel": "Cancel",
+            "save": "Save",
+            "create": "Create User",
+            "update": "Update User",
+            "creating": "Creating...",
+            "updating": "Updating..."
+        },
+        "validation": {
+            "usernameRequired": "Username is required",
+            "firstNameRequired": "First name is required",
+            "lastNameRequired": "Last name is required",
+            "emailRequired": "Email is required",
+            "emailInvalid": "Please enter a valid email address",
+            "passwordRequired": "Password is required",
+            "passwordMinLength": "Password must be at least 6 characters"
+        }
+    },
+    "actions": {
+        "create": "Create User",
+        "edit": "Edit",
+        "delete": "Delete",
+        "view": "View",
+        "restore": "Restore",
+        "activate": "Activate",
+        "deactivate": "Deactivate",
+        "toggleStatus": "Toggle Status",
+        "resendVerification": "Resend Verification",
+        "markVerified": "Mark as Verified",
+        "markUnverified": "Mark as Unverified",
+        "changePassword": "Change Password",
+        "cancel": "Cancel"
+    },
+    "changePassword": {
+        "title": "Change Password",
+        "newPassword": {
+            "label": "New Password",
+            "placeholder": "Enter new password"
+        },
+        "confirmPassword": {
+            "label": "Confirm New Password",
+            "placeholder": "Confirm new password"
+        },
+        "actions": {
+            "submit": "Change Password",
+            "submitting": "Changing Password...",
+            "cancel": "Cancel"
+        },
+        "validation": {
+            "newPasswordRequired": "New password is required",
+            "confirmPasswordRequired": "Please confirm your password",
+            "passwordTooShort": "Password must be at least 8 characters",
+            "passwordComplexity": "Password must contain uppercase, lowercase, and number",
+            "passwordsDoNotMatch": "Passwords do not match"
+        }
+    },
+    "view": {
+        "titlePrefix": "User Details:",
+        "description": "View and manage user information",
+        "sections": {
+            "personalInfo": "Personal Information",
+            "accountStatus": "Account Status",
+            "contact": "Contact Information",
+            "account": "Account Details"
+        },
+        "empty": {
+            "title": "User not found",
+            "description": "This user could not be located. They may have been removed or you might not have permission to view them."
+        },
+        "labels": {
+            "notProvided": "Not provided",
+            "userId": "User ID",
+            "username": "Username",
+            "verificationStatus": "Verification Status",
+            "emailVerification": "Email Verification",
+            "verifiedAt": "Verified At",
+            "verifiedOn": "Verified on {date}",
+            "verificationPending": "Awaiting verification",
+            "createdAt": "Account Created",
+            "updatedAt": "Last Updated",
+            "deletedAt": "Deleted At",
+            "deletedStatus": "Deleted",
+            "countryCode": "Country code: {code}"
+        }
+    },
+    "status": {
+        "active": "Active",
+        "inactive": "Inactive",
+        "verified": "Verified",
+        "unverified": "Unverified",
+        "pending": "Pending"
+    },
+    "messages": {
+        "deleteConfirm": "Delete User",
+        "deleteWarning": "Are you sure you want to delete this user? This action cannot be undone.",
+        "restoreConfirm": "Restore User",
+        "restoreWarning": "Are you sure you want to restore this user?",
+        "statusUpdateConfirm": "Update Status",
+        "statusUpdateWarning": "Are you sure you want to change this user's status?",
+        "createSuccess": "User created successfully",
+        "updateSuccess": "User updated successfully",
+        "deleteSuccess": "User deleted successfully",
+        "restoreSuccess": "User restored successfully",
+        "statusUpdateSuccess": "User status updated successfully"
+    }
+}

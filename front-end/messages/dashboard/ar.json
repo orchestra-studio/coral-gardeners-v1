@@ -1,0 +1,78 @@
+{
+    "overview": {
+        "title": "نظرة عامة",
+        "description": "راقب المقاييس الرئيسية وأدر منصتك",
+        "emailVerified": "تم التحقق من البريد الإلكتروني بنجاح! مرحبًا بك في لوحة التحكم!"
+    },
+    "breadcrumb": {
+        "dashboard": "لوحة التحكم",
+        "projects": "المشاريع",
+        "users": "المستخدمين",
+        "settings": "الإعدادات"
+    },
+    "sidebar": {
+        "brandName": "Aniq-ui",
+        "logout": "تسجيل الخروج"
+    },
+    "header": {
+        "backButton": {
+            "ariaLabel": "العودة"
+        },
+        "userMenu": {
+            "profile": "الملف الشخصي",
+            "messages": "الرسائل",
+            "settings": "الإعدادات",
+            "logout": "تسجيل الخروج",
+            "ariaLabels": {
+                "userAccountMenu": "قائمة حساب المستخدم",
+                "viewProfile": "عرض الملف الشخصي",
+                "openMessages": "فتح الرسائل",
+                "openSettings": "فتح الإعدادات",
+                "logOut": "تسجيل الخروج"
+            }
+        },
+        "search": {
+            "placeholder": "البحث...",
+            "ariaLabel": "فتح البحث"
+        },
+        "notifications": {
+            "title": "الإشعارات",
+            "markAllRead": "تحديد الكل كمقروء",
+            "noNotifications": "لا توجد إشعارات",
+            "notificationSettings": "إعدادات الإشعارات",
+            "ariaLabel": "الإشعارات",
+            "itemActions": {
+                "markAsRead": "تحديد كمقروء",
+                "remove": "حذف"
+            }
+        }
+    },
+    "search": {
+        "modal": {
+            "placeholder": "ابحث عن أي شيء...",
+            "noResults": "لم يتم العثور على نتائج",
+            "startTyping": "ابدأ بالكتابة للبحث...",
+            "poweredBy": "",
+            "navigation": {
+                "navigate": "للتنقل",
+                "select": "للاختيار",
+                "close": "للإغلاق"
+            }
+        }
+    },
+    "passwordStrength": {
+        "strengthText": "قوة كلمة المرور:",
+        "weak": "ضعيفة",
+        "medium": "متوسطة",
+        "strong": "قوية",
+        "requirements": {
+            "length": "8+ أحرف",
+            "uppercase": "حرف كبير",
+            "lowercase": "حرف صغير",
+            "number": "رقم",
+            "special": "رمز خاص",
+            "notCommon": "كلمة مرور غير شائعة",
+            "noPersonalInfo": "لا معلومات شخصية"
+        }
+    }
+}

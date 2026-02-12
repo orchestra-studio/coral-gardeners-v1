@@ -1,0 +1,386 @@
+import { DataSource } from 'typeorm';
+import { User } from '../../modules/users/entities/user.entity';
+import * as bcrypt from 'bcrypt';
+import { generateUsername } from '../../common/utils';
+
+/**
+ * Generate a random date within the last 30 days
+ */
+function getRandomDateInLast30Days(): Date {
+    const now = new Date();
+    const thirtyDaysAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
+    const randomTime = thirtyDaysAgo.getTime() + Math.random() * (now.getTime() - thirtyDaysAgo.getTime());
+    return new Date(randomTime);
+}
+
+export async function seedUsers(dataSource: DataSource): Promise<void> {
+    const userRepository = dataSource.getRepository(User);
+
+    console.log('🌱 Seeding users...');
+
+    let adminResult = await dataSource.query('SELECT id FROM admins WHERE email = ? LIMIT 1', ['admin@example.com']);
+    let adminId = adminResult && adminResult.length > 0 ? adminResult[0].id : null;
+    if (!adminId) {
+        adminResult = await dataSource.query('SELECT id FROM admins ORDER BY id ASC LIMIT 1');
+        adminId = adminResult && adminResult.length > 0 ? adminResult[0].id : null;
+    }
+
+    const users = [
+        {
+            first_name: 'John',
+            last_name: 'Doe',
+            email: 'john.doe@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1234567890',
+            profile_picture: '/assets/images/avatar/person/person.png',
+            country_id: 1,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+        },
+        {
+            first_name: 'Jane',
+            last_name: 'Smith',
+            email: 'jane.smith@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1987654321',
+            profile_picture: '/assets/images/avatar/person/person-female.png',
+            country_id: 2,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+        },
+        {
+            first_name: 'Mike',
+            last_name: 'Johnson',
+            email: 'mike.johnson@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555123456',
+            profile_picture: '/assets/images/avatar/person/person.png',
+            country_id: 1,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+        },
+        {
+            first_name: 'Sarah',
+            last_name: 'Williams',
+            email: 'sarah.williams@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555987654',
+            profile_picture: '/assets/images/avatar/person/person-female.png',
+            country_id: 3,
+            admin_id: adminId,
+            email_verified_at: null, // Not verified
+        },
+        {
+            first_name: 'David',
+            last_name: 'Brown',
+            email: 'david.brown@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555246810',
+            profile_picture: '/assets/images/avatar/person/person.png',
+            country_id: 2,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+        },
+        {
+            first_name: 'Emily',
+            last_name: 'Davis',
+            email: 'emily.davis@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555135791',
+            profile_picture: '/assets/images/avatar/person/person-female.png',
+            country_id: 1,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+        },
+        {
+            first_name: 'Robert',
+            last_name: 'Miller',
+            email: 'robert.miller@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555864209',
+            profile_picture: '/assets/images/avatar/person/person.png',
+            country_id: 3,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+        },
+        {
+            first_name: 'Lisa',
+            last_name: 'Anderson',
+            email: 'lisa.anderson@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555753951',
+            profile_picture: '/assets/images/avatar/person/person-female.png',
+            country_id: 2,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+        },
+        {
+            first_name: 'James',
+            last_name: 'Garcia',
+            email: 'james.garcia@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555951753',
+            profile_picture: '/assets/images/avatar/person/person.png',
+            country_id: 1,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+        },
+        {
+            first_name: 'Maria',
+            last_name: 'Martinez',
+            email: 'maria.martinez@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555159357',
+            profile_picture: '/assets/images/avatar/person/person-female.png',
+            country_id: 3,
+            admin_id: adminId,
+            email_verified_at: null, // Not verified
+        },
+        {
+            first_name: 'William',
+            last_name: 'Rodriguez',
+            email: 'william.rodriguez@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555357159',
+            profile_picture: '/assets/images/avatar/person/person.png',
+            country_id: 2,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+        },
+        {
+            first_name: 'Jennifer',
+            last_name: 'Lee',
+            email: 'jennifer.lee@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555258369',
+            profile_picture: '/assets/images/avatar/person/person-female.png',
+            country_id: 1,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+        },
+        {
+            first_name: 'Charles',
+            last_name: 'Wilson',
+            email: 'charles.wilson@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555741852',
+            profile_picture: '/assets/images/avatar/person/person.png',
+            country_id: 3,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+        },
+        {
+            first_name: 'Patricia',
+            last_name: 'Moore',
+            email: 'patricia.moore@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555963852',
+            profile_picture: '/assets/images/avatar/person/person-female.png',
+            country_id: 2,
+            admin_id: adminId,
+            email_verified_at: null, // Not verified
+        },
+        {
+            first_name: 'Thomas',
+            last_name: 'Taylor',
+            email: 'thomas.taylor@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555147258',
+            profile_picture: '/assets/images/avatar/person/person.png',
+            country_id: 1,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+        },
+        // Deleted users (12)
+        {
+            first_name: 'Alex',
+            last_name: 'Turner',
+            email: 'alex.turner@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555111222',
+            profile_picture: '/assets/images/avatar/person/person.png',
+            country_id: 1,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+            deleted_at: new Date(),
+        },
+        {
+            first_name: 'Sophia',
+            last_name: 'White',
+            email: 'sophia.white@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555333444',
+            profile_picture: '/assets/images/avatar/person/person-female.png',
+            country_id: 2,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+            deleted_at: new Date(),
+        },
+        {
+            first_name: 'Daniel',
+            last_name: 'Harris',
+            email: 'daniel.harris@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555555666',
+            profile_picture: '/assets/images/avatar/person/person.png',
+            country_id: 3,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+            deleted_at: new Date(),
+        },
+        {
+            first_name: 'Olivia',
+            last_name: 'Martin',
+            email: 'olivia.martin@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555777888',
+            profile_picture: '/assets/images/avatar/person/person-female.png',
+            country_id: 1,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+            deleted_at: new Date(),
+        },
+        {
+            first_name: 'Matthew',
+            last_name: 'Thompson',
+            email: 'matthew.thompson@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555999000',
+            profile_picture: '/assets/images/avatar/person/person.png',
+            country_id: 2,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+            deleted_at: new Date(),
+        },
+        {
+            first_name: 'Emma',
+            last_name: 'Jackson',
+            email: 'emma.jackson@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555222333',
+            profile_picture: '/assets/images/avatar/person/person-female.png',
+            country_id: 3,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+            deleted_at: new Date(),
+        },
+        {
+            first_name: 'Andrew',
+            last_name: 'Clark',
+            email: 'andrew.clark@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555444555',
+            profile_picture: '/assets/images/avatar/person/person.png',
+            country_id: 1,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+            deleted_at: new Date(),
+        },
+        {
+            first_name: 'Ava',
+            last_name: 'Robinson',
+            email: 'ava.robinson@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555666777',
+            profile_picture: '/assets/images/avatar/person/person-female.png',
+            country_id: 2,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+            deleted_at: new Date(),
+        },
+        {
+            first_name: 'Joshua',
+            last_name: 'Walker',
+            email: 'joshua.walker@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555888999',
+            profile_picture: '/assets/images/avatar/person/person.png',
+            country_id: 3,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+            deleted_at: new Date(),
+        },
+        {
+            first_name: 'Isabella',
+            last_name: 'Allen',
+            email: 'isabella.allen@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555000111',
+            profile_picture: '/assets/images/avatar/person/person-female.png',
+            country_id: 1,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+            deleted_at: new Date(),
+        },
+        {
+            first_name: 'Ethan',
+            last_name: 'King',
+            email: 'ethan.king@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555222444',
+            profile_picture: '/assets/images/avatar/person/person.png',
+            country_id: 2,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+            deleted_at: new Date(),
+        },
+        {
+            first_name: 'Mia',
+            last_name: 'Wright',
+            email: 'mia.wright@example.com',
+            password: await bcrypt.hash('password123', 10),
+            phone: '+1555666888',
+            profile_picture: '/assets/images/avatar/person/person-female.png',
+            country_id: 3,
+            admin_id: adminId,
+            email_verified_at: new Date(),
+            deleted_at: new Date(),
+        },
+    ];
+
+    // Map numeric country_id indexes (1-based) to actual country IDs in DB
+    const countryCodes = [
+        'DZ', 'US', 'GB', 'FR', 'DE', 'SA', 'AE', 'EG', 'MA', 'TN', 'LY', 'SD', 'IQ', 'SY', 'LB', 'JO', 'PS', 'KW', 'QA', 'BH', 'OM', 'YE', 'CA', 'AU', 'IT', 'ES', 'NL', 'BE', 'CH', 'SE', 'NO', 'DK', 'FI', 'TR', 'IN', 'CN', 'JP', 'KR', 'BR', 'MX', 'AR', 'ZA', 'NG', 'KE', 'PK', 'BD', 'MY', 'SG', 'TH', 'VN',
+    ];
+    const countryRows = await dataSource.query('SELECT id, code FROM countries');
+    const countryCodeToId: Record<string, number> = {};
+    for (const r of countryRows) {
+        countryCodeToId[r.code] = r.id;
+    }
+
+    for (const u of users) {
+        if (typeof u.country_id === 'number') {
+            const code = countryCodes[u.country_id - 1];
+            u.country_id = countryCodeToId[code] || null;
+        }
+    }
+
+    for (const userData of users) {
+        try {
+            // Generate username from first and last name
+            const username = await generateUsername(userData.first_name, userData.last_name, userRepository);
+
+            // Check if user already exists by email
+            const existingUser = await userRepository.findOne({
+                where: { email: userData.email }
+            });
+
+            if (existingUser) {
+                console.log(`⏭️  User ${userData.email} already exists, skipping...`);
+                continue;
+            }
+
+            const user = userRepository.create({
+                ...userData,
+                username,
+                created_at: getRandomDateInLast30Days(),
+                updated_at: getRandomDateInLast30Days(),
+            });
+            await userRepository.save(user);
+        } catch (error) {
+            console.log(`⚠️  Error creating user ${userData.email}: ${error.message}`);
+        }
+    }
+
+    console.log('✅ Users seeded successfully!');
+}

@@ -1,0 +1,67 @@
+{
+    "layout": {
+        "welcomeTitle": "Welcome Back",
+        "welcomeSubtitle": "Please sign in to continue"
+    },
+    "login": {
+        "title": "Sign In",
+        "emailLabel": "Email Address",
+        "emailPlaceholder": "admin@example.com",
+        "passwordLabel": "Password",
+        "passwordPlaceholder": "Enter your password",
+        "submitButton": "Sign In",
+        "loadingText": "Signing in...",
+        "forgotPassword": "Forgot your password?",
+        "rememberMe": "Remember me",
+        "continueWith": "Or continue with",
+        "google": "Google",
+        "apple": "Apple",
+        "demoInfo": "Demo credentials are pre-filled. Ready to explore!",
+        "noAccount": "Don't have an account?",
+        "createAccount": "Create one now",
+        "backToHome": "Back to Home",
+        "demoButton": "Quick Login (Demo Account)",
+        "demoSuccess": "Logged in with demo account!",
+        "googleNotConfigured": "Google login is not configured yet.",
+        "appleNotConfigured": "Apple login is not configured yet."
+    },
+    "authCodeError": {
+        "title": "Authentication Error",
+        "subtitle": "Something went wrong",
+        "description": "There was an issue with your authentication code. Please try again.",
+        "backToLogin": "Back to Login",
+        "tryAgain": "Try Again"
+    },
+    "success": {
+        "loginSuccess": "Successfully signed in!",
+        "registrationSuccess": "Account created! Please check your email to verify your account.",
+        "registrationAutoLogin": "Account created and logged in successfully!",
+        "passwordResetSent": "Password reset link sent to your email!",
+        "passwordResetSuccess": "Password successfully reset!"
+    },
+    "errors": {
+        "invalidCredentials": "Invalid email or password",
+        "emailNotConfirmed": "Please check your email and click the confirmation link",
+        "tooManyRequests": "Too many attempts. Please try again later",
+        "userNotFound": "No account found with this email address",
+        "weakPassword": "Password is too weak. Please choose a stronger password",
+        "emailTaken": "An account with this email already exists",
+        "networkError": "Network error. Please check your connection and try again",
+        "unexpectedError": "An unexpected error occurred. Please try again"
+    },
+    "passwordStrength": {
+        "strengthText": "Password strength:",
+        "weak": "Weak",
+        "medium": "Medium",
+        "strong": "Strong",
+        "requirements": {
+            "length": "8+ characters",
+            "uppercase": "Uppercase letter",
+            "lowercase": "Lowercase letter",
+            "number": "Number",
+            "special": "Special character",
+            "notCommon": "Not common password",
+            "noPersonalInfo": "No personal info"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "created": "Task created successfully",
+    "updated": "Task updated successfully",
+    "deleted": "Task deleted successfully",
+    "status_toggled": "Task status updated",
+    "not_found": "Task not found",
+    "unauthorized": "You are not authorized to access this task"
+}

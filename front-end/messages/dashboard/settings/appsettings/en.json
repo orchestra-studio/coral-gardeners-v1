@@ -1,0 +1,46 @@
+{
+    "title": "App Settings",
+    "description": "Configure and manage application-wide settings and preferences",
+    "table": {
+        "title": "App Settings",
+        "loading": "Loading settings...",
+        "error": "Error loading settings",
+        "noData": "No settings found",
+        "valuePlaceholder": "Enter setting value",
+        "headers": {
+            "category": "Category",
+            "name": "Setting Name",
+            "value": "Value",
+            "actions": "Actions"
+        },
+        "filters": {
+            "search": "Search",
+            "searchPlaceholder": "Search settings...",
+            "category": "Category",
+            "categoryPlaceholder": "Select category"
+        },
+        "categories": {
+            "all": "All Categories",
+            "payment": "Payment",
+            "withdrawal": "Withdrawal",
+            "email": "Email",
+            "general": "General",
+            "features": "Features"
+        },
+        "actions": {
+            "filter": "Filter",
+            "reset": "Reset",
+            "delete": "Delete",
+            "deleteSetting": "Delete setting"
+        }
+    },
+    "messages": {
+        "fetchError": "Failed to fetch app settings",
+        "valueRequired": "Setting value is required",
+        "settingUpdated": "Setting updated successfully",
+        "updateError": "Failed to update setting",
+        "confirmDelete": "Are you sure you want to delete the setting '{name}'? This action cannot be undone.",
+        "deleteSuccess": "Setting deleted successfully",
+        "deleteError": "Failed to delete setting"
+    }
+}

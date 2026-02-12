@@ -1,0 +1,13 @@
+{
+    "created": "User created successfully",
+    "updated": "User updated successfully",
+    "deleted": "User deleted successfully",
+    "restored": "User restored successfully",
+    "passwordChanged": "Password changed successfully",
+    "verificationEmailSent": "Verification email sent successfully",
+    "emailVerified": "Email marked as verified successfully",
+    "emailUnverified": "Email marked as unverified successfully",
+    "notFound": "User not found",
+    "alreadyExists": "User already exists",
+    "invalidCredentials": "Invalid credentials"
+}

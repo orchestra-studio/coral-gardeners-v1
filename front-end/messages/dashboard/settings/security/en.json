@@ -1,0 +1,41 @@
+{
+    "changePassword": "Change Password",
+    "changePasswordDescription": "Update your password to keep your account secure",
+    "noPermissionTitle": "You do not have permission to perform this action",
+    "noPermissionDescription": "Changing your password requires the 'admins.edit' permission. Please contact your administrator if you need to change your password.",
+    "currentPassword": "Current Password",
+    "currentPasswordPlaceholder": "Enter your current password",
+    "newPassword": "New Password",
+    "newPasswordPlaceholder": "Enter your new password",
+    "confirmPassword": "Confirm New Password",
+    "confirmPasswordPlaceholder": "Confirm your new password",
+    "password": "Password",
+    "passwordRequirements": "Password Requirements",
+    "securityNotice": "Security Notice",
+    "securityNoticeDescription": "After changing your password, you'll remain logged in on this device. However, you'll need to sign in again on other devices.",
+    "passwordChangedSuccess": "Password changed successfully",
+    "passwordChangeError": "Failed to change password",
+    "validation": {
+        "currentPasswordRequired": "Current password is required",
+        "newPasswordRequired": "New password is required",
+        "confirmPasswordRequired": "Please confirm your new password",
+        "passwordTooShort": "Password must be at least 8 characters",
+        "passwordComplexity": "Password must contain at least one uppercase letter, one lowercase letter, and one number",
+        "passwordsDoNotMatch": "Passwords do not match"
+    },
+    "passwordStrength": {
+        "strengthText": "Password Strength",
+        "weak": "Weak",
+        "medium": "Medium",
+        "strong": "Strong",
+        "requirements": {
+            "length": "At least 8 characters",
+            "uppercase": "One uppercase letter",
+            "lowercase": "One lowercase letter",
+            "number": "One number",
+            "special": "One special character",
+            "notCommon": "Not a common password",
+            "noPersonalInfo": "No personal information"
+        }
+    }
+}

@@ -1,0 +1,185 @@
+{
+    "title": "إدارة المسؤولين",
+    "description": "إدارة المستخدمين المسؤولين وصلاحياتهم",
+    "stats": {
+        "totalAdmins": "إجمالي المسؤولين",
+        "totalAdminsDesc": "العدد الإجمالي للمسؤولين",
+        "adminsWithRoles": "المسؤولون بأدوار",
+        "adminsWithRolesDesc": "المسؤولون المعينون للأدوار",
+        "recentlyAdded": "المضافون مؤخراً",
+        "recentlyAddedDesc": "المضافون خلال آخر 7 أيام",
+        "recentlyUpdated": "المحدثون مؤخراً",
+        "recentlyUpdatedDesc": "المحدثون خلال آخر 7 أيام"
+    },
+    "actions": {
+        "create": "إضافة مسؤول",
+        "edit": "تحرير",
+        "delete": "حذف",
+        "view": "عرض",
+        "assignRoles": "تعيين الأدوار",
+        "changePassword": "تغيير كلمة المرور",
+        "cancel": "إلغاء"
+    },
+    "table": {
+        "columns": {
+            "name": "الاسم",
+            "email": "البريد الإلكتروني",
+            "phone": "الهاتف",
+            "createdAt": "تاريخ الإنشاء",
+            "updatedAt": "تاريخ التحديث",
+            "actions": "الإجراءات"
+        },
+        "actions": {
+            "roles": "إدارة الأدوار",
+            "delete": "حذف"
+        },
+        "deleteConfirm": {
+            "title": "حذف المسؤول",
+            "message": "هل أنت متأكد من أنك تريد حذف هذا المسؤول؟ لا يمكن التراجع عن هذا الإجراء.",
+            "cancel": "إلغاء"
+        },
+        "filters": {
+            "searchLabel": "بحث",
+            "search": "البحث عن المسؤولين...",
+            "email": "البريد الإلكتروني",
+            "searchEmail": "تصفية حسب البريد الإلكتروني",
+            "phone": "الهاتف",
+            "searchPhone": "تصفية حسب الهاتف",
+            "name": "الاسم",
+            "searchName": "البحث حسب الاسم الأول/الأخير"
+        },
+        "empty": {
+            "title": "لم يتم العثور على مسؤولين",
+            "description": "لا يوجد مسؤولون يطابقون المرشحات الحالية",
+            "action": "مسح المرشحات"
+        }
+    },
+    "form": {
+        "title": {
+            "create": "إنشاء مسؤول جديد",
+            "edit": "تحرير المسؤول"
+        },
+        "fields": {
+            "profileImage": {
+                "label": "صورة الملف الشخصي"
+            },
+            "firstName": {
+                "label": "الاسم الأول",
+                "placeholder": "أدخل الاسم الأول"
+            },
+            "lastName": {
+                "label": "اسم العائلة",
+                "placeholder": "أدخل اسم العائلة"
+            },
+            "email": {
+                "label": "عنوان البريد الإلكتروني",
+                "placeholder": "أدخل عنوان البريد الإلكتروني"
+            },
+            "password": {
+                "label": "كلمة المرور",
+                "placeholder": "أدخل كلمة المرور (6 أحرف على الأقل)",
+                "hint": "اتركه فارغًا للاحتفاظ بكلمة المرور الحالية"
+            },
+            "passwordConfirmation": {
+                "label": "تأكيد كلمة المرور",
+                "placeholder": "أعد إدخال كلمة المرور"
+            },
+            "phone": {
+                "label": "رقم الهاتف",
+                "placeholder": "أدخل رقم الهاتف"
+            },
+            "country": {
+                "label": "الدولة",
+                "placeholder": "اختر الدولة"
+            },
+            "roles": {
+                "label": "الأدوار",
+                "placeholder": "اختر الأدوار"
+            }
+        },
+        "validation": {
+            "firstNameRequired": "الاسم الأول مطلوب",
+            "lastNameRequired": "اسم العائلة مطلوب",
+            "emailRequired": "البريد الإلكتروني مطلوب",
+            "emailInvalid": "يرجى إدخال عنوان بريد إلكتروني صالح",
+            "passwordRequired": "كلمة المرور مطلوبة",
+            "passwordMinLength": "يجب أن تكون كلمة المرور 6 أحرف على الأقل",
+            "passwordConfirmationRequired": "يرجى تأكيد كلمة المرور",
+            "passwordMismatch": "كلمات المرور غير متطابقة"
+        },
+        "actions": {
+            "cancel": "إلغاء",
+            "save": "حفظ",
+            "create": "إنشاء مسؤول",
+            "update": "تحديث المسؤول",
+            "creating": "جاري الإنشاء...",
+            "updating": "جاري التحديث..."
+        }
+    },
+    "rolesForm": {
+        "title": "إدارة أدوار المشرف",
+        "availableRoles": "الأدوار المتاحة",
+        "noRolesMessage": "لا توجد أدوار لهذا المشرف.",
+        "noRolesSubMessage": "أنشئ أدوارًا وقم بتعيينها للمشرف لإدارة الأذونات.",
+        "actions": {
+            "cancel": "إلغاء",
+            "update": "تحديث الأدوار",
+            "updating": "جاري التحديث..."
+        }
+    },
+    "view": {
+        "titlePrefix": "تفاصيل المشرف",
+        "description": "عرض التفاصيل الشخصية للمشرف والأدوار المعينة",
+        "loading": "جاري تحميل تفاصيل المشرف...",
+        "empty": {
+            "title": "المشرف غير موجود",
+            "description": "تعذر العثور على المشرف المطلوب"
+        },
+        "tabs": {
+            "basicInfo": "المعلومات الأساسية",
+            "logs": "سجلات النشاط"
+        },
+        "sections": {
+            "contact": "معلومات الاتصال",
+            "account": "تفاصيل الحساب"
+        },
+        "labels": {
+            "email": "عنوان البريد الإلكتروني",
+            "phone": "رقم الهاتف",
+            "username": "اسم المستخدم",
+            "fullName": "الاسم الكامل",
+            "roles": "الأدوار المعينة",
+            "createdAt": "تاريخ إنشاء الحساب",
+            "notProvided": "غير متوفر",
+            "noRoles": "لا توجد أدوار معينة"
+        },
+        "actions": {
+            "edit": "تحرير",
+            "delete": "حذف",
+            "restore": "استعادة"
+        },
+        "edit": {
+            "title": "تحرير تفاصيل المشرف"
+        },
+        "logs": {
+            "placeholder": "سيتم عرض سجلات النشاط هنا"
+        }
+    },
+    "status": {
+        "active": "نشط",
+        "deleted": "محذوف"
+    },
+    "messages": {
+        "deleteConfirm": "حذف المسؤول",
+        "deleteWarning": "هل أنت متأكد من أنك تريد حذف هذا المسؤول؟ لا يمكن التراجع عن هذا الإجراء.",
+        "createSuccess": "تم إنشاء المسؤول بنجاح",
+        "updateSuccess": "تم تحديث المسؤول بنجاح",
+        "deleteSuccess": "تم حذف المسؤول بنجاح",
+        "deleteFailed": "فشل في حذف المسؤول",
+        "restoreSuccess": "تم استعادة المسؤول بنجاح",
+        "restoreFailed": "فشل في استعادة المسؤول",
+        "rolesUpdated": "تم تحديث أدوار المشرف بنجاح",
+        "rolesFailed": "فشل في تحديث أدوار المشرف",
+        "fetchFailed": "فشل في جلب الأدوار"
+    }
+}

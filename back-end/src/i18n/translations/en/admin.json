@@ -1,0 +1,15 @@
+{
+    "created": "Admin created successfully",
+    "updated": "Admin updated successfully",
+    "deleted": "Admin deleted successfully",
+    "not_found": "Admin not found",
+    "email_exists": "Email already exists",
+    "username_exists": "Username already exists",
+    "profile_updated": "Profile updated successfully",
+    "password_changed": "Password changed successfully",
+    "password_mismatch": "Passwords do not match",
+    "incorrect_current_password": "Current password is incorrect",
+    "roles_updated": "Admin roles updated successfully",
+    "cannot_delete_self": "You cannot delete your own account",
+    "cannot_modify_super_admin": "You cannot modify super admin account"
+}

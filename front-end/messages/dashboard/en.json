@@ -1,0 +1,78 @@
+{
+    "overview": {
+        "title": "Overview",
+        "description": "Monitor key metrics and manage your platform",
+        "emailVerified": "Email verified successfully! Welcome to your dashboard!"
+    },
+    "breadcrumb": {
+        "dashboard": "Dashboard",
+        "projects": "Projects",
+        "users": "Users",
+        "settings": "Settings"
+    },
+    "sidebar": {
+        "brandName": "Aniq-ui",
+        "logout": "Logout"
+    },
+    "header": {
+        "backButton": {
+            "ariaLabel": "Go back"
+        },
+        "userMenu": {
+            "profile": "Profile",
+            "messages": "Messages",
+            "settings": "Settings",
+            "logout": "Logout",
+            "ariaLabels": {
+                "userAccountMenu": "User account menu",
+                "viewProfile": "View user profile",
+                "openMessages": "Open messages",
+                "openSettings": "Open settings",
+                "logOut": "Log out"
+            }
+        },
+        "search": {
+            "placeholder": "Search...",
+            "ariaLabel": "Open search"
+        },
+        "notifications": {
+            "title": "Notifications",
+            "markAllRead": "Mark all read",
+            "noNotifications": "No notifications",
+            "notificationSettings": "Notification Settings",
+            "ariaLabel": "Notifications",
+            "itemActions": {
+                "markAsRead": "Mark as read",
+                "remove": "Remove"
+            }
+        }
+    },
+    "search": {
+        "modal": {
+            "placeholder": "Search for anything...",
+            "noResults": "No results found",
+            "startTyping": "Start typing to search...",
+            "poweredBy": "",
+            "navigation": {
+                "navigate": "to navigate",
+                "select": "to select",
+                "close": "to close"
+            }
+        }
+    },
+    "passwordStrength": {
+        "strengthText": "Password strength:",
+        "weak": "Weak",
+        "medium": "Medium",
+        "strong": "Strong",
+        "requirements": {
+            "length": "8+ characters",
+            "uppercase": "Uppercase letter",
+            "lowercase": "Lowercase letter",
+            "number": "Number",
+            "special": "Special character",
+            "notCommon": "Not common password",
+            "noPersonalInfo": "No personal info"
+        }
+    }
+}

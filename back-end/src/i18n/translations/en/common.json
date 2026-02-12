@@ -1,0 +1,10 @@
+{
+    "success": "Operation completed successfully",
+    "error": "An error occurred",
+    "validation_failed": "Validation failed",
+    "unauthorized": "Unauthorized access",
+    "forbidden": "You do not have permission to perform this action",
+    "not_found": "Resource not found",
+    "internal_error": "Internal server error",
+    "permissions_updated": "Your permissions have been updated"
+}

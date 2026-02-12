@@ -1,0 +1,10 @@
+{
+    "success": "تمت العملية بنجاح",
+    "error": "حدث خطأ",
+    "validation_failed": "فشل التحقق من الصحة",
+    "unauthorized": "غير مصرح بالدخول",
+    "forbidden": "ليس لديك صلاحية للقيام بهذا الإجراء",
+    "not_found": "المورد غير موجود",
+    "internal_error": "خطأ داخلي في الخادم",
+    "permissions_updated": "تم تحديث صلاحياتك"
+}

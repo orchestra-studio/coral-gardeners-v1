@@ -1,0 +1,112 @@
+{
+    "title": "Categories",
+    "description": "Manage product categories and subcategories",
+    "stats": {
+        "total": "Total Categories",
+        "active": "Active Categories",
+        "inactive": "Inactive Categories",
+        "parent": "Parent Categories",
+        "subcategories": "Subcategories"
+    },
+    "table": {
+        "columns": {
+            "name": "Name",
+            "icon": "Icon",
+            "parent": "Parent Category",
+            "status": "Status",
+            "sortOrder": "Sort Order",
+            "actions": "Actions"
+        },
+        "filters": {
+            "status": "Filter by Status",
+            "parent": "Filter by Parent",
+            "search": "Search categories..."
+        },
+        "empty": {
+            "title": "No categories found",
+            "description": "Get started by creating your first category",
+            "action": "Create Category"
+        }
+    },
+    "form": {
+        "title": {
+            "create": "Create New Category",
+            "createSubcategory": "Create New Subcategory",
+            "edit": "Edit Category"
+        },
+        "fields": {
+            "nameEn": {
+                "label": "English Name",
+                "placeholder": "Enter category name in English"
+            },
+            "nameAr": {
+                "label": "Arabic Name",
+                "placeholder": "Enter category name in Arabic"
+            },
+            "icon": {
+                "label": "Icon",
+                "placeholder": "Select an icon",
+                "upload": "Upload Icon"
+            },
+            "parent": {
+                "label": "Parent Category",
+                "placeholder": "Select parent category (optional)",
+                "none": "None (Top-level category)",
+                "subcategoryNote": "This subcategory will be created under \"{parent}\""
+            },
+            "sortOrder": {
+                "label": "Sort Order",
+                "placeholder": "Enter display order"
+            },
+            "isActive": {
+                "label": "Active Status",
+                "description": "Category will be visible when active"
+            }
+        },
+        "actions": {
+            "cancel": "Cancel",
+            "create": "Create Category",
+            "createSubcategory": "Create Subcategory",
+            "update": "Update Category",
+            "submitting": "Processing..."
+        },
+        "validation": {
+            "nameEnRequired": "English name is required",
+            "nameArRequired": "Arabic name is required",
+            "nameMinLength": "Name must be at least 2 characters",
+            "nameMaxLength": "Name cannot exceed 255 characters",
+            "sortOrderInvalid": "Sort order must be a positive number"
+        }
+    },
+    "actions": {
+        "create": "Add Category",
+        "createSubcategory": "Add Subcategory",
+        "edit": "Edit",
+        "delete": "Delete",
+        "activate": "Activate",
+        "deactivate": "Deactivate",
+        "viewSubcategories": "View",
+        "back": "Back to Categories"
+    },
+    "status": {
+        "active": "Active",
+        "inactive": "Inactive"
+    },
+    "subcategories": {
+        "title": "Subcategories of {parent}",
+        "titlePrefix": "Subcategories of:",
+        "description": "Manage subcategories under this parent category",
+        "empty": {
+            "title": "No subcategories found",
+            "description": "Get started by creating your first subcategory under this category"
+        }
+    },
+    "messages": {
+        "createSuccess": "Category created successfully",
+        "updateSuccess": "Category updated successfully",
+        "deleteSuccess": "Category deleted successfully",
+        "statusUpdateSuccess": "Category status updated successfully",
+        "deleteConfirm": "Are you sure you want to delete this category?",
+        "deleteWarning": "This action cannot be undone."
+    }
+}

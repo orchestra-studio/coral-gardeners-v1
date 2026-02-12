@@ -1,0 +1,44 @@
+{
+    "permissionsUpdated": "تم تحديث صلاحياتك",
+    "permissionsUpdatedDescription": "تم تغيير صلاحيات دورك من قبل المسؤول",
+    "ImageUploader": {
+        "chooseImage": "اختر صورة"
+    },
+    "DateRange": {
+        "custom": "مخصص",
+        "today": "اليوم",
+        "yesterday": "أمس",
+        "last7Days": "آخر 7 أيام",
+        "last28Days": "آخر 28 يوم",
+        "last30Days": "آخر 30 يوم",
+        "thisMonth": "هذا الشهر",
+        "lastMonth": "الشهر الماضي",
+        "quickSelect": "اختيار سريع",
+        "from": "من",
+        "to": "إلى",
+        "selectDate": "اختر التاريخ",
+        "daysSelected": "أيام محددة",
+        "cancel": "إلغاء",
+        "apply": "تطبيق",
+        "selectTimeRange": "اختر النطاق الزمني"
+    },
+    "Export": {
+        "button": "تصدير",
+        "image": "تصدير كصورة",
+        "imageDescription": "تنزيل PNG",
+        "exportingImage": "جاري التصدير..."
+    },
+    "Pagination": {
+        "showing": "عرض",
+        "to": "إلى",
+        "of": "من",
+        "results": "نتيجة",
+        "total": "الإجمالي",
+        "previous": "السابق",
+        "next": "التالي"
+    },
+    "Filter": {
+        "filterButton": "تصفية",
+        "resetButton": "إعادة تعيين"
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "title": "الفئات",
+    "description": "إدارة فئات المنتجات والفئات الفرعية",
+    "stats": {
+        "total": "إجمالي الفئات",
+        "active": "الفئات النشطة",
+        "inactive": "الفئات غير النشطة",
+        "parent": "الفئات الرئيسية",
+        "subcategories": "الفئات الفرعية"
+    },
+    "table": {
+        "columns": {
+            "name": "الاسم",
+            "icon": "الأيقونة",
+            "parent": "الفئة الرئيسية",
+            "status": "الحالة",
+            "sortOrder": "ترتيب العرض",
+            "actions": "الإجراءات"
+        },
+        "filters": {
+            "status": "تصفية حسب الحالة",
+            "parent": "تصفية حسب الفئة الرئيسية",
+            "search": "البحث في الفئات..."
+        },
+        "empty": {
+            "title": "لا توجد فئات",
+            "description": "ابدأ بإنشاء فئتك الأولى",
+            "action": "إنشاء فئة"
+        }
+    },
+    "form": {
+        "title": {
+            "create": "إنشاء فئة جديدة",
+            "createSubcategory": "إنشاء فئة فرعية جديدة",
+            "edit": "تعديل الفئة"
+        },
+        "fields": {
+            "nameEn": {
+                "label": "الاسم بالإنجليزية",
+                "placeholder": "أدخل اسم الفئة بالإنجليزية"
+            },
+            "nameAr": {
+                "label": "الاسم بالعربية",
+                "placeholder": "أدخل اسم الفئة بالعربية"
+            },
+            "icon": {
+                "label": "الأيقونة",
+                "placeholder": "اختر أيقونة",
+                "upload": "رفع أيقونة"
+            },
+            "parent": {
+                "label": "الفئة الرئيسية",
+                "placeholder": "اختر الفئة الرئيسية (اختياري)",
+                "none": "لا شيء (فئة رئيسية)",
+                "subcategoryNote": "سيتم إنشاء هذه الفئة الفرعية تحت \"{parent}\""
+            },
+            "sortOrder": {
+                "label": "ترتيب العرض",
+                "placeholder": "أدخل ترتيب العرض"
+            },
+            "isActive": {
+                "label": "الحالة النشطة",
+                "description": "ستكون الفئة مرئية عند تفعيلها"
+            }
+        },
+        "actions": {
+            "cancel": "إلغاء",
+            "create": "إنشاء فئة",
+            "createSubcategory": "إنشاء فئة فرعية",
+            "update": "تحديث الفئة",
+            "submitting": "جاري المعالجة..."
+        },
+        "validation": {
+            "nameEnRequired": "الاسم بالإنجليزية مطلوب",
+            "nameArRequired": "الاسم بالعربية مطلوب",
+            "nameMinLength": "يجب أن يكون الاسم على الأقل حرفين",
+            "nameMaxLength": "لا يمكن أن يتجاوز الاسم 255 حرفاً",
+            "sortOrderInvalid": "ترتيب العرض يجب أن يكون رقماً موجباً"
+        }
+    },
+    "actions": {
+        "create": "إضافة فئة",
+        "createSubcategory": "إضافة فئة فرعية",
+        "edit": "تعديل",
+        "delete": "حذف",
+        "activate": "تفعيل",
+        "deactivate": "تعطيل",
+        "viewSubcategories": "عرض ",
+        "back": "العودة إلى الفئات"
+    },
+    "status": {
+        "active": "نشط",
+        "inactive": "غير نشط"
+    },
+    "subcategories": {
+        "title": "الفئات الفرعية لـ {parent}",
+        "titlePrefix": "الفئات الفرعية لـ:",
+        "description": "إدارة الفئات الفرعية تحت هذه الفئة الرئيسية",
+        "empty": {
+            "title": "لا توجد فئات فرعية",
+            "description": "ابدأ بإنشاء أول فئة فرعية تحت هذه الفئة"
+        }
+    },
+    "messages": {
+        "createSuccess": "تم إنشاء الفئة بنجاح",
+        "updateSuccess": "تم تحديث الفئة بنجاح",
+        "deleteSuccess": "تم حذف الفئة بنجاح",
+        "statusUpdateSuccess": "تم تحديث حالة الفئة بنجاح",
+        "deleteConfirm": "هل أنت متأكد من حذف هذه الفئة؟",
+        "deleteWarning": "لا يمكن التراجع عن هذا الإجراء."
+    }
+}

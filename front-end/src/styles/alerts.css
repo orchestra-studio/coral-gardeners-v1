@@ -1,0 +1,61 @@
+/* SweetAlert2 Custom Styles */
+
+:root {
+    --alert-bg: var(--surface);
+    --alert-text: var(--text);
+}
+
+.alert-popup {
+    border-radius: 12px !important;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+    border: 1px solid var(--border) !important;
+    backdrop-filter: blur(8px) !important;
+}
+
+
+.alert-title {
+    font-weight: 600 !important;
+    font-size: 1.25rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.alert-text {
+    font-size: 0.875rem !important;
+    line-height: 1.5 !important;
+    opacity: 0.8 !important;
+}
+
+.alert-button-confirm {
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+    font-size: 0.875rem !important;
+    padding: 0.625rem 1.5rem !important;
+    border: none !important;
+    transition: all 0.2s ease !important;
+    background-color: var(--primaryColor) !important;
+    color: var(--background) !important;
+}
+
+.alert-button-confirm:hover {
+    transform: none !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+.alert-button-cancel {
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+    font-size: 0.875rem !important;
+    padding: 0.625rem 1.5rem !important;
+    border: 1px solid var(--border) !important;
+    background: var(--control-bg) !important;
+    color: var(--text) !important;
+    transition: all 0.2s ease !important;
+}
+
+
+
+.alert-button-cancel:hover {
+    background: rgba(0, 0, 0, 0.05) !important;
+    color: var(--text) !important;
+    transform: none !important;
+}

@@ -1,0 +1,100 @@
+/* Utility classes and helper styles */
+
+@layer utilities {
+
+    /* Add high-contrast text classes */
+    .text-high-contrast-light {
+        color: rgba(0, 0, 0, 0.87);
+        /* Higher contrast for light theme text */
+    }
+
+    .text-high-contrast-dark {
+        color: rgba(255, 255, 255, 0.95);
+        /* Higher contrast for dark theme text */
+    }
+
+    /* Improved neutral text colors with better contrast */
+    .text-neutral-improved-light {
+        color: rgba(60, 60, 60, 1);
+        /* Better than neutral-600 for light backgrounds */
+    }
+
+    .text-neutral-improved-dark {
+        color: rgba(220, 220, 220, 1);
+        /* Better than neutral-400 for dark backgrounds */
+    }
+
+    /* Temporarily disabled to allow sidebar animations to work properly */
+
+    .background-tranisition,
+    .background-tranisition *,
+    .background-tranisition::before,
+    .background-tranisition::after,
+    .background-tranisition *::before,
+    .background-tranisition *::after {
+        transition: none !important;
+    }
+
+
+
+
+    /* Hide scrollbars while maintaining scrolling functionality */
+    .scrollbar-hidden {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+
+    .scrollbar-hidden::-webkit-scrollbar {
+        display: none;
+        /* Chrome, Safari, and Opera */
+    }
+
+    /* Thin scrollbar styling */
+    .scrollbar-thin::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+
+    .scrollbar-thin::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    .scrollbar-thin::-webkit-scrollbar-thumb {
+        background: var(--border);
+        border-radius: 3px;
+    }
+
+    .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+        background: var(--text-muted);
+    }
+
+    /* RTL-aware sidebar transforms */
+    .sidebar-hidden {
+        transform: translateX(-120%);
+    }
+
+    [dir="rtl"] .sidebar-hidden {
+        transform: translateX(120%);
+    }
+
+    .sidebar-visible {
+        transform: translateX(0);
+    }
+
+    /* Fade-in animation for sidebar text after expansion */
+    @keyframes fadeInFast {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    .animate-fade-in-fast {
+        animation: fadeInFast 0.2s ease-in;
+    }
+}

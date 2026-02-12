@@ -1,0 +1,130 @@
+/* Overrides to ensure AI SDK elements respect theme toggles. */
+.dark .dark\:block {
+    display: block !important;
+}
+
+.dark .dark\:hidden {
+    display: none !important;
+}
+
+/* Keep Streamdown containers from blowing past the message width */
+[data-code-block-container],
+[data-streamdown="table-wrapper"],
+[data-streamdown="table"],
+[data-streamdown="code-block"] {
+    max-width: 100%;
+}
+
+[data-code-block-container],
+[data-streamdown="code-block"] {
+    width: 100%;
+}
+
+[data-code-block-container] .min-w-full {
+    min-width: 0 !important;
+}
+
+[data-streamdown="unordered-list"] {
+    margin-left: 1.5rem;
+    list-style: disc;
+}
+
+[data-streamdown="ordered-list"] {
+    margin-left: 1.5rem;
+    list-style: decimal;
+}
+
+[data-streamdown="table-wrapper"] .bg-background {
+    background-color: var(--surface);
+}
+
+[data-streamdown="table-wrapper"] .border-border {
+    border-color: var(--border);
+}
+
+[data-streamdown="table"] {
+    border-radius: 0.75rem;
+    overflow: hidden;
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+}
+
+[data-streamdown="table"] thead {
+    background-color: var(--muted);
+}
+
+.bg-muted\/80 {
+    background-color: var(--muted);
+    background-color: color-mix(in srgb, var(--muted) 80%, transparent);
+}
+
+.bg-muted\/40 {
+    background-color: var(--muted);
+    background-color: color-mix(in srgb, var(--muted) 40%, transparent);
+}
+
+[data-code-block-container="true"] {
+    border-radius: 0.75rem;
+    border: none !important;
+    background-color: color-mix(in srgb, var(--muted) 10%, transparent);
+    margin-block: 1rem;
+}
+
+[data-code-block-header="true"] {
+    background-color: var(--muted);
+    color: var(--text);
+    border-bottom: none !important;
+}
+
+[data-code-block="true"],
+[data-streamdown="code-block"] {
+    background-color: color-mix(in srgb, var(--muted) 40%, transparent);
+    border-top: none !important;
+}
+
+[data-streamdown="code-block"] pre {
+    background-color: color-mix(in srgb, var(--muted) 40%, transparent) !important;
+    color: var(--text) !important;
+}
+
+[data-streamdown="code-block"] code {
+    color: inherit !important;
+}
+
+[data-streamdown="inline-code"] {
+    background-color: var(--table-bg, color-mix(in srgb, var(--muted) 40%, transparent)) !important;
+    color: var(--text) !important;
+    border-radius: 0.5rem;
+}
+
+[data-streamdown="blockquote"] {
+    --ai-blockquote-inline-padding: 1.5rem;
+    background-color: var(--table-bg, color-mix(in srgb, var(--muted) 20%, transparent));
+    border-left: 0.25rem solid color-mix(in srgb, var(--muted) 60%, transparent);
+    color: var(--text);
+    padding-block: 0.75rem;
+    padding-inline-start: var(--ai-blockquote-inline-padding);
+    padding-inline-end: var(--ai-blockquote-inline-padding);
+}
+
+html[dir="ltr"] [data-streamdown="blockquote"] {
+    padding-left: var(--ai-blockquote-inline-padding) !important;
+    padding-right: var(--ai-blockquote-inline-padding);
+}
+
+html[dir="rtl"] [data-streamdown="blockquote"] {
+    padding-right: var(--ai-blockquote-inline-padding) !important;
+    padding-left: var(--ai-blockquote-inline-padding);
+}
+
+[data-code-block-header="true"] svg {
+    color: var(--text);
+}
+
+[data-streamdown="table-wrapper"] {
+    overflow-x: auto;
+}
+
+[data-streamdown="table-wrapper"] table {
+    width: 100%;
+}

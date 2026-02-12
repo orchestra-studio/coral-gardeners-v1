@@ -1,0 +1,158 @@
+{
+    "title": "المشاريع",
+    "description": "إدارة مشاريع التطوير والنشر",
+    "tabs": {
+        "all": "جميع المشاريع",
+        "deleted": "المشاريع المحذوفة"
+    },
+    "all": {
+        "title": "جميع المشاريع",
+        "description": "إدارة مشاريع التطوير والنشر"
+    },
+    "deleted": {
+        "title": "المشاريع المحذوفة",
+        "description": "عرض واستعادة المشاريع المحذوفة"
+    },
+    "stats": {
+        "total": "إجمالي المشاريع",
+        "ready": "المشاريع الجاهزة",
+        "inProgress": "قيد التنفيذ",
+        "blocked": "محظور"
+    },
+    "table": {
+        "columns": {
+            "name": "الاسم",
+            "status": "الحالة",
+            "environment": "البيئة",
+            "lastUpdated": "آخر تحديث",
+            "actions": "الإجراءات"
+        },
+        "status": {
+            "ready": "جاهز",
+            "inProgress": "قيد التنفيذ",
+            "blocked": "محظور"
+        },
+        "filters": {
+            "status": "تصفية حسب الحالة",
+            "selectStatus": "اختر الحالة",
+            "environment": "تصفية حسب البيئة",
+            "searchEnvironment": "تصفية حسب البيئة",
+            "search": "بحث في المشاريع...",
+            "searchLabel": "بحث",
+            "name": "الاسم",
+            "searchName": "البحث باسم المشروع",
+            "production": "الإنتاج",
+            "staging": "التجهيز",
+            "development": "التطوير",
+            "filterButton": "تصفية",
+            "reset": "إعادة تعيين"
+        },
+        "empty": {
+            "title": "لم يتم العثور على مشاريع",
+            "description": "لا توجد مشاريع تطابق المرشحات الحالية",
+            "action": "مسح المرشحات"
+        }
+    },
+    "form": {
+        "title": {
+            "create": "إنشاء مشروع جديد",
+            "edit": "تحرير المشروع"
+        },
+        "fields": {
+            "name": {
+                "label": "اسم المشروع",
+                "placeholder": "أدخل اسم المشروع"
+            },
+            "description": {
+                "label": "الوصف",
+                "placeholder": "أدخل وصف المشروع"
+            },
+            "environment": {
+                "label": "البيئة",
+                "placeholder": "اختر البيئة",
+                "options": {
+                    "production": "الإنتاج",
+                    "staging": "التجهيز",
+                    "development": "التطوير"
+                }
+            },
+            "status": {
+                "label": "الحالة",
+                "placeholder": "اختر الحالة",
+                "options": {
+                    "ready": "جاهز",
+                    "inProgress": "قيد التنفيذ",
+                    "blocked": "محظور"
+                }
+            },
+            "translations": {
+                "label": "الترجمات",
+                "helperText": "الحقول الإنجليزية مطلوبة",
+                "english": "الإنجليزية",
+                "arabic": "العربية"
+            },
+            "image": {
+                "label": "صورة المشروع"
+            }
+        },
+        "actions": {
+            "cancel": "إلغاء",
+            "save": "حفظ",
+            "create": "إنشاء المشروع",
+            "update": "تحديث المشروع"
+        },
+        "validation": {
+            "nameRequired": "اسم المشروع مطلوب",
+            "descriptionRequired": "الوصف مطلوب",
+            "environmentRequired": "البيئة مطلوبة",
+            "statusRequired": "الحالة مطلوبة"
+        }
+    },
+    "actions": {
+        "create": "إنشاء مشروع",
+        "edit": "تحرير",
+        "delete": "حذف",
+        "restore": "استعادة",
+        "view": "عرض",
+        "cancel": "إلغاء"
+    },
+    "view": {
+        "titlePrefix": "تفاصيل المشروع:",
+        "description": "عرض وإدارة معلومات المشروع",
+        "sections": {
+            "info": "معلومات المشروع",
+            "status": "حالة المشروع",
+            "details": "التفاصيل الفنية"
+        },
+        "empty": {
+            "title": "المشروع غير موجود",
+            "description": "لم يتم العثور على هذا المشروع. ربما تم حذفه أو ليس لديك إذن لعرضه."
+        },
+        "labels": {
+            "notProvided": "غير متوفر",
+            "projectId": "معرف المشروع",
+            "name": "اسم المشروع",
+            "description": "الوصف",
+            "status": "الحالة",
+            "environment": "البيئة",
+            "version": "الإصدار",
+            "createdAt": "تاريخ الإنشاء",
+            "updatedAt": "آخر تحديث"
+        }
+    },
+    "status": {
+        "ready": "جاهز",
+        "inProgress": "قيد التنفيذ",
+        "blocked": "محظور"
+    },
+    "messages": {
+        "deleteConfirm": "حذف المشروع",
+        "deleteWarning": "هل أنت متأكد من أنك تريد حذف هذا المشروع؟ لا يمكن التراجع عن هذا الإجراء.",
+        "restoreConfirm": "استعادة المشروع",
+        "restoreWarning": "هل أنت متأكد من أنك تريد استعادة هذا المشروع؟",
+        "createSuccess": "تم إنشاء المشروع بنجاح",
+        "updateSuccess": "تم تحديث المشروع بنجاح",
+        "deleteSuccess": "تم حذف المشروع بنجاح",
+        "restoreSuccess": "تمت استعادة المشروع بنجاح"
+    }
+}

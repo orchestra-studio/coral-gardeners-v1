@@ -1,0 +1,41 @@
+{
+    "changePassword": "تغيير كلمة المرور",
+    "changePasswordDescription": "قم بتحديث كلمة مرورك للحفاظ على أمان حسابك",
+    "noPermissionTitle": "ليس لديك إذن لتنفيذ هذا الإجراء",
+    "noPermissionDescription": "يتطلب تغيير كلمة المرور إذن 'admins.edit'. يرجى الاتصال بالمسؤول إذا كنت بحاجة لتغيير كلمة المرور.",
+    "currentPassword": "كلمة المرور الحالية",
+    "currentPasswordPlaceholder": "أدخل كلمة المرور الحالية",
+    "newPassword": "كلمة المرور الجديدة",
+    "newPasswordPlaceholder": "أدخل كلمة المرور الجديدة",
+    "confirmPassword": "تأكيد كلمة المرور الجديدة",
+    "confirmPasswordPlaceholder": "تأكيد كلمة المرور الجديدة",
+    "password": "كلمة المرور",
+    "passwordRequirements": "متطلبات كلمة المرور",
+    "securityNotice": "تنبيه أمان",
+    "securityNoticeDescription": "بعد تغيير كلمة المرور، ستبقى مسجل الدخول على هذا الجهاز. ولكن ستحتاج لتسجيل الدخول مرة أخرى على الأجهزة الأخرى.",
+    "passwordChangedSuccess": "تم تغيير كلمة المرور بنجاح",
+    "passwordChangeError": "فشل في تغيير كلمة المرور",
+    "validation": {
+        "currentPasswordRequired": "كلمة المرور الحالية مطلوبة",
+        "newPasswordRequired": "كلمة المرور الجديدة مطلوبة",
+        "confirmPasswordRequired": "يرجى تأكيد كلمة المرور الجديدة",
+        "passwordTooShort": "يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل",
+        "passwordComplexity": "يجب أن تحتوي كلمة المرور على حرف كبير وحرف صغير ورقم على الأقل",
+        "passwordsDoNotMatch": "كلمتا المرور غير متطابقتين"
+    },
+    "passwordStrength": {
+        "strengthText": "قوة كلمة المرور",
+        "weak": "ضعيف",
+        "medium": "متوسط",
+        "strong": "قوي",
+        "requirements": {
+            "length": "8 أحرف على الأقل",
+            "uppercase": "حرف كبير واحد",
+            "lowercase": "حرف صغير واحد",
+            "number": "رقم واحد",
+            "special": "رمز خاص واحد",
+            "notCommon": "ليست كلمة مرور شائعة",
+            "noPersonalInfo": "لا تحتوي على معلومات شخصية"
+        }
+    }
+}

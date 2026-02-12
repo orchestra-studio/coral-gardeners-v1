@@ -1,0 +1,46 @@
+{
+    "title": "إعدادات التطبيق",
+    "description": "تكوين وإدارة إعدادات التطبيق والتفضيلات العامة",
+    "table": {
+        "title": "إعدادات التطبيق",
+        "loading": "جاري تحميل الإعدادات...",
+        "error": "خطأ في تحميل الإعدادات",
+        "noData": "لا توجد إعدادات",
+        "valuePlaceholder": "أدخل قيمة الإعداد",
+        "headers": {
+            "category": "الفئة",
+            "name": "اسم الإعداد",
+            "value": "القيمة",
+            "actions": "الإجراءات"
+        },
+        "filters": {
+            "search": "بحث",
+            "searchPlaceholder": "بحث في الإعدادات...",
+            "category": "الفئة",
+            "categoryPlaceholder": "اختر الفئة"
+        },
+        "categories": {
+            "all": "جميع الفئات",
+            "payment": "الدفع",
+            "withdrawal": "السحب",
+            "email": "البريد الإلكتروني",
+            "general": "عام",
+            "features": "الميزات"
+        },
+        "actions": {
+            "filter": "تصفية",
+            "reset": "إعادة تعيين",
+            "delete": "حذف",
+            "deleteSetting": "حذف الإعداد"
+        }
+    },
+    "messages": {
+        "fetchError": "فشل في تحميل إعدادات التطبيق",
+        "valueRequired": "قيمة الإعداد مطلوبة",
+        "settingUpdated": "تم تحديث الإعداد بنجاح",
+        "updateError": "فشل في تحديث الإعداد",
+        "confirmDelete": "هل أنت متأكد من أنك تريد حذف الإعداد '{name}'؟ لا يمكن التراجع عن هذا الإجراء.",
+        "deleteSuccess": "تم حذف الإعداد بنجاح",
+        "deleteError": "فشل في حذف الإعداد"
+    }
+}

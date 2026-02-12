@@ -1,0 +1,29 @@
+{
+    "title": "Settings",
+    "description": "Manage your account settings and preferences",
+    "breadcrumb": {
+        "settings": "Settings"
+    },
+    "tabs": {
+        "profile": {
+            "label": "Profile",
+            "description": "Manage your basic profile information"
+        },
+        "security": {
+            "label": "Security",
+            "description": "Keep your account secure by updating your password regularly"
+        },
+        "admins-management": {
+            "label": "Admin Management",
+            "description": "Manage admin and their access"
+        },
+        "admins-roles": {
+            "label": "Admin Roles",
+            "description": "Define and manage roles and permissions"
+        },
+        "app-settings": {
+            "label": "App Settings",
+            "description": "Configure application-wide settings and preferences"
+        }
+    }
+}

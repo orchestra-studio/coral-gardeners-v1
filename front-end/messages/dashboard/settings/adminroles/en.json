@@ -1,0 +1,111 @@
+{
+    "title": "Admin Roles",
+    "description": "Define and manage roles and permissions",
+    "addRole": "Add Role",
+    "stats": {
+        "totalRoles": "Total Roles",
+        "totalRolesDesc": "All roles in system",
+        "rolesWithUsers": "Active Roles",
+        "rolesWithUsersDesc": "Roles with assigned admins",
+        "rolesWithoutUsers": "Inactive Roles",
+        "rolesWithoutUsersDesc": "Roles without admins",
+        "recentlyAdded": "Recently Added",
+        "recentlyAddedDesc": "New roles (last 7 days)"
+    },
+    "table": {
+        "headers": {
+            "role": "Role",
+            "createdDate": "Created Date",
+            "updatedDate": "Updated Date",
+            "actions": "Actions"
+        },
+        "actions": {
+            "view": "View",
+            "edit": "Edit",
+            "delete": "Delete",
+            "filter": "Filter",
+            "reset": "Reset",
+            "viewPermissions": "View role permissions",
+            "editRole": "Edit role",
+            "deleteRole": "Delete role"
+        },
+        "filters": {
+            "name": "Name",
+            "searchName": "Search role name",
+            "guardName": "Guard Name",
+            "searchGuardName": "Search guard name",
+            "createdFrom": "Created From",
+            "createdTo": "Created To",
+            "selectCreatedFrom": "Select start date",
+            "selectCreatedTo": "Select end date"
+        },
+        "emptyMessage": "No roles found. Create your first role to get started.",
+        "filterButton": "Filter",
+        "resetButton": "Reset"
+    },
+    "form": {
+        "title": {
+            "create": "Add New Role",
+            "edit": "Edit Role"
+        },
+        "fields": {
+            "name": "Role Name",
+            "namePlaceholder": "Enter role name"
+        },
+        "validation": {
+            "nameRequired": "Role name is required"
+        },
+        "actions": {
+            "cancel": "Cancel",
+            "create": "Create Role",
+            "update": "Update Role",
+            "creating": "Creating...",
+            "updating": "Updating..."
+        }
+    },
+    "permissions": {
+        "title": "Role Permissions",
+        "description": "Manage permissions for this role",
+        "allPermissions": "All Permissions",
+        "noPermissions": "No permissions assigned to this role.",
+        "loading": "Loading permissions...",
+        "groups": {
+            "admins": "Admins",
+            "roles": "Roles",
+            "settings": "Settings",
+            "users": "Users",
+            "projects": "Projects",
+            "ai_chat": "AI Chat",
+            "error_logs": "Error Logs",
+            "email_templates": "Email Templates"
+        },
+        "actions": {
+            "close": "Close",
+            "save": "Save Permissions",
+            "saving": "Saving..."
+        },
+        "messages": {
+            "permissionsUpdated": "Role permissions updated successfully",
+            "permissionsFailed": "Failed to update permissions",
+            "fetchError": "An error occurred while fetching permissions",
+            "updateError": "An error occurred while updating permissions"
+        }
+    },
+    "messages": {
+        "deleteConfirmTitle": "Delete Role",
+        "deleteConfirmMessage": "Are you sure you want to delete the role \"{name}\"? This action cannot be undone.",
+        "deleteConfirmButton": "Yes, delete role",
+        "cancelButton": "Cancel",
+        "roleCreated": "Role created successfully",
+        "roleUpdated": "Role updated successfully",
+        "roleDeleted": "Role deleted successfully",
+        "permissionsUpdated": "Permissions updated successfully",
+        "createFailed": "Failed to create role",
+        "updateFailed": "Failed to update role",
+        "deleteFailed": "Failed to delete role",
+        "permissionsFailed": "Failed to update permissions",
+        "fetchFailed": "Failed to fetch roles",
+        "fetchError": "An error occurred while fetching roles",
+        "deleteError": "An error occurred while deleting the role"
+    }
+}

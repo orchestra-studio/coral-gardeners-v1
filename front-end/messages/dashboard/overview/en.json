@@ -1,0 +1,101 @@
+{
+    "pageTitle": "Dashboard Overview",
+    "pageDescription": "Key metrics, insights, and analytics",
+    "greeting": {
+        "subtitle": "Ready to make today productive! 🚀",
+        "morning": [
+            "Rise and shine",
+            "Good morning",
+            "Hello there",
+            "Welcome back",
+            "Great to see you",
+            "Fresh start",
+            "Let's make today count"
+        ],
+        "afternoon": [
+            "Good afternoon",
+            "Hope you're well",
+            "Great to see you",
+            "Welcome back",
+            "Keep up the momentum",
+            "Nice afternoon",
+            "Halfway there"
+        ],
+        "evening": [
+            "Good evening",
+            "Hope you had a great day",
+            "Evening greetings",
+            "Nice to see you",
+            "Welcome this evening",
+            "Wrapping up the day",
+            "Time to reflect"
+        ]
+    },
+    "kpi": {
+        "section": {
+            "ariaLabel": "Key Performance Indicators"
+        },
+        "trends": {
+            "up": "Trending up",
+            "down": "Trending down",
+            "stable": "Stable",
+            "ariaLabel": "Trend: {direction} {value}"
+        },
+        "dragHandle": "Drag handle"
+    },
+    "insights": {
+        "title": "Insights",
+        "description": "Performance analytics"
+    },
+    "quickTasks": {
+        "title": "Quick Tasks",
+        "description": "Manage your daily tasks"
+    },
+    "calendar": {
+        "title": "Calendar",
+        "description": "Upcoming events and schedule"
+    },
+    "projects": {
+        "title": "Recent Projects",
+        "description": "Overview of active development projects",
+        "columns": {
+            "name": "Name",
+            "status": "Status",
+            "lastUpdated": "Last Updated",
+            "environment": "Environment",
+            "actions": "Actions"
+        },
+        "status": {
+            "inProgress": "In Progress",
+            "ready": "Ready",
+            "blocked": "Blocked"
+        },
+        "actions": {
+            "viewDetails": "View Details",
+            "edit": "Edit",
+            "delete": "Delete",
+            "openMenu": "Open actions menu"
+        },
+        "loading": "Loading projects...",
+        "error": "Failed to load projects",
+        "noData": "No projects found",
+        "pagination": {
+            "showing": "Showing",
+            "to": "to",
+            "of": "of",
+            "results": "results",
+            "previous": "Previous",
+            "total": "Total",
+            "next": "Next"
+        },
+        "export": {
+            "button": "Export",
+            "csv": "Export as CSV",
+            "csvDescription": "Download spreadsheet",
+            "image": "Export as Image",
+            "imageDescription": "Download PNG",
+            "exportingCsv": "Exporting CSV...",
+            "exportingImage": "Exporting Image..."
+        }
+    }
+}

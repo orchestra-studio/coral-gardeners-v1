@@ -1,0 +1,14 @@
+{
+    "navbar": {
+        "logo": "Aniq-ui",
+        "links": {
+            "features": "المميزات",
+            "contact": "اتصل",
+            "pricing": "الأسعار"
+        },
+        "actions": {
+            "login": "تسجيل الدخول",
+            "cta": "احجز مكالمة"
+        }
+    }
+}

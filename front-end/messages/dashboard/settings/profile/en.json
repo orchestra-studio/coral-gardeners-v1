@@ -1,0 +1,54 @@
+{
+    "header": {
+        "title": "Your Profile",
+        "description": "Manage your personal information",
+        "profileImage": "Profile Image",
+        "editProfile": "Edit Profile",
+        "saveChanges": "Save Changes",
+        "cancel": "Cancel"
+    },
+    "form": {
+        "firstName": {
+            "label": "First Name",
+            "placeholder": "Enter your first name"
+        },
+        "lastName": {
+            "label": "Last Name",
+            "placeholder": "Enter your last name"
+        },
+        "email": {
+            "label": "Email Address",
+            "placeholder": "Enter your email address"
+        },
+        "phone": {
+            "label": "Phone Number",
+            "placeholder": "Enter your phone number"
+        },
+        "country": {
+            "label": "Country",
+            "placeholder": "Select your country",
+            "none": "No country selected"
+        },
+        "password": {
+            "label": "New Password (optional)",
+            "placeholder": "Leave blank to keep current password"
+        },
+        "passwordConfirmation": {
+            "label": "Confirm New Password",
+            "placeholder": "Confirm your new password"
+        }
+    },
+    "validation": {
+        "required": "{field} is required",
+        "minLength": "{field} must be at least {min} characters",
+        "passwordComplexity": "Password must contain at least one uppercase letter, one lowercase letter, and one number",
+        "passwordMatch": "Passwords must match",
+        "firstNameRequired": "First name is required",
+        "lastNameRequired": "Last name is required",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email address",
+        "phoneInvalid": "Please enter a valid phone number",
+        "passwordTooShort": "Password must be at least 8 characters",
+        "passwordsDoNotMatch": "Passwords do not match"
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "title": "أدوار المشرفين",
+    "description": "تحديد وإدارة الأدوار والصلاحيات",
+    "addRole": "إضافة دور",
+    "stats": {
+        "totalRoles": "إجمالي الأدوار",
+        "totalRolesDesc": "جميع الأدوار في النظام",
+        "rolesWithUsers": "الأدوار النشطة",
+        "rolesWithUsersDesc": "الأدوار المعينة للمشرفين",
+        "rolesWithoutUsers": "الأدوار غير النشطة",
+        "rolesWithoutUsersDesc": "الأدوار بدون مشرفين",
+        "recentlyAdded": "مضافة مؤخرًا",
+        "recentlyAddedDesc": "أدوار جديدة (آخر 7 أيام)"
+    },
+    "table": {
+        "headers": {
+            "role": "الدور",
+            "createdDate": "تاريخ الإنشاء",
+            "updatedDate": "تاريخ التحديث",
+            "actions": "الإجراءات"
+        },
+        "actions": {
+            "view": "عرض",
+            "edit": "تعديل",
+            "delete": "حذف",
+            "filter": "فلترة",
+            "reset": "إعادة تعيين",
+            "viewPermissions": "عرض صلاحيات الدور",
+            "editRole": "تعديل الدور",
+            "deleteRole": "حذف الدور"
+        },
+        "filters": {
+            "name": "الاسم",
+            "searchName": "البحث باسم الدور",
+            "guardName": "نوع الحماية",
+            "searchGuardName": "البحث بنوع الحماية",
+            "createdFrom": "تاريخ الإنشاء من",
+            "createdTo": "تاريخ الإنشاء إلى",
+            "selectCreatedFrom": "اختر تاريخ البداية",
+            "selectCreatedTo": "اختر تاريخ النهاية"
+        },
+        "emptyMessage": "لم يتم العثور على أدوار. قم بإنشاء دورك الأول للبدء.",
+        "filterButton": "فلترة",
+        "resetButton": "إعادة تعيين"
+    },
+    "form": {
+        "title": {
+            "create": "إضافة دور جديد",
+            "edit": "تعديل الدور"
+        },
+        "fields": {
+            "name": "اسم الدور",
+            "namePlaceholder": "أدخل اسم الدور"
+        },
+        "validation": {
+            "nameRequired": "اسم الدور مطلوب"
+        },
+        "actions": {
+            "cancel": "إلغاء",
+            "create": "إنشاء دور",
+            "update": "تحديث الدور",
+            "creating": "جاري الإنشاء...",
+            "updating": "جاري التحديث..."
+        }
+    },
+    "permissions": {
+        "title": "صلاحيات الدور",
+        "description": "إدارة صلاحيات هذا الدور",
+        "allPermissions": "جميع الصلاحيات",
+        "noPermissions": "لا توجد صلاحيات مخصصة لهذا الدور.",
+        "loading": "جاري تحميل الصلاحيات...",
+        "groups": {
+            "admins": "المديرين",
+            "roles": "الأدوار",
+            "settings": "الإعدادات",
+            "users": "المستخدمين",
+            "projects": "المشاريع",
+            "ai_chat": "الدردشة الذكية",
+            "error_logs": "سجلات الأخطاء",
+            "email_templates": "قوالب البريد الإلكتروني"
+        },
+        "actions": {
+            "close": "إغلاق",
+            "save": "حفظ الصلاحيات",
+            "saving": "جاري الحفظ..."
+        },
+        "messages": {
+            "permissionsUpdated": "تم تحديث صلاحيات الدور بنجاح",
+            "permissionsFailed": "فشل في تحديث الصلاحيات",
+            "fetchError": "حدث خطأ أثناء جلب الصلاحيات",
+            "updateError": "حدث خطأ أثناء تحديث الصلاحيات"
+        }
+    },
+    "messages": {
+        "deleteConfirmTitle": "حذف الدور",
+        "deleteConfirmMessage": "هل أنت متأكد من حذف الدور \"{name}\"؟ لا يمكن التراجع عن هذا الإجراء.",
+        "deleteConfirmButton": "نعم، احذف الدور",
+        "cancelButton": "إلغاء",
+        "roleCreated": "تم إنشاء الدور بنجاح",
+        "roleUpdated": "تم تحديث الدور بنجاح",
+        "roleDeleted": "تم حذف الدور بنجاح",
+        "permissionsUpdated": "تم تحديث الصلاحيات بنجاح",
+        "createFailed": "فشل في إنشاء الدور",
+        "updateFailed": "فشل في تحديث الدور",
+        "deleteFailed": "فشل في حذف الدور",
+        "permissionsFailed": "فشل في تحديث الصلاحيات",
+        "fetchFailed": "فشل في جلب الأدوار",
+        "fetchError": "حدث خطأ أثناء جلب الأدوار",
+        "deleteError": "حدث خطأ أثناء حذف الدور"
+    }
+}

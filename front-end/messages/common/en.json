@@ -1,0 +1,44 @@
+{
+    "permissionsUpdated": "Your permissions have been updated",
+    "permissionsUpdatedDescription": "Your role permissions were changed by an administrator",
+    "ImageUploader": {
+        "chooseImage": "Choose Image"
+    },
+    "DateRange": {
+        "custom": "Custom",
+        "today": "Today",
+        "yesterday": "Yesterday",
+        "last7Days": "Last 7 Days",
+        "last28Days": "Last 28 Days",
+        "last30Days": "Last 30 Days",
+        "thisMonth": "This Month",
+        "lastMonth": "Last Month",
+        "quickSelect": "Quick Select",
+        "from": "From",
+        "to": "To",
+        "selectDate": "Select Date",
+        "daysSelected": "days selected",
+        "cancel": "Cancel",
+        "apply": "Apply",
+        "selectTimeRange": "Select time range"
+    },
+    "Export": {
+        "button": "Export",
+        "image": "Export as Image",
+        "imageDescription": "Download PNG",
+        "exportingImage": "Exporting Image..."
+    },
+    "Pagination": {
+        "showing": "Showing",
+        "to": "to",
+        "of": "of",
+        "results": "results",
+        "previous": "Previous",
+        "total": "Total",
+        "next": "Next"
+    },
+    "Filter": {
+        "filterButton": "Filter",
+        "resetButton": "Reset Filters"
+    }
+}

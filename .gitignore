@@ -1,0 +1,12 @@
+# Root gitignore - subdirectories have their own .gitignore files
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log

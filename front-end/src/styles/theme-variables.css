@@ -1,0 +1,300 @@
+/**
+ * Theme Variables for UI Components
+ * 
+ * This file contains CSS custom properties (variables) for consistent theming
+ * across all UI components. These variables support both light and dark modes
+ * and provide a centralized way to manage component styling.
+ */
+
+@layer base {
+    :root {
+        /* Radius scale used by UI components */
+        --radius: 0.625rem;
+
+        /* Base Color System */
+        /* Monochrome brand primary (dark gray) */
+        --primaryColor: #2c2c2c;
+        /* dark gray primary */
+        --primaryColorHover: #1a1a1a;
+        /* darker gray hover */
+        --errorColor: rgb(239, 68, 68);
+        --errorColorHover: rgb(220, 38, 38);
+        --neutralLight: rgb(179, 180, 181);
+        --neutralMedium: rgb(109, 110, 110);
+
+        /* Monochrome gradient brand colors */
+        --brand-start: #000000;
+        /* black */
+        --brand-end: #4a4a4a;
+        /* medium gray */
+        --brand-gradient: linear-gradient(135deg, var(--brand-start) 0%, var(--brand-end) 100%);
+
+        /* Additional monochrome brand colors */
+        --brand-dark-gray: #1a1a1a;
+        --brand-medium-gray: #4a4a4a;
+        --brand-light-gray: #6a6a6a;
+
+        /* Greeting Widget Gradient - Subtle transparent gradient for light mode */
+        --greeting-gradient: linear-gradient(135deg, rgba(15, 23, 42, 0.6) 0%, rgba(30, 41, 59, 0.4) 50%, rgba(51, 65, 85, 0.3) 100%);
+
+        /* Global Status Colors (Reusable) - Monochrome */
+        --accepted: rgb(80, 80, 80);
+        /* Success/Accepted - medium gray */
+        --pending: rgb(120, 120, 120);
+        /* Warning/Pending - light gray */
+        --rejected: rgb(239, 68, 68);
+        /* Error/Rejected - red */
+        --info: var(--primaryColor);
+        /* Info/Primary - dark gray */
+
+        /* Trend Colors (subtle green for growth, orange for drops) */
+        --trend-growth: rgb(34, 197, 94);
+        /* subtle green for positive trends */
+        --trend-drop: rgb(249, 115, 22);
+        /* subtle orange for negative trends */
+
+        /* Essential Shared Variables Only */
+        --surface: #ffffff;
+        --surface-hover: rgb(243, 243, 243);
+        /* Base background for controls (inputs, pills, icon buttons) */
+        --control-bg: rgb(247, 249, 251);
+        --control-bg-hover: rgb(243, 243, 243);
+        --text: rgb(17, 24, 39);
+        --text-muted: var(--neutralMedium);
+        --border: rgb(229, 231, 235);
+        --border-subtle: rgb(245, 247, 248);
+        --input-border: rgb(229, 231, 235);
+        --selected-bg: #f5f5f5;
+        /* light gray selection */
+        --selected-text: var(--primaryColor);
+
+        /* Table Borders */
+        --border-table: rgb(237, 242, 247);
+        --table-bg: rgb(249, 251, 252);
+        --table-hover-bg: rgb(247, 250, 252);
+
+
+        /* Core Theme Variables */
+        --background: rgb(245, 247, 248);
+        --foreground: rgb(10, 10, 10);
+        --white: #ededed;
+
+        /* Brand-colored progress component variables */
+        --progress-active-bg: var(--primaryColor);
+        --progress-inactive-bg: #e0e0e0;
+
+        /* Monochrome grid background variables */
+        --grid-line-color: rgba(0, 0, 0, 0.1);
+        --grid-line-color-light: rgba(0, 0, 0, 0.06);
+
+        /* Accent colors (monochrome scale) */
+        --accent-1: var(--primaryColor);
+        --accent-3: #5a5a5a;
+        --accent-4: #7a7a7a;
+        --accent-5: #9a9a9a;
+        --accent-tab-active: var(--accent);
+        --accent-tab-inactive: #ededed;
+        /* Primary interactive accent (used for active nav indicators) */
+        --primary-accent: var(--primaryColor);
+
+        /* Chart Series Colors */
+        --chart-series-1: #e2e8f0;
+        /* light gray for light mode */
+
+        /* Insights Widget Colors - Light Mode */
+        --insight-primary: #3b82f6;
+        --insight-success: #10b981;
+        --insight-warning: #f59e0b;
+        --insight-danger: #ef4444;
+        --insight-info: #8b5cf6;
+
+        /* Map specific variables (3 essential only) */
+        --map-bg: #f8fafc;
+        --map-geography-fill: #e2e8f0;
+        --map-geography-hover: #85909c;
+
+        /* Logo theming */
+        --logo-filter: none;
+        --logo-bg-image: url('/assets/images/logo-for-lightmode.png');
+
+        /* Alert & feedback tokens */
+        --alert-success-bg: rgb(240, 253, 244);
+        --alert-success-border: rgb(34, 197, 94);
+        --alert-success-text: rgb(22, 101, 52);
+        --alert-success-icon: rgb(34, 197, 94);
+        --alert-success-hover: rgb(21, 128, 61);
+
+        --alert-error-bg: rgb(254, 242, 242);
+        --alert-error-border: rgb(239, 68, 68);
+        --alert-error-text: rgb(153, 27, 27);
+        --alert-error-icon: rgb(239, 68, 68);
+        --alert-error-hover: rgb(220, 38, 38);
+
+        --alert-warning-bg: rgb(254, 252, 232);
+        --alert-warning-border: rgb(245, 158, 11);
+        --alert-warning-text: rgb(146, 64, 14);
+        --alert-warning-icon: rgb(245, 158, 11);
+        --alert-warning-hover: rgb(217, 119, 6);
+
+        --alert-info-bg: rgb(219, 234, 254);
+        --alert-info-border: rgb(59, 130, 246);
+        --alert-info-text: rgb(30, 58, 138);
+        --alert-info-icon: rgb(59, 130, 246);
+        --alert-info-hover: rgb(37, 99, 235);
+
+        /* --- shadcn/AI Elements compatible tokens (mapped to our brand system) --- */
+        /* Surfaces & text */
+        --card: var(--surface);
+        --card-foreground: var(--text);
+        --popover: var(--surface);
+        --popover-foreground: var(--text);
+        /* Brand & accents */
+        --primary: var(--primaryColor);
+        --primary-foreground: rgb(255 255 255);
+        --secondary: var(--control-bg);
+        --secondary-foreground: var(--text);
+        --muted: var(--surface-hover);
+        --muted-foreground: var(--text-muted);
+        --accent: var(--selected-bg);
+        --accent-foreground: var(--selected-text);
+        --destructive: var(--errorColor);
+        /* Borders, input, focus ring */
+        /* Note: we already define --border; keep it as-is and expose --input & --ring */
+        --input: var(--input-border);
+        --ring: var(--primaryColor);
+        /* Charts */
+        --chart-1: var(--chart-series-1);
+        --chart-2: #2c2c2c;
+        --chart-3: #4a4a4a;
+        --chart-4: #6a6a6a;
+        --chart-5: #8a8a8a;
+        /* Sidebar */
+        --sidebar: var(--surface);
+        --sidebar-foreground: var(--text);
+        --sidebar-primary: var(--primaryColor);
+        --sidebar-primary-foreground: rgb(255 255 255);
+        --sidebar-accent: var(--surface-hover);
+        --sidebar-accent-foreground: var(--text);
+        --sidebar-border: var(--border);
+        --sidebar-ring: var(--primaryColor);
+        --input-bg: rgb(245, 247, 248);
+
+    }
+
+    .dark {
+        /* Essential Shared Variables Only - Dark Mode */
+        --surface: rgb(21, 21, 21);
+        --surface-hover: rgb(60, 61, 65);
+        /* Base background for controls in dark mode */
+        --control-bg: rgb(38, 38, 38);
+        --control-bg-hover: rgb(58, 58, 58);
+        --text: rgb(255, 255, 255);
+        --text-muted: var(--neutralLight);
+        --border: rgb(26, 26, 26);
+        --border-subtle: var(--border);
+        --input-border: rgb(71, 71, 71);
+        --input-bg: rgb(25, 25, 25);
+        --selected-bg: rgba(240, 240, 240, 0.18);
+        /* light gray-tinted selection */
+
+        /* Core Theme Variables - Dark Mode */
+        --background: rgb(11, 11, 11);
+        --foreground: rgb(245, 245, 245);
+
+        /* Dark mode primary colors (light for contrast) */
+        --primaryColor: #e5e5e5;
+        /* light gray primary for dark mode */
+        --primaryColorHover: #f5f5f5;
+        /* near white hover for dark mode */
+        --errorColor: rgb(248, 113, 113);
+        --errorColorHover: rgb(252, 165, 165);
+
+        /* Brand-colored progress variables for dark mode */
+        --progress-active-bg: var(--primaryColor);
+        --progress-inactive-bg: #333333;
+
+        /* Dark mode grid variables */
+        --grid-line-color: rgba(255, 255, 255, 0.1);
+        --grid-line-color-light: rgba(255, 255, 255, 0.06);
+
+        /* Accent colors in dark mode (monochrome) */
+        --accent-1: var(--primaryColor);
+        --accent-3: #b0b0b0;
+        --accent-4: #c0c0c0;
+        --accent-5: #d0d0d0;
+        --accent-tab-active: rgba(240, 240, 240, 0.18);
+        --accent-tab-inactive: rgba(240, 240, 240, 0.08);
+        --primary-accent: var(--primaryColor);
+        /* lighter navy for dark mode */
+        /* slightly lighter for dark mode */
+
+        /* Alert & feedback tokens - Dark Mode */
+        --alert-success-bg: rgba(34, 197, 94, 0.18);
+        --alert-success-border: rgb(74, 222, 128);
+        --alert-success-text: rgb(209, 250, 229);
+        --alert-success-icon: rgb(74, 222, 128);
+        --alert-success-hover: rgb(34, 197, 94);
+
+        --alert-error-bg: rgba(239, 68, 68, 0.22);
+        --alert-error-border: rgb(248, 113, 113);
+        --alert-error-text: rgb(254, 205, 211);
+        --alert-error-icon: rgb(248, 113, 113);
+        --alert-error-hover: rgb(252, 165, 165);
+
+        --alert-warning-bg: rgba(234, 179, 8, 0.22);
+        --alert-warning-border: rgb(250, 204, 21);
+        --alert-warning-text: rgb(254, 240, 199);
+        --alert-warning-icon: rgb(250, 204, 21);
+        --alert-warning-hover: rgb(234, 179, 8);
+
+        --alert-info-bg: rgba(59, 130, 246, 0.24);
+        --alert-info-border: rgb(96, 165, 250);
+        --alert-info-text: rgb(191, 219, 254);
+        --alert-info-icon: rgb(96, 165, 250);
+        --alert-info-hover: rgb(147, 197, 253);
+
+        /* Chart Series Colors - Dark Mode */
+        --chart-series-1: #b4c0cd;
+        /* light blue for dark mode */
+
+        /* Insights Widget Colors - Dark Mode */
+        --insight-primary: #60a5fa;
+        --insight-success: #34d399;
+        --insight-warning: #fbbf24;
+        --insight-danger: #f87171;
+        --insight-info: #a78bfa;
+
+        /* Table Borders */
+        --border-table: rgb(39, 39, 39);
+        --table-bg: rgb(38, 38, 38);
+        --table-hover-bg: rgb(60, 61, 65);
+
+        /* Map specific variables - Dark Mode (3 essential only) */
+        --map-bg: #212325;
+        --map-geography-fill: #b4c0cd;
+        --map-geography-hover: #e5e5e5;
+
+        /* Logo theming - Dark Mode */
+        --logo-filter: none;
+        --logo-bg-image: url('/assets/images/logo-for-darkmode.png');
+
+        /* Monochrome gradient brand colors (light gradient for dark mode) */
+        --brand-start: #e5e5e5;
+        --brand-end: #a0a0a0;
+        --brand-gradient: linear-gradient(135deg, var(--brand-start) 0%, var(--brand-end) 100%);
+
+        /* Additional monochrome brand colors (lighter for dark mode) */
+        --brand-dark-gray: #e5e5e5;
+        --brand-medium-gray: #c0c0c0;
+        --brand-light-gray: #a0a0a0;
+
+        /* Greeting Widget Gradient - Subtle transparent gradient for dark mode */
+        --greeting-gradient: linear-gradient(135deg, rgba(51, 65, 85, 0.5) 0%, rgba(71, 85, 105, 0.4) 50%, rgba(100, 116, 139, 0.3) 100%);
+
+        /* Trend Colors - Dark Mode (subtle green for growth, orange for drops) */
+        --trend-growth: rgb(74, 222, 128);
+        /* lighter green for dark mode */
+        --trend-drop: rgb(251, 146, 60);
+        /* lighter orange for dark mode */
+    }
+}

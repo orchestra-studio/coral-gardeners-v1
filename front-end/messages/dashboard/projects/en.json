@@ -1,0 +1,158 @@
+{
+    "title": "Projects",
+    "description": "Manage development projects and deployments",
+    "tabs": {
+        "all": "All Projects",
+        "deleted": "Deleted Projects"
+    },
+    "all": {
+        "title": "All Projects",
+        "description": "Manage development projects and deployments"
+    },
+    "deleted": {
+        "title": "Deleted Projects",
+        "description": "View and restore deleted projects"
+    },
+    "stats": {
+        "total": "Total Projects",
+        "ready": "Ready Projects",
+        "inProgress": "In Progress",
+        "blocked": "Blocked"
+    },
+    "table": {
+        "columns": {
+            "name": "Name",
+            "status": "Status",
+            "environment": "Environment",
+            "lastUpdated": "Last Updated",
+            "actions": "Actions"
+        },
+        "status": {
+            "ready": "Ready",
+            "inProgress": "In Progress",
+            "blocked": "Blocked"
+        },
+        "filters": {
+            "status": "Filter by Status",
+            "selectStatus": "Select status",
+            "environment": "Filter by Environment",
+            "searchEnvironment": "Filter by environment",
+            "search": "Search projects...",
+            "searchLabel": "Search",
+            "name": "Name",
+            "searchName": "Search by project name",
+            "production": "Production",
+            "staging": "Staging",
+            "development": "Development",
+            "filterButton": "Filter",
+            "reset": "Reset"
+        },
+        "empty": {
+            "title": "No projects found",
+            "description": "No projects match your current filters",
+            "action": "Clear Filters"
+        }
+    },
+    "form": {
+        "title": {
+            "create": "Create New Project",
+            "edit": "Edit Project"
+        },
+        "fields": {
+            "name": {
+                "label": "Project Name",
+                "placeholder": "Enter project name"
+            },
+            "description": {
+                "label": "Description",
+                "placeholder": "Enter project description"
+            },
+            "environment": {
+                "label": "Environment",
+                "placeholder": "Select environment",
+                "options": {
+                    "production": "Production",
+                    "staging": "Staging",
+                    "development": "Development"
+                }
+            },
+            "status": {
+                "label": "Status",
+                "placeholder": "Select status",
+                "options": {
+                    "ready": "Ready",
+                    "inProgress": "In Progress",
+                    "blocked": "Blocked"
+                }
+            },
+            "translations": {
+                "label": "Translations",
+                "helperText": "English fields are required",
+                "english": "English",
+                "arabic": "Arabic"
+            },
+            "image": {
+                "label": "Project Image"
+            }
+        },
+        "actions": {
+            "cancel": "Cancel",
+            "save": "Save",
+            "create": "Create Project",
+            "update": "Update Project"
+        },
+        "validation": {
+            "nameRequired": "Project name is required",
+            "descriptionRequired": "Description is required",
+            "environmentRequired": "Environment is required",
+            "statusRequired": "Status is required"
+        }
+    },
+    "actions": {
+        "create": "Create Project",
+        "edit": "Edit",
+        "delete": "Delete",
+        "restore": "Restore",
+        "view": "View",
+        "cancel": "Cancel"
+    },
+    "view": {
+        "titlePrefix": "Project Details:",
+        "description": "View and manage project information",
+        "sections": {
+            "info": "Project Information",
+            "status": "Project Status",
+            "details": "Technical Details"
+        },
+        "empty": {
+            "title": "Project not found",
+            "description": "This project could not be located. It may have been removed or you might not have permission to view it."
+        },
+        "labels": {
+            "notProvided": "Not provided",
+            "projectId": "Project ID",
+            "name": "Project Name",
+            "description": "Description",
+            "status": "Status",
+            "environment": "Environment",
+            "version": "Version",
+            "createdAt": "Created At",
+            "updatedAt": "Last Updated"
+        }
+    },
+    "status": {
+        "ready": "Ready",
+        "inProgress": "In Progress",
+        "blocked": "Blocked"
+    },
+    "messages": {
+        "deleteConfirm": "Delete Project",
+        "deleteWarning": "Are you sure you want to delete this project? This action cannot be undone.",
+        "restoreConfirm": "Restore Project",
+        "restoreWarning": "Are you sure you want to restore this project?",
+        "createSuccess": "Project created successfully",
+        "updateSuccess": "Project updated successfully",
+        "deleteSuccess": "Project deleted successfully",
+        "restoreSuccess": "Project restored successfully"
+    }
+}
