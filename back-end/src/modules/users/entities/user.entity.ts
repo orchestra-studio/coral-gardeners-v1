@@ -41,7 +41,7 @@ export class User {
     @Column({ nullable: true })
     admin_id: number;
 
-    @Column({ type: 'datetime', nullable: true })
+    @Column({ type: 'timestamp', nullable: true })
     email_verified_at: Date;
 
     @CreateDateColumn()
