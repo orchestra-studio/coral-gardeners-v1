@@ -29,11 +29,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. PostgreSQL database accepts connections with connection pooling enabled
   4. CORS allows Vercel frontend to communicate with Render backend
   5. Environment variables are properly separated (NEXT_PUBLIC_ prefix works for frontend)
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 01-01: TBD
-- [ ] 01-02: TBD
+- [ ] 01-01-PLAN.md -- Backend production readiness (PostgreSQL, health checks, CORS, render.yaml)
+- [ ] 01-02-PLAN.md -- Deploy to Render + Vercel, configure env vars, verify connectivity
 
 ### Phase 2: Branding & Data Model Adaptation
 **Goal**: Dashboard is rebranded for Coral Gardeners and existing features work for donor/adoption management
