@@ -30,6 +30,9 @@ export class AiChatService {
         res: Response,
         userName?: string,
     ): Promise<void> {
+        // Initialize SSE headers early so errors are sent as SSE events
+        this.sseHelper.initializeSseHeaders(res);
+
         try {
             const model = getModel(provider, modelName);
             const mcpModuleId = this.mcpIntegration.getDefaultMcpModuleId();
@@ -77,9 +80,6 @@ export class AiChatService {
                     }
                 },
             });
-
-            // Initialize SSE headers
-            this.sseHelper.initializeSseHeaders(res);
 
             // Stream text chunks to client
             for await (const chunk of result.textStream) {

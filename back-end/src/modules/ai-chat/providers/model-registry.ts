@@ -39,39 +39,41 @@ export const MODEL_PROVIDERS: ModelProvider[] = [
 
 /**
  * Get AI SDK model instance by provider and model name
+ * Throws a clear error if the API key is not configured
  */
 export function getModel(provider: string, modelName: string): LanguageModel {
     const apiKey = getProviderApiKey(provider);
 
+    if (!apiKey) {
+        throw new Error(
+            `API key not configured for provider "${provider}". ` +
+            `Set the ${provider.toUpperCase()}_API_KEY environment variable.`
+        );
+    }
+
     switch (provider) {
-        case 'openai':
-            if (apiKey) {
-                const customOpenai = createOpenAI({ apiKey });
-                return customOpenai(modelName);
-            }
-            return openai(modelName);
+        case 'openai': {
+            const customOpenai = createOpenAI({ apiKey });
+            return customOpenai(modelName);
+        }
 
-        case 'google':
-            if (apiKey) {
-                const customGoogle = createGoogleGenerativeAI({ apiKey });
-                return customGoogle(modelName);
-            }
-            return google(modelName);
+        case 'google': {
+            const customGoogle = createGoogleGenerativeAI({ apiKey });
+            return customGoogle(modelName);
+        }
 
-        case 'anthropic':
-            if (apiKey) {
-                const customAnthropic = createAnthropic({ apiKey });
-                return customAnthropic(modelName);
-            }
-            return anthropic(modelName);
+        case 'anthropic': {
+            const customAnthropic = createAnthropic({ apiKey });
+            return customAnthropic(modelName);
+        }
 
-        case 'deepseek':
-            // DeepSeek uses OpenAI-compatible chat completions endpoint
+        case 'deepseek': {
             const deepseek = createOpenAI({
-                apiKey: apiKey || process.env.DEEPSEEK_API_KEY,
+                apiKey,
                 baseURL: 'https://api.deepseek.com/v1',
             });
             return deepseek.chat(modelName);
+        }
 
         default:
             throw new Error(`Unsupported provider: ${provider}`);
