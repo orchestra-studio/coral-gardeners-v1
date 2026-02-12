@@ -120,50 +120,51 @@ export interface BrandConfig {
  */
 export const BRAND_CONFIG: BrandConfig = {
     name: {
-        en: "Aniq Dashboard",
-        ar: "لوحة تحكم أنيق"
+        en: "Coral Gardeners Operations Hub",
+        ar: ""
     },
 
     company: {
-        en: "Aniq-ui",
-        ar: "أنيق"
+        en: "Coral Gardeners",
+        ar: ""
     },
 
     shortName: {
-        en: "Aniq",
-        ar: "أنيق"
+        en: "CG Hub",
+        ar: ""
     },
 
     version: "1.0.0",
 
     logo: {
-        // Default icon (can be replaced with custom path)
-        icon: "/web-app-manifest-512x512.png",
+        // Coral Gardeners white logo
+        icon: "/assets/images/cg-logo-white.avif",
 
         alt: {
-            en: "Aniq Dashboard Logo",
-            ar: "شعار لوحة تحكم أنيق"
+            en: "Coral Gardeners Logo",
+            ar: ""
         }
     },
 
     meta: {
         title: {
-            en: "Aniq Dashboard - Modern Admin Panel",
-            ar: "لوحة تحكم أنيق - لوحة إدارة حديثة"
+            en: "Coral Gardeners Operations Hub",
+            ar: ""
         },
         description: {
-            en: "Aniq-ui Admin Dashboard - Modern, responsive admin panel built with Next.js",
-            ar: "لوحة تحكم أنيق - لوحة إدارة حديثة ومتجاوبة مبنية بتقنية Next.js"
+            en: "Coral Gardeners Operations Dashboard - Donor management, coral adoption tracking, and AI-powered analytics",
+            ar: ""
         },
         keywords: [
-            "admin dashboard",
-            "nextjs",
-            "react",
-            "typescript",
-            "tailwind",
-            "aniq-ui"
+            "coral gardeners",
+            "NGO dashboard",
+            "donor management",
+            "coral adoption",
+            "reef restoration",
+            "coral conservation",
+            "ocean restoration"
         ],
-        author: "Aniq-ui",
+        author: "Coral Gardeners",
         ogImage: "/image.png",
         twitterImage: "/image.png"
     },
@@ -173,21 +174,21 @@ export const BRAND_CONFIG: BrandConfig = {
     },
 
     theme: {
-        light: "#ffffff",
-        dark: "#000000"
+        light: "#1a6b8a",
+        dark: "#5bc0d4"
     },
 
     manifest: {
         name: {
-            en: "Aniq Dashboard",
-            ar: "لوحة تحكم أنيق"
+            en: "Coral Gardeners Operations Hub",
+            ar: ""
         },
         shortName: {
-            en: "Aniq",
-            ar: "أنيق"
+            en: "CG Hub",
+            ar: ""
         },
-        backgroundColor: "#0B0A1E",
-        themeColor: "#1E1B4B",
+        backgroundColor: "#0d4f6b",
+        themeColor: "#1a6b8a",
         display: "standalone",
         icons: [
             {
@@ -206,21 +207,15 @@ export const BRAND_CONFIG: BrandConfig = {
     },
 
     links: {
-        website: "https://aniq-ui.com",
-        support: "mailto:support@aniq-ui.com",
-        documentation: "https://docs.aniq-ui.com",
-        // Add your social links here
-        // github: "https://github.com/your-org",
-        // twitter: "https://twitter.com/your-handle",
-        // linkedin: "https://linkedin.com/company/your-company",
+        website: "https://coralgardeners.org",
+        // Add social links if needed
     },
 
     contact: {
-        email: "contact@aniq-ui.com",
-        phone: "+1 (555) 000-0000",
+        email: "info@coralgardeners.org",
         address: {
-            en: "123 Business Street, City, Country",
-            ar: "123 شارع الأعمال، المدينة، البلد"
+            en: "",
+            ar: ""
         }
     }
 };
