@@ -14,7 +14,11 @@ export const seedTasks = async (dataSource: DataSource) => {
     }
 
     // Determine admin id for tasks
-    let adminResult = await dataSource.query('SELECT id FROM admins WHERE email = ? LIMIT 1', ['admin@example.com']);
+    const isPostgres = dataSource.options.type === 'postgres';
+    let adminResult = await dataSource.query(
+        isPostgres ? 'SELECT id FROM admins WHERE email = $1 LIMIT 1' : 'SELECT id FROM admins WHERE email = ? LIMIT 1',
+        ['admin@example.com']
+    );
     let adminId = adminResult && adminResult.length > 0 ? adminResult[0].id : null;
     if (!adminId) {
         adminResult = await dataSource.query('SELECT id FROM admins ORDER BY id ASC LIMIT 1');

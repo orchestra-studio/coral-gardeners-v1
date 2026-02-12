@@ -17,6 +17,14 @@ export async function seedAdmin(dataSource: DataSource) {
     try {
         const admins = [
             {
+                first_name: 'Ludovic',
+                last_name: 'Goutel',
+                email: 'ludovic@orchestraintelligence.fr',
+                password: 'Admin123!',
+                phone: '+33600000000',
+                profile_picture: '/assets/images/avatar/person/person-2.png',
+            },
+            {
                 first_name: 'Super',
                 last_name: 'Admin',
                 email: 'admin@example.com',
@@ -183,7 +191,11 @@ export async function assignSuperAdminRole(dataSource: DataSource) {
     }
 
     // Get super admin
-    const result = await dataSource.query('SELECT id FROM admins WHERE email = ? LIMIT 1', ['admin@example.com']);
+    const dbType = dataSource.options.type;
+    const superAdminEmail = 'ludovic@orchestraintelligence.fr';
+    const result = dbType === 'postgres'
+        ? await dataSource.query('SELECT id FROM admins WHERE email = $1 LIMIT 1', [superAdminEmail])
+        : await dataSource.query('SELECT id FROM admins WHERE email = ? LIMIT 1', [superAdminEmail]);
     if (!result || result.length === 0) {
         console.log('⚠️  admin@example.com not found. Skipping role assignment.');
         return;

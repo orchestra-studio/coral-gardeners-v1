@@ -11,6 +11,22 @@ config();
 export function getDatabaseConfig(): DataSourceOptions {
     const dbType = process.env.DB_TYPE || 'mysql';
 
+    if (dbType === 'postgres') {
+        const isProduction = process.env.NODE_ENV === 'production';
+        return {
+            type: 'postgres',
+            url: process.env.DATABASE_URL,
+            ssl: isProduction ? { rejectUnauthorized: false } : false,
+            entities: ['src/**/*.entity.ts'],
+            synchronize: false,
+            extra: {
+                max: 10,
+                connectionTimeoutMillis: 3000,
+                idleTimeoutMillis: 30000,
+            },
+        };
+    }
+
     if (dbType === 'sqlite') {
         return {
             type: 'better-sqlite3',
