@@ -1,23 +1,23 @@
 {
-    "title": "Users",
-    "description": "Manage platform users and accounts",
+    "title": "Donors",
+    "description": "Manage donor records and engagement",
     "tabs": {
-        "all": "All Users",
-        "deleted": "Deleted Users"
+        "all": "All Donors",
+        "deleted": "Inactive Donors"
     },
     "all": {
-        "title": "All Users",
-        "description": "Manage platform users and accounts"
+        "title": "All Donors",
+        "description": "Manage donor records and engagement tracking"
     },
     "deleted": {
-        "title": "Deleted Users",
-        "description": "Manage deleted users and restore accounts"
+        "title": "Inactive Donors",
+        "description": "Manage inactive donors and restore records"
     },
     "stats": {
-        "total": "Total Users",
-        "deleted": "Deleted Users",
-        "unverified": "Unverified Users",
-        "verified": "Verified Users"
+        "total": "Total Donors",
+        "deleted": "Inactive Donors",
+        "unverified": "New Donors",
+        "verified": "Active Donors"
     },
     "table": {
         "columns": {
@@ -26,18 +26,18 @@
             "phone": "Phone",
             "country": "Country",
             "status": "Status",
-            "verified": "Verified",
+            "verified": "Active",
             "createdAt": "Created At",
-            "joinedDate": "Joined Date",
+            "joinedDate": "First Donation",
             "actions": "Actions"
         },
-        "verified": "Verified",
-        "unverified": "Unverified",
+        "verified": "Active",
+        "unverified": "Pending",
         "filters": {
             "status": "Filter by Status",
             "country": "Filter by Country",
             "verified": "Filter by Verification",
-            "search": "Search users...",
+            "search": "Search donors...",
             "searchLabel": "Search",
             "dateRange": "Date Range",
             "username": "Username",
@@ -47,7 +47,7 @@
             "lastName": "Last Name",
             "fromDate": "From Date",
             "toDate": "To Date",
-            "searchUsername": "Filter by username",
+            "searchUsername": "Filter by donor ID",
             "searchEmail": "Filter by email",
             "searchPhone": "Filter by phone",
             "searchFirstName": "Filter by first name",
@@ -56,20 +56,20 @@
             "toDatePlaceholder": "YYYY-MM-DD"
         },
         "empty": {
-            "title": "No users found",
-            "description": "No users match your current filters",
+            "title": "No donors found",
+            "description": "No donors match your current filters",
             "action": "Clear Filters"
         }
     },
     "form": {
         "title": {
-            "create": "Create New User",
-            "edit": "Edit User"
+            "create": "Add New Donor",
+            "edit": "Edit Donor"
         },
         "fields": {
             "username": {
-                "label": "Username",
-                "placeholder": "Enter username"
+                "label": "Donor ID",
+                "placeholder": "Enter donor ID"
             },
             "firstName": {
                 "label": "First Name",
@@ -100,19 +100,19 @@
             },
             "isActive": {
                 "label": "Active Status",
-                "description": "User can access the platform"
+                "description": "Donor is actively engaged"
             }
         },
         "actions": {
             "cancel": "Cancel",
             "save": "Save",
-            "create": "Create User",
-            "update": "Update User",
-            "creating": "Creating...",
+            "create": "Add Donor",
+            "update": "Update Donor",
+            "creating": "Adding...",
             "updating": "Updating..."
         },
         "validation": {
-            "usernameRequired": "Username is required",
+            "usernameRequired": "Donor ID is required",
             "firstNameRequired": "First name is required",
             "lastNameRequired": "Last name is required",
             "emailRequired": "Email is required",
@@ -122,7 +122,7 @@
         }
     },
     "actions": {
-        "create": "Create User",
+        "create": "Add Donor",
         "edit": "Edit",
         "delete": "Delete",
         "view": "View",
@@ -160,24 +160,24 @@
         }
     },
     "view": {
-        "titlePrefix": "User Details:",
-        "description": "View and manage user information",
+        "titlePrefix": "Donor Profile:",
+        "description": "View and manage donor information",
         "sections": {
             "personalInfo": "Personal Information",
-            "accountStatus": "Account Status",
+            "accountStatus": "Engagement Status",
             "contact": "Contact Information",
-            "account": "Account Details"
+            "account": "Donor Details"
         },
         "empty": {
-            "title": "User not found",
-            "description": "This user could not be located. They may have been removed or you might not have permission to view them."
+            "title": "Donor not found",
+            "description": "This donor record could not be located."
         },
         "labels": {
             "notProvided": "Not provided",
-            "userId": "User ID",
-            "username": "Username",
-            "verificationStatus": "Verification Status",
-            "emailVerification": "Email Verification",
+            "userId": "Donor ID",
+            "username": "Donor ID",
+            "verificationStatus": "Engagement Status",
+            "emailVerification": "Email Confirmed",
             "verifiedAt": "Verified At",
             "verifiedOn": "Verified on {date}",
             "verificationPending": "Awaiting verification",
@@ -191,21 +191,21 @@
     "status": {
         "active": "Active",
         "inactive": "Inactive",
-        "verified": "Verified",
-        "unverified": "Unverified",
+        "verified": "Active",
+        "unverified": "Pending",
         "pending": "Pending"
     },
     "messages": {
-        "deleteConfirm": "Delete User",
-        "deleteWarning": "Are you sure you want to delete this user? This action cannot be undone.",
-        "restoreConfirm": "Restore User",
-        "restoreWarning": "Are you sure you want to restore this user?",
+        "deleteConfirm": "Archive Donor",
+        "deleteWarning": "Are you sure you want to archive this donor? Their records will be preserved.",
+        "restoreConfirm": "Restore Donor",
+        "restoreWarning": "Are you sure you want to restore this donor's active status?",
         "statusUpdateConfirm": "Update Status",
-        "statusUpdateWarning": "Are you sure you want to change this user's status?",
-        "createSuccess": "User created successfully",
-        "updateSuccess": "User updated successfully",
-        "deleteSuccess": "User deleted successfully",
-        "restoreSuccess": "User restored successfully",
-        "statusUpdateSuccess": "User status updated successfully"
+        "statusUpdateWarning": "Are you sure you want to change this donor's status?",
+        "createSuccess": "Donor added successfully",
+        "updateSuccess": "Donor updated successfully",
+        "deleteSuccess": "Donor archived successfully",
+        "restoreSuccess": "Donor restored successfully",
+        "statusUpdateSuccess": "Donor status updated successfully"
     }
 }
