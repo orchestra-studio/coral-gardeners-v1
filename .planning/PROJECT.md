@@ -22,7 +22,8 @@ Team members can instantly access, analyze, and act on donor and operations data
 - [ ] AI chat agent for conversational data queries
 - [ ] AI-powered report generation (PDF/CSV exports)
 - [ ] Team notification system via AI agent
-- [ ] Mock seed data representing CG donor/adoption/sales scenarios
+- [ ] Real Coral Gardeners data where available (restoration sites, project locations, organization info from website)
+- [ ] Mock seed data for sensitive/private information (donor details, financial data, CRM records)
 - [ ] Backend deployment to Render
 - [ ] Frontend deployment to Vercel
 - [ ] Architecture ready for CRM integration (Shopify, HubSpot, others)
@@ -59,7 +60,7 @@ Team members can instantly access, analyze, and act on donor and operations data
 - **Tech Stack:** Must use existing Next.js + NestJS stack (already present)
 - **Deployment:** Backend to Render, Frontend to Vercel (specific requirement)
 - **Database:** SQLite for development, plan for PostgreSQL on Render for production
-- **Data:** Mock/seed data only for MVP launch
+- **Data:** Use real CG data where possible (locations, projects from website); mock sensitive data (donors, financials)
 - **AI Provider:** Template supports multiple LLMs - select one for MVP (likely DeepSeek for cost or Anthropic for quality)
 
 ## Key Decisions
@@ -67,7 +68,7 @@ Team members can instantly access, analyze, and act on donor and operations data
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
 | Use existing template as base | Template already has auth, AI chat, admin features - faster than building from scratch | — Pending |
-| Mock data for MVP | Avoids CRM API complexity, allows rapid deployment and testing | — Pending |
+| Real CG data where possible | Use actual restoration sites, locations, organization info from coralgardeners.org for authenticity; mock only sensitive donor/financial data | — Pending |
 | Light rebrand only | Design already aligns with CG aesthetic, minimizes UI work | — Pending |
 | Render + Vercel deployment | User requirement for hosting platform | — Pending |
 
