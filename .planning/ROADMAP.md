@@ -12,8 +12,8 @@ Transform the existing Next.js + NestJS template into a production-ready operati
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation & Deployment Infrastructure** - Production environment with PostgreSQL and connection pooling
-- [ ] **Phase 2: Branding & Data Model Adaptation** - Rebrand UI and adapt existing features for donor/adoption management
+- [x] **Phase 1: Foundation & Deployment Infrastructure** - Production environment with PostgreSQL and connection pooling
+- [x] **Phase 2: Branding & Data Model Adaptation** - Rebrand UI and adapt existing features for donor/adoption management
 - [ ] **Phase 3: Data Visualization & Seeding** - Interactive map, charts, and real Coral Gardeners data
 - [ ] **Phase 4: AI & Verification** - Adapt AI prompts for NGO queries and verify all features work
 
@@ -32,8 +32,8 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 2 plans
 
 Plans:
-- [ ] 01-01-PLAN.md -- Backend production readiness (PostgreSQL, health checks, CORS, render.yaml)
-- [ ] 01-02-PLAN.md -- Deploy to Render + Vercel, configure env vars, verify connectivity
+- [x] 01-01-PLAN.md -- Backend production readiness (PostgreSQL, health checks, CORS, render.yaml)
+- [x] 01-02-PLAN.md -- Deploy to Render + Vercel, configure env vars, verify connectivity
 
 ### Phase 2: Branding & Data Model Adaptation
 **Goal**: Dashboard is rebranded for Coral Gardeners and existing features work for donor/adoption management
@@ -49,10 +49,10 @@ Plans:
 **Plans**: 4 plans
 
 Plans:
-- [ ] 02-01-PLAN.md -- Branding & theme identity (logo, colors, navigation labels, brand config)
-- [ ] 02-02-PLAN.md -- I18n terminology rebranding (users->donors, projects->adoptions, overview->NGO)
-- [ ] 02-03-PLAN.md -- Type aliases & KPI adaptation (Donor/Adoption types, NGO dashboard metrics)
-- [ ] 02-04-PLAN.md -- CSV import/export & PDF reports (react-papaparse, react-csv, jsPDF)
+- [x] 02-01-PLAN.md -- Branding & theme identity (logo, colors, navigation labels, brand config)
+- [x] 02-02-PLAN.md -- I18n terminology rebranding (users->donors, projects->adoptions, overview->NGO)
+- [x] 02-03-PLAN.md -- Type aliases & KPI adaptation (Donor/Adoption types, NGO dashboard metrics)
+- [x] 02-04-PLAN.md -- CSV import/export & PDF reports (react-papaparse, react-csv, jsPDF)
 
 ### Phase 3: Data Visualization & Seeding
 **Goal**: Dashboard displays interactive restoration site map with real CG locations and responsive charts
@@ -91,7 +91,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation & Deployment | 0/2 | Not started | - |
-| 2. Branding & Data Adaptation | 0/4 | Not started | - |
+| 1. Foundation & Deployment | 2/2 | Complete | 2026-02-12 |
+| 2. Branding & Data Adaptation | 4/4 | Complete | 2026-02-12 |
 | 3. Visualization & Seeding | 0/2 | Not started | - |
 | 4. AI & Verification | 0/2 | Not started | - |

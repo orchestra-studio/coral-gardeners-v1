@@ -6,10 +6,10 @@
 ## v1 Requirements
 
 ### Branding & Identity
-- [ ] **BRAND-01**: Replace logo with Coral Gardeners white logo (CG_White_Logo_2.avif)
-- [ ] **BRAND-02**: Update color scheme to align with CG brand (ocean blues, corals)
-- [ ] **BRAND-03**: Adapt copy/language for NGO context (donors, adoptions, restoration vs generic business terms)
-- [ ] **BRAND-04**: Update dashboard name/titles to "Coral Gardeners Operations Hub"
+- [x] **BRAND-01**: Replace logo with Coral Gardeners white logo (CG_White_Logo_2.avif)
+- [x] **BRAND-02**: Update color scheme to align with CG brand (ocean blues, corals)
+- [x] **BRAND-03**: Adapt copy/language for NGO context (donors, adoptions, restoration vs generic business terms)
+- [x] **BRAND-04**: Update dashboard name/titles to "Coral Gardeners Operations Hub"
 
 ### Authentication & Access (Existing - Test & Verify)
 - [ ] **AUTH-01**: User can log in with email/password (JWT-based)
@@ -18,19 +18,19 @@
 - [ ] **AUTH-04**: User can reset password via email link
 
 ### Data Management (Adapt Existing)
-- [ ] **DATA-01**: Admin can manage donor records (adapt existing user/admin management)
-- [ ] **DATA-02**: Admin can search and filter donors by name, date, amount, engagement
-- [ ] **DATA-03**: Admin can import donor data from CSV
-- [ ] **DATA-04**: System displays donor activity timeline
-- [ ] **DATA-05**: Admin can manage coral adoption records (adapt existing project management)
-- [ ] **DATA-06**: Admin can track adoption fulfillment status (naming, certificate, site assignment)
+- [x] **DATA-01**: Admin can manage donor records (adapt existing user/admin management)
+- [x] **DATA-02**: Admin can search and filter donors by name, date, amount, engagement
+- [x] **DATA-03**: Admin can import donor data from CSV
+- [x] **DATA-04**: System displays donor activity timeline
+- [x] **DATA-05**: Admin can manage coral adoption records (adapt existing project management)
+- [x] **DATA-06**: Admin can track adoption fulfillment status (naming, certificate, site assignment)
 
 ### Dashboard & Analytics (Adapt Existing)
-- [ ] **DASH-01**: Dashboard displays key NGO metrics (total donors, active adoptions, revenue, restoration sites)
-- [ ] **DASH-02**: Admin can view donor giving history and trends
-- [ ] **DASH-03**: Admin can view adoption sales and fulfillment metrics
-- [ ] **DASH-04**: System displays activity log for audit trail
-- [ ] **DASH-05**: Admin can export reports to CSV/PDF format
+- [x] **DASH-01**: Dashboard displays key NGO metrics (total donors, active adoptions, revenue, restoration sites)
+- [x] **DASH-02**: Admin can view donor giving history and trends
+- [x] **DASH-03**: Admin can view adoption sales and fulfillment metrics
+- [x] **DASH-04**: System displays activity log for audit trail
+- [x] **DASH-05**: Admin can export reports to CSV/PDF format
 
 ### AI Agent (Existing - Adapt Prompts)
 - [ ] **AI-01**: User can chat with AI agent for data queries (e.g., "Show top donors this month")
@@ -51,11 +51,11 @@
 - [ ] **SEED-04**: Database seeded with CG organization info (mission, team, impact numbers)
 
 ### Deployment (New)
-- [ ] **DEPLOY-01**: Backend deployed to Render with PostgreSQL database
-- [ ] **DEPLOY-02**: Frontend deployed to Vercel with environment variables configured
-- [ ] **DEPLOY-03**: CORS configured correctly for Render backend + Vercel frontend
-- [ ] **DEPLOY-04**: Database connection pooling configured (PgBouncer for Render PostgreSQL)
-- [ ] **DEPLOY-05**: Environment variables properly separated (NEXT_PUBLIC_ prefix for frontend)
+- [x] **DEPLOY-01**: Backend deployed to Render with PostgreSQL database
+- [x] **DEPLOY-02**: Frontend deployed to Vercel with environment variables configured
+- [x] **DEPLOY-03**: CORS configured correctly for Render backend + Vercel frontend
+- [x] **DEPLOY-04**: Database connection pooling configured (PgBouncer for Render PostgreSQL)
+- [x] **DEPLOY-05**: Environment variables properly separated (NEXT_PUBLIC_ prefix for frontend)
 
 ### Mobile & Responsive (Existing - Test & Verify)
 - [ ] **MOBILE-01**: Dashboard is fully responsive on tablet and mobile devices
@@ -114,26 +114,26 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| DEPLOY-01 | Phase 1 | Pending |
-| DEPLOY-02 | Phase 1 | Pending |
-| DEPLOY-03 | Phase 1 | Pending |
-| DEPLOY-04 | Phase 1 | Pending |
-| DEPLOY-05 | Phase 1 | Pending |
-| BRAND-01 | Phase 2 | Pending |
-| BRAND-02 | Phase 2 | Pending |
-| BRAND-03 | Phase 2 | Pending |
-| BRAND-04 | Phase 2 | Pending |
-| DATA-01 | Phase 2 | Pending |
-| DATA-02 | Phase 2 | Pending |
-| DATA-03 | Phase 2 | Pending |
-| DATA-04 | Phase 2 | Pending |
-| DATA-05 | Phase 2 | Pending |
-| DATA-06 | Phase 2 | Pending |
-| DASH-01 | Phase 2 | Pending |
-| DASH-02 | Phase 2 | Pending |
-| DASH-03 | Phase 2 | Pending |
-| DASH-04 | Phase 2 | Pending |
-| DASH-05 | Phase 2 | Pending |
+| DEPLOY-01 | Phase 1 | Complete |
+| DEPLOY-02 | Phase 1 | Complete |
+| DEPLOY-03 | Phase 1 | Complete |
+| DEPLOY-04 | Phase 1 | Complete |
+| DEPLOY-05 | Phase 1 | Complete |
+| BRAND-01 | Phase 2 | Complete |
+| BRAND-02 | Phase 2 | Complete |
+| BRAND-03 | Phase 2 | Complete |
+| BRAND-04 | Phase 2 | Complete |
+| DATA-01 | Phase 2 | Complete |
+| DATA-02 | Phase 2 | Complete |
+| DATA-03 | Phase 2 | Complete |
+| DATA-04 | Phase 2 | Complete |
+| DATA-05 | Phase 2 | Complete |
+| DATA-06 | Phase 2 | Complete |
+| DASH-01 | Phase 2 | Complete |
+| DASH-02 | Phase 2 | Complete |
+| DASH-03 | Phase 2 | Complete |
+| DASH-04 | Phase 2 | Complete |
+| DASH-05 | Phase 2 | Complete |
 | VIZ-01 | Phase 3 | Pending |
 | VIZ-02 | Phase 3 | Pending |
 | VIZ-03 | Phase 3 | Pending |
